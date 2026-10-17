@@ -1,0 +1,3 @@
+model,numerator_df,denominator_df,F,p,method
+binomial,10,19,2.6680031567,0.0315231999724,Joint Wald F using participant-bootstrap covariance; approximate participant df
+gaussian,10,19,2.69676199857,0.0301368394955,Joint Wald F using participant-bootstrap covariance; approximate participant df

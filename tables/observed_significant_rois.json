@@ -1,0 +1,23 @@
+{
+  "source_sha256": "70bc3dc0365ac965c0d1f937e641f7a3ea235b8871a289b2547b066f8e8a2372",
+  "table_sha256": "bf962cbf6da9fdc74fd15a0a55d8cca7016a116abab96229215c8acdc725d310",
+  "script_sha256": "2f3a8b224ef620165e526a8b28abf9876e5ff5e147ef6990d3ca62e984ba5d31",
+  "counts": {
+    "initial": 29,
+    "early": 15,
+    "middle": 5,
+    "late": 0
+  },
+  "estimates": 49,
+  "roi_entries": 31,
+  "ordering": "Stage; bilateral, left-only, right-only; descending absolute t within category",
+  "fields": [
+    "n",
+    "mean",
+    "ci_low",
+    "ci_high",
+    "t",
+    "df",
+    "q_within_contrast"
+  ]
+}

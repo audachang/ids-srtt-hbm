@@ -1,0 +1,1 @@
+Initial public GitHub snapshot, 2026-10-17. Repository: https://github.com/audachang/ids-srtt-hbm . Zenodo deposition and version DOI pending authenticated access. Reuse-license confirmation pending; final v1.0.0 archival tag not yet created. No participant-level data are included.

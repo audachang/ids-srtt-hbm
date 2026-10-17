@@ -1,0 +1,2 @@
+n_subjects,n_runs,n_raw,n_error_or_omitted,n_omitted,n_invalid_rt,n_after_trim,n_correct_valid,n_correct_rt_below100,trimr_version
+20,160,51200,1425,182,182,49069,49775,1837,1.1.1

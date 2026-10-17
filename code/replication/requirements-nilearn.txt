@@ -1,0 +1,13 @@
+# Main Python environment for custom validation, comparison, and Nilearn tracks.
+nibabel==5.4.2
+nilearn==0.13.1
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+statsmodels==0.14.6
+scikit-learn==1.7.2
+seaborn==0.13.2
+joblib==1.5.3
+pybids==0.22.0
+formulaic==1.2.1
+SQLAlchemy==2.0.49

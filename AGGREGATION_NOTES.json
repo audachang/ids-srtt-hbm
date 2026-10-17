@@ -1,0 +1,37 @@
+[
+  {
+    "path": "results/glm_volume/reporting_20261012/reported_roi_results.csv",
+    "source_sha256": "3725dc030a89f235cd8b1e90b807c78301222eb26842473320b9fb5a66221b68",
+    "rows": 8,
+    "cells_suppressed": 4,
+    "reason": "Suppress estimates with fewer than two participants; retain N, planned slots and BH q values."
+  },
+  {
+    "path": "results/glm_volume/reporting_20261012/all_model_roi_results.csv",
+    "source_sha256": "8760c72cc1e75d87f3eb2b8dcea21090ca1607f36de6ee3f5759bf983c3153f0",
+    "rows": 792,
+    "cells_suppressed": 180,
+    "reason": "Suppress estimates with fewer than two participants; retain N, planned slots and BH q values."
+  },
+  {
+    "path": "results/glm_volume/reporting_20261012/direct_stage_comparisons.csv",
+    "source_sha256": "df2ed84dd6a990cb250ad2025e626f80bff432f2648f00416eb59645e1c5fba9",
+    "rows": 66,
+    "cells_suppressed": 15,
+    "reason": "Suppress estimates with fewer than two participants; retain N, planned slots and BH q values."
+  },
+  {
+    "path": "results/glm_volume/reporting_20261012/phase_component_results.csv",
+    "source_sha256": "1355d7c87f69785ea6b4284636c70ec2324f3fc32f6081662732f44e36cc84d5",
+    "rows": 24,
+    "cells_suppressed": 12,
+    "reason": "Suppress estimates with fewer than two participants; retain N, planned slots and BH q values."
+  },
+  {
+    "path": "results/glm_volume/reporting_20261012/model_stability.csv",
+    "source_sha256": "0d8460a18c830de204cb02104a058c0299a9eed1bc99c6d75f7f21da1243aab7",
+    "rows": 8,
+    "cells_suppressed": 16,
+    "reason": "Suppress estimate ranges and direction for parcels untestable in every model, including singleton-based summaries."
+  }
+]

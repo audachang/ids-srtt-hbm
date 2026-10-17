@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-12",
+  "role": "Exploratory reporting extension requested after inspection of the manuscript; not preregistered",
+  "source_root_default": "/media/data3/chiaoen_srtt",
+  "selected_model": "censor_hp128",
+  "coverage": {
+    "reference": "Audited 3-mm anatomical masks",
+    "support": "Intersection of a participant's eight actual first-level fitting masks; held fixed across conditions, stages and models",
+    "policies": ["legacy_full_parcel", "observed80", "observed95", "complete100"],
+    "observed80": "Average only observed ROI voxels; participant contributes only when at least 80% of the original ROI is observed",
+    "observed95": "Same observed-voxel average with 95% coverage requirement",
+    "complete100": "Full-parcel observation required",
+    "missing": "Never treat unobserved voxels as measured zeros; preserve 48 planned slots using p=1 for untestable slots during BH adjustment"
+  },
+  "intervals": "Two-sided pointwise 95% Student-t intervals, unadjusted for multiplicity or model selection",
+  "stage_comparisons": {
+    "pairs": ["early_minus_middle", "early_minus_late", "middle_minus_late"],
+    "test": "Within-participant differences using the same fixed observed support; initial baseline cancels",
+    "family": "BH over 3 pairs x 48 ROI slots = 144; supplementary within-pair BH also retained"
+  },
+  "models": "Nine completed canonical-HRF model specifications: 4 censor/filter cells plus derivative, SPM, motion12+tissue, motion12+aCompCor, precision weighting. Precision weighting changes the within-phase estimand.",
+  "model_multiplicity": "Within-model/contrast BH across 48; within-model joint BH across 192; exploratory pooled BH across 9 x 4 x 48 = 1728. Pooled correction covers these enumerated tests only, not undocumented model/ROI searches or choosing the coverage policy.",
+  "units": "Saved percent-signal-scaled canonical coefficients; stage contrast maps sum two run coefficients. Displayed condition curves use two-run means. No raw beta comparison with FIR/impulse models.",
+  "figure_roi_choice": ["LeftSMA", "RightDLPFC9", "RightInferiorParietal", "LeftThalamusProper", "LeftHippocampus", "LeftAccumbensArea"],
+  "figure_roi_choice_reason": "Fixed examples spanning premotor, frontal, parietal, thalamic, hippocampal and ventral-striatal parcels, chosen before the new group analyses; complete profiles for all 48 are exported",
+  "behavior": "Exact imaging subject list; eight logged runs per participant; original Exp3 cycle assignment precedes cleaning; trimr::modifiedRecursive reconstruction with correct finite 0<RT<1-second responses, participant/block trimming. The unavailable custom helper is not claimed to be reproduced. Additional 100-ms lower-bound descriptive sensitivity. Equal participant weights; SEM for cycle figure; pointwise 95% CI for run summaries. No group-mean curve-based mechanistic model selection."
+}

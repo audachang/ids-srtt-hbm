@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+reproduced/
+.env
+.env.*
+*token*
