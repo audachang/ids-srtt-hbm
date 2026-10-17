@@ -2,8 +2,10 @@ IDS-SRTT HBM companion — v1.0.0 (2026-10-17)
 
 Scope: analysis source code and group summaries only.
 Public repository: https://github.com/audachang/ids-srtt-hbm
-Archival version: v1.0.0. Its Zenodo version DOI will be linked from the GitHub
-release page after automatic archival completes.
+Archived version: v1.0.0 (GitHub tag, commit e547a7c).
+Version DOI: https://doi.org/10.5281/zenodo.23438462
+Zenodo record: https://zenodo.org/records/23438462
+Cite this version DOI when reproducing the manuscript results.
 Licenses: original software under code/ is MIT; group summaries, derived tables,
 documentation and environment records are CC BY 4.0. See LICENSE.txt and LICENSES/.
 
@@ -52,8 +54,8 @@ post hoc based on significant-result counts. Q values and pointwise intervals
 do not account for this selection. Whole-brain summaries use the uncensored
 reference model and are not independent confirmation of censored ROI results.
 
-Archival workflow: enable this repository in the Zenodo GitHub integration,
-publish the GitHub release, and cite the verified Zenodo version DOI. Metadata
+Archival workflow for future versions: publish a new version tag and GitHub
+release through the enabled Zenodo integration, then cite that version DOI. Metadata
 for automatic archival are supplied in .zenodo.json; CITATION.cff supports GitHub
 citation export. The file-level license map in LICENSE.txt governs reuse.
 GitHub integration does not require creating or sharing a personal access token.

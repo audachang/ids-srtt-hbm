@@ -13,8 +13,8 @@ Licenses confirmed by the author on 2026-10-17.
    Full text: LICENSES/CC-BY-4.0.txt
    https://creativecommons.org/licenses/by/4.0/
    Attribution should identify the authors, repository and cited release version,
-   link to the license, and indicate changes. A Zenodo version DOI will be added
-   when the archival deposit is available.
+   link to the license, and indicate changes. Version 1.0.0 DOI:
+   https://doi.org/10.5281/zenodo.23438462
 
 The license texts themselves retain their respective notices. Third-party software,
 resources, atlases and templates retain their own licenses; no third-party binaries

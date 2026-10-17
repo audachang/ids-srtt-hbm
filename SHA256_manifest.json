@@ -16,8 +16,8 @@
   },
   {
     "path": "CITATION.cff",
-    "bytes": 713,
-    "sha256": "1afbe7662533e9f0d4b05ea85072f997d3e45b2bf83c6edb0bbb4430b30dc266"
+    "bytes": 712,
+    "sha256": "99a4963ad8f32d32a221b3f6575aba46d3fae7d044ef08ed30ec66054299a9a2"
   },
   {
     "path": "COLUMN_DICTIONARY.json",
@@ -31,8 +31,8 @@
   },
   {
     "path": "LICENSE.txt",
-    "bytes": 1278,
-    "sha256": "5ba3cd39f89aded1e84ad6d0e3b2cc1ea4bcf15044063dc1b3471f2a51d53a34"
+    "bytes": 1262,
+    "sha256": "538d7421b0b8cf552e6bc3b1e42804d13e45801d9576ea26baa2ef71ee53bc50"
   },
   {
     "path": "LICENSES/CC-BY-4.0.txt",
@@ -46,13 +46,13 @@
   },
   {
     "path": "README.txt",
-    "bytes": 4081,
-    "sha256": "99c1bac3976e3c561c36726eae2f507947b6980cba27424c4df7444bbcda448d"
+    "bytes": 4180,
+    "sha256": "ef437cff6bcb3486d638940d27ff6c9e92776bbc49d62909dc853b3484e9f8d2"
   },
   {
     "path": "RELEASE_STATUS.txt",
-    "bytes": 397,
-    "sha256": "946308003c5cb15f416b75bee12f6550c13e3093bdae767b464010e0fadb998f"
+    "bytes": 583,
+    "sha256": "032071ea6c747d0effc40a09290cac6956f02ad6c2f74585bb67f5a2a456f802"
   },
   {
     "path": "code/common/srtt_paths.py",

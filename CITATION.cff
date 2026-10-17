@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the specific Zenodo version DOI linked from the GitHub release when available; otherwise cite the release URL."
+message: "Please cite this software and group-summary release using its version-specific Zenodo DOI."
 type: software
 title: "Analysis code and group summaries for Neural responses during motor statistical learning and gradual sequence updating"
 authors:
@@ -17,3 +17,4 @@ repository-code: "https://github.com/audachang/ids-srtt-hbm"
 license:
   - MIT
   - CC-BY-4.0
+doi: "10.5281/zenodo.23438462"
