@@ -1,0 +1,23 @@
+IDS-SRTT HBM companion: licenses by file category
+
+Copyright (c) 2026 Chiao-En Chan, Erik Chihhung Chang, and Denise Hsien Wu.
+Licenses confirmed by the author on 2026-10-17.
+
+1. Original software, scripts and analysis configuration under code/:
+   MIT License (SPDX: MIT). Full text: LICENSES/MIT.txt
+   https://opensource.org/license/mit
+
+2. Released group summaries, derived tables and figures under results/ and tables/,
+   documentation and environment records, and project-level descriptive metadata:
+   Creative Commons Attribution 4.0 International (SPDX: CC-BY-4.0).
+   Full text: LICENSES/CC-BY-4.0.txt
+   https://creativecommons.org/licenses/by/4.0/
+   Attribution should identify the authors, repository and cited release version,
+   link to the license, and indicate changes. A Zenodo version DOI will be added
+   when the archival deposit is available.
+
+The license texts themselves retain their respective notices. Third-party software,
+resources, atlases and templates retain their own licenses; no third-party binaries
+or image resources are redistributed. The licenses apply only to this public
+snapshot and grant no access to excluded participant-level data. There is no public
+participant-level data release. The statistical limitations in README.txt apply.

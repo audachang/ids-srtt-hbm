@@ -5,9 +5,19 @@
     "sha256": "5242b356894cc843a992940217c77e920d8750205b82ec709742271a0385cb32"
   },
   {
+    "path": ".zenodo.json",
+    "bytes": 2678,
+    "sha256": "2894811299baf3928e287def939167ad3ddab017d08e54fb24abd7cf19185c23"
+  },
+  {
     "path": "AGGREGATION_NOTES.json",
     "bytes": 1676,
     "sha256": "96fbaa2ab3e3d868b39c5f3f01ab1ff8bcce8f7bd1711b48a4bfe371996a2876"
+  },
+  {
+    "path": "CITATION.cff",
+    "bytes": 713,
+    "sha256": "1afbe7662533e9f0d4b05ea85072f997d3e45b2bf83c6edb0bbb4430b30dc266"
   },
   {
     "path": "COLUMN_DICTIONARY.json",
@@ -15,29 +25,34 @@
     "sha256": "c633c625587672c1fefc091ac54582d5366d905c9997cc6a9f61e5b7caea2812"
   },
   {
-    "path": "DEPOSIT_METADATA_DRAFT.json",
-    "bytes": 789,
-    "sha256": "a5e5943f76883bd2653f56b1f0572c79ad96eed134b8af39d20d575125aa1c79"
-  },
-  {
     "path": "FILE_DICTIONARY.csv",
     "bytes": 11166,
     "sha256": "1e39cb59e148815905f1e7ef2b2c9d355806d5db64824dfdd21e915681b160f2"
   },
   {
-    "path": "LICENSE_PENDING.txt",
-    "bytes": 278,
-    "sha256": "3d3a03fac32b427c0e965c07ed1954a0d5db1cfaebc8b31f4d827324fd990554"
+    "path": "LICENSE.txt",
+    "bytes": 1278,
+    "sha256": "5ba3cd39f89aded1e84ad6d0e3b2cc1ea4bcf15044063dc1b3471f2a51d53a34"
+  },
+  {
+    "path": "LICENSES/CC-BY-4.0.txt",
+    "bytes": 17023,
+    "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744"
+  },
+  {
+    "path": "LICENSES/MIT.txt",
+    "bytes": 1112,
+    "sha256": "156e00ba0991b3dc5d623aa6c83e6e5c9220a72625a52f0bfef7cef0b4103d85"
   },
   {
     "path": "README.txt",
-    "bytes": 3916,
-    "sha256": "7e5eae34904d8233ec0ca05b5dc3898aa63d24bb8b7f43b89151d23cfc9602eb"
+    "bytes": 4081,
+    "sha256": "99c1bac3976e3c561c36726eae2f507947b6980cba27424c4df7444bbcda448d"
   },
   {
     "path": "RELEASE_STATUS.txt",
-    "bytes": 283,
-    "sha256": "2dd38f577664092bf711b295123e1d89b126d1fd8a28a06d57203c27f79ee708"
+    "bytes": 397,
+    "sha256": "946308003c5cb15f416b75bee12f6550c13e3093bdae767b464010e0fadb998f"
   },
   {
     "path": "code/common/srtt_paths.py",

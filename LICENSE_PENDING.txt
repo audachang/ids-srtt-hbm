@@ -1,1 +1,0 @@
-This repository is publicly visible. No new reuse license has yet been granted by the rights holders. Reuse-license confirmation is pending; suggested MIT for original software and CC BY 4.0 for group summaries/documentation. Third-party dependencies retain their own licenses.

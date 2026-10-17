@@ -1,9 +1,11 @@
-IDS-SRTT HBM companion — initial public GitHub snapshot (2026-10-17)
+IDS-SRTT HBM companion — v1.0.0 (2026-10-17)
 
 Scope: analysis source code and group summaries only.
 Public repository: https://github.com/audachang/ids-srtt-hbm
-Zenodo archival deposition and the version DOI are pending authenticated access.
-Reuse-license confirmation is pending; no new reuse license has yet been granted.
+Archival version: v1.0.0. Its Zenodo version DOI will be linked from the GitHub
+release page after automatic archival completes.
+Licenses: original software under code/ is MIT; group summaries, derived tables,
+documentation and environment records are CC BY 4.0. See LICENSE.txt and LICENSES/.
 
 Quick start (from this folder; Python standard library only):
   python code/reporting/coverage_significant_table.py results/glm_volume/reporting_20261012/reported_roi_results.csv reproduced/observed_significant_rois.tex
@@ -50,8 +52,9 @@ post hoc based on significant-result counts. Q values and pointwise intervals
 do not account for this selection. Whole-brain summaries use the uncensored
 reference model and are not independent confirmation of censored ROI results.
 
-Remaining archival work: confirm author/rights-holder licenses, create the Zenodo
-record, verify metadata, reserve and insert the version DOI, and update the pending
-availability statements in the manuscript. Suggested licenses for author approval:
-MIT for original software and CC BY 4.0 for group data/documentation. No license has
-been applied by this preparation. Do not upload the existing whole project tree.
+Archival workflow: enable this repository in the Zenodo GitHub integration,
+publish the GitHub release, and cite the verified Zenodo version DOI. Metadata
+for automatic archival are supplied in .zenodo.json; CITATION.cff supports GitHub
+citation export. The file-level license map in LICENSE.txt governs reuse.
+GitHub integration does not require creating or sharing a personal access token.
+Do not upload the existing private whole project tree or participant-level data.
