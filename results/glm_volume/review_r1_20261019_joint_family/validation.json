@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "passed": true,
+  "elapsed_seconds": 0.1572611560113728,
+  "checks": {
+    "stage_families": 104,
+    "joint_families": 26,
+    "n_slots": 4992,
+    "max_stage_q_absolute_error": 3.000044657142098e-12,
+    "duplicate_slots_checked": 2304,
+    "all_stage_families_48": true,
+    "all_joint_families_192": true,
+    "n_models_observed80": 9
+  },
+  "consumed_inputs_unchanged": true,
+  "output_sha256": {
+    "REPORT.md": "42af674fe7717b40d62324c3359db89f52289ae73ddfccd26cccc2090a42efe3",
+    "duplicate_source_checks.csv": "e4a425680d37bc9e54cd3cf3a93e0ee47b1eac5b0cd00d5fa7ddf5fd1fac2b25",
+    "family_discovery_counts.csv": "67c7a0b1422fb09ad5e3e691f6dcd3e2bfe704ee1f27a806395682afa7d8867f",
+    "joint_only_discoveries.csv": "a983adefe797e94bfcb1c9abe61442b2b51797adae7dcdad3c068c2034cf3f0e",
+    "joint_stage_results.csv": "361b16b79a54e0c3be61fc603376a5f30f03a70d92fc051d93bef9dfa8303a31",
+    "stage_discovery_survival.csv": "6b7a13a7b31a669e26f8326e4e8b8528d8ecb9dce36bf2f47d85476854a419e7"
+  }
+}

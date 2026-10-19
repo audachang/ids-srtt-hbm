@@ -1,0 +1,619 @@
+{
+  "description": "Saved aggregate arithmetic only; no fitting or new inference.",
+  "added_results": [
+    "results/behavioral/review_r1_20261019/B1_participant_rt/REPORT.md",
+    "results/behavioral/review_r1_20261019/B1_participant_rt/R_session_info.txt",
+    "results/behavioral/review_r1_20261019/B1_participant_rt/all_contrast_comparisons.csv",
+    "results/behavioral/review_r1_20261019/B1_participant_rt/cleaning_replay_validation.json",
+    "results/behavioral/review_r1_20261019/B1_participant_rt/min100_BH_family_slots.csv",
+    "results/behavioral/review_r1_20261019/B1_participant_rt/min100_contrast_comparison.csv",
+    "results/behavioral/review_r1_20261019/B1_participant_rt/primary_BH_family_slots.csv",
+    "results/behavioral/review_r1_20261019/B1_participant_rt/primary_contrast_comparison.csv",
+    "results/behavioral/review_r1_20261019/B1_participant_rt/validation.json",
+    "results/behavioral/review_r1_20261019/B2_repetition_behavior/D1_repeat_counts_by_condition.csv",
+    "results/behavioral/review_r1_20261019/B2_repetition_behavior/D1_repeat_counts_by_condition_run.csv",
+    "results/behavioral/review_r1_20261019/B2_repetition_behavior/REPORT.md",
+    "results/behavioral/review_r1_20261019/B2_repetition_behavior/descriptive_transition_category_advantage.csv",
+    "results/behavioral/review_r1_20261019/B2_repetition_behavior/key_contrast_comparisons.csv",
+    "results/behavioral/review_r1_20261019/B2_repetition_behavior/min100_BH_family_slots.csv",
+    "results/behavioral/review_r1_20261019/B2_repetition_behavior/min100_contrast_comparison.csv",
+    "results/behavioral/review_r1_20261019/B2_repetition_behavior/primary_BH_family_slots.csv",
+    "results/behavioral/review_r1_20261019/B2_repetition_behavior/primary_contrast_comparison.csv",
+    "results/behavioral/review_r1_20261019/B2_repetition_behavior/trial_retention.csv",
+    "results/behavioral/review_r1_20261019/B2_repetition_behavior/validation.json",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/D1_repeat_rates_by_condition_run.csv",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/REPORT.md",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/cyclic_pair_triplet_statistics.csv",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/fixation_duration_frequencies.csv",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/fixation_duration_summary.csv",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/order_variability_by_run.csv",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/outer_block_order_frequencies.csv",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/representative_run_timeline.pdf",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/representative_run_timeline.png",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/representative_run_timeline_totals.csv",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/source_match_checks_by_run.csv",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/target_frequencies_by_condition_run.csv",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/transition_frequencies_by_condition_run.csv",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/transition_probability_matrices.csv",
+    "results/behavioral/review_r1_20261019/B3_design_statistics/validation.json",
+    "results/behavioral/review_r1_20261019/REPORT.md",
+    "results/behavioral/review_r1_20261019/independent_validation.json",
+    "results/behavioral/review_r1_20261019/validation.json",
+    "results/glm_volume/review_r1_20261019/completion_checks.json",
+    "results/glm_volume/review_r1_20261019/event_motion_diagnostics/REPORT.md",
+    "results/glm_volume/review_r1_20261019/event_motion_diagnostics/phase_motion_summary.csv",
+    "results/glm_volume/review_r1_20261019/event_motion_diagnostics/repeat_counts_by_condition.csv",
+    "results/glm_volume/review_r1_20261019/event_motion_diagnostics/repeat_counts_by_run_condition.csv",
+    "results/glm_volume/review_r1_20261019/event_motion_diagnostics/validation.json",
+    "results/glm_volume/review_r1_20261019/roi/censored_spike_vs_reference.csv",
+    "results/glm_volume/review_r1_20261019/roi/censored_spike_vs_row_deletion.csv",
+    "results/glm_volume/review_r1_20261019/roi/component_balance_results.csv",
+    "results/glm_volume/review_r1_20261019/roi/direct_phase_results.csv",
+    "results/glm_volume/review_r1_20261019/roi/headline_early_component_balance.csv",
+    "results/glm_volume/review_r1_20261019/roi/headline_tidy_all_specifications.csv",
+    "results/glm_volume/review_r1_20261019/roi/motion12_acompcor8_vs_reference.csv",
+    "results/glm_volume/review_r1_20261019/roi/motion12_tissue_vs_reference.csv",
+    "results/glm_volume/review_r1_20261019/roi/motion6_acompcor8_vs_reference.csv",
+    "results/glm_volume/review_r1_20261019/roi/phase_component_results.csv",
+    "results/glm_volume/review_r1_20261019/roi/repeat_regressor_vs_reference.csv",
+    "results/glm_volume/review_r1_20261019/roi/stage_results.csv",
+    "results/glm_volume/review_r1_20261019/roi/validation.json",
+    "results/glm_volume/review_r1_20261019/validation.json",
+    "results/glm_volume/review_r1_20261019/validation/REPORT.md",
+    "results/glm_volume/review_r1_20261019/validation/validation.json",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/REPORT.md",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/components.csv",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/validation.json",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/REPORT.md",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/components.csv",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/validation.json",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/REPORT.md",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/components.csv",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/validation.json",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/REPORT.md",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/components.csv",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/validation.json",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/REPORT.md",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/components.csv",
+    "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/validation.json",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/REPORT.md",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/components.csv",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/validation.json",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/REPORT.md",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/components.csv",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/validation.json",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/REPORT.md",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/components.csv",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/validation.json",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/REPORT.md",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/components.csv",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/validation.json",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/REPORT.md",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/components.csv",
+    "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/validation.json",
+    "results/glm_volume/review_r1_20261019/voxelwise/REPORT.md",
+    "results/glm_volume/review_r1_20261019/voxelwise/permutation_summary.csv",
+    "results/glm_volume/review_r1_20261019/voxelwise/spike_vs_row_deletion_counts.csv",
+    "results/glm_volume/review_r1_20261019/voxelwise/validation.json",
+    "results/glm_volume/review_r1_20261019_joint_family/duplicate_source_checks.csv",
+    "results/glm_volume/review_r1_20261019_joint_family/family_discovery_counts.csv",
+    "results/glm_volume/review_r1_20261019_joint_family/joint_only_discoveries.csv",
+    "results/glm_volume/review_r1_20261019_joint_family/joint_stage_results.csv",
+    "results/glm_volume/review_r1_20261019_joint_family/stage_discovery_survival.csv",
+    "results/glm_volume/review_r1_20261019_joint_family/validation.json"
+  ],
+  "suppression": [
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/censored_spike_vs_reference.csv",
+      "blocks": [
+        {
+          "count_column": "n_variant",
+          "rows": 16,
+          "cells_suppressed": 32,
+          "columns": [
+            "mean_variant",
+            "sd_variant",
+            "se_variant",
+            "ci_low_variant",
+            "ci_high_variant",
+            "cohen_dz_variant",
+            "t_variant",
+            "df_variant",
+            "p_variant",
+            "mean_shift"
+          ]
+        },
+        {
+          "count_column": "n_reference",
+          "rows": 16,
+          "cells_suppressed": 24,
+          "columns": [
+            "mean_reference",
+            "sd_reference",
+            "se_reference",
+            "ci_low_reference",
+            "ci_high_reference",
+            "cohen_dz_reference",
+            "t_reference",
+            "df_reference",
+            "p_reference",
+            "mean_shift"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/censored_spike_vs_row_deletion.csv",
+      "blocks": [
+        {
+          "count_column": "n_spike",
+          "rows": 16,
+          "cells_suppressed": 32,
+          "columns": [
+            "mean_spike",
+            "sd_spike",
+            "se_spike",
+            "ci_low_spike",
+            "ci_high_spike",
+            "cohen_dz_spike",
+            "t_spike",
+            "df_spike",
+            "p_spike",
+            "mean_shift_spike_minus_row_deletion"
+          ]
+        },
+        {
+          "count_column": "n_row_deletion",
+          "rows": 16,
+          "cells_suppressed": 24,
+          "columns": [
+            "mean_row_deletion",
+            "sd_row_deletion",
+            "se_row_deletion",
+            "ci_low_row_deletion",
+            "ci_high_row_deletion",
+            "cohen_dz_row_deletion",
+            "t_row_deletion",
+            "df_row_deletion",
+            "p_row_deletion",
+            "mean_shift_spike_minus_row_deletion"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/component_balance_results.csv",
+      "blocks": [
+        {
+          "count_column": "n",
+          "rows": 336,
+          "cells_suppressed": 504,
+          "columns": [
+            "mean",
+            "sd",
+            "se",
+            "ci_low",
+            "ci_high",
+            "cohen_dz",
+            "t",
+            "df",
+            "p"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/direct_phase_results.csv",
+      "blocks": [
+        {
+          "count_column": "n",
+          "rows": 84,
+          "cells_suppressed": 126,
+          "columns": [
+            "mean",
+            "sd",
+            "se",
+            "ci_low",
+            "ci_high",
+            "cohen_dz",
+            "t",
+            "df",
+            "p"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/motion12_acompcor8_vs_reference.csv",
+      "blocks": [
+        {
+          "count_column": "n_variant",
+          "rows": 16,
+          "cells_suppressed": 32,
+          "columns": [
+            "mean_variant",
+            "sd_variant",
+            "se_variant",
+            "ci_low_variant",
+            "ci_high_variant",
+            "cohen_dz_variant",
+            "t_variant",
+            "df_variant",
+            "p_variant",
+            "mean_shift"
+          ]
+        },
+        {
+          "count_column": "n_reference",
+          "rows": 16,
+          "cells_suppressed": 24,
+          "columns": [
+            "mean_reference",
+            "sd_reference",
+            "se_reference",
+            "ci_low_reference",
+            "ci_high_reference",
+            "cohen_dz_reference",
+            "t_reference",
+            "df_reference",
+            "p_reference",
+            "mean_shift"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/motion12_tissue_vs_reference.csv",
+      "blocks": [
+        {
+          "count_column": "n_variant",
+          "rows": 16,
+          "cells_suppressed": 32,
+          "columns": [
+            "mean_variant",
+            "sd_variant",
+            "se_variant",
+            "ci_low_variant",
+            "ci_high_variant",
+            "cohen_dz_variant",
+            "t_variant",
+            "df_variant",
+            "p_variant",
+            "mean_shift"
+          ]
+        },
+        {
+          "count_column": "n_reference",
+          "rows": 16,
+          "cells_suppressed": 24,
+          "columns": [
+            "mean_reference",
+            "sd_reference",
+            "se_reference",
+            "ci_low_reference",
+            "ci_high_reference",
+            "cohen_dz_reference",
+            "t_reference",
+            "df_reference",
+            "p_reference",
+            "mean_shift"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/motion6_acompcor8_vs_reference.csv",
+      "blocks": [
+        {
+          "count_column": "n_variant",
+          "rows": 16,
+          "cells_suppressed": 32,
+          "columns": [
+            "mean_variant",
+            "sd_variant",
+            "se_variant",
+            "ci_low_variant",
+            "ci_high_variant",
+            "cohen_dz_variant",
+            "t_variant",
+            "df_variant",
+            "p_variant",
+            "mean_shift"
+          ]
+        },
+        {
+          "count_column": "n_reference",
+          "rows": 16,
+          "cells_suppressed": 24,
+          "columns": [
+            "mean_reference",
+            "sd_reference",
+            "se_reference",
+            "ci_low_reference",
+            "ci_high_reference",
+            "cohen_dz_reference",
+            "t_reference",
+            "df_reference",
+            "p_reference",
+            "mean_shift"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/phase_component_results.csv",
+      "blocks": [
+        {
+          "count_column": "n",
+          "rows": 336,
+          "cells_suppressed": 504,
+          "columns": [
+            "mean",
+            "sd",
+            "se",
+            "ci_low",
+            "ci_high",
+            "cohen_dz",
+            "t",
+            "df",
+            "p"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/repeat_regressor_vs_reference.csv",
+      "blocks": [
+        {
+          "count_column": "n_variant",
+          "rows": 16,
+          "cells_suppressed": 32,
+          "columns": [
+            "mean_variant",
+            "sd_variant",
+            "se_variant",
+            "ci_low_variant",
+            "ci_high_variant",
+            "cohen_dz_variant",
+            "t_variant",
+            "df_variant",
+            "p_variant",
+            "mean_shift"
+          ]
+        },
+        {
+          "count_column": "n_reference",
+          "rows": 16,
+          "cells_suppressed": 24,
+          "columns": [
+            "mean_reference",
+            "sd_reference",
+            "se_reference",
+            "ci_low_reference",
+            "ci_high_reference",
+            "cohen_dz_reference",
+            "t_reference",
+            "df_reference",
+            "p_reference",
+            "mean_shift"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/stage_results.csv",
+      "blocks": [
+        {
+          "count_column": "n",
+          "rows": 112,
+          "cells_suppressed": 168,
+          "columns": [
+            "mean",
+            "sd",
+            "se",
+            "ci_low",
+            "ci_high",
+            "cohen_dz",
+            "t",
+            "df",
+            "p"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019_joint_family/joint_stage_results.csv",
+      "blocks": [
+        {
+          "count_column": "n",
+          "rows": 464,
+          "cells_suppressed": 600,
+          "columns": [
+            "mean",
+            "sd",
+            "se",
+            "ci_low",
+            "ci_high",
+            "cohen_dz",
+            "t",
+            "df",
+            "p"
+          ]
+        }
+      ]
+    }
+  ],
+  "helper_imports": [
+    {
+      "path": "code/reanalysis/summarize_sensitivity.py",
+      "line": 4,
+      "names": [
+        "direct"
+      ]
+    },
+    {
+      "path": "code/reanalysis/update_t7_shared_rt.py",
+      "line": 5,
+      "names": [
+        "direct"
+      ]
+    },
+    {
+      "path": "code/reanalysis/updated_results.py",
+      "line": 9,
+      "names": [
+        "direct"
+      ]
+    },
+    {
+      "path": "code/reanalysis/updated_targeted_sensitivity.py",
+      "line": 6,
+      "names": [
+        "direct"
+      ]
+    },
+    {
+      "path": "code/review_r1/imaging_summaries.py",
+      "line": 5,
+      "names": [
+        "direct"
+      ]
+    }
+  ],
+  "missing_helper_functions": [],
+  "planned_BH_slots": {
+    "stage": 48,
+    "joint": 192,
+    "direct": 144,
+    "headline": 4,
+    "behavior": 24
+  },
+  "complementary_suppression": [
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/direct_phase_results.csv",
+      "blocks": 132
+    },
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/phase_component_changes.csv",
+      "blocks": 396
+    },
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/phase_component_results.csv",
+      "blocks": 528
+    },
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/stage_results.csv",
+      "blocks": 176
+    },
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/trend_results.csv",
+      "blocks": 88
+    },
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/within_run_results.csv",
+      "blocks": 308
+    },
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/all_direct_phase_results.csv",
+      "blocks": 108
+    },
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/all_stage_results.csv",
+      "blocks": 144
+    },
+    {
+      "path": "results/glm_volume/reporting_20261012/all_model_roi_results.csv",
+      "blocks": 900
+    },
+    {
+      "path": "results/glm_volume/reporting_20261012/direct_stage_comparisons.csv",
+      "blocks": 75
+    },
+    {
+      "path": "results/glm_volume/reporting_20261012/phase_component_results.csv",
+      "blocks": 36
+    },
+    {
+      "path": "results/glm_volume/reporting_20261012/reported_roi_results.csv",
+      "blocks": 12
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/censored_spike_vs_reference.csv",
+      "blocks": 32
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/censored_spike_vs_row_deletion.csv",
+      "blocks": 32
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/component_balance_results.csv",
+      "blocks": 336
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/direct_phase_results.csv",
+      "blocks": 84
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/motion12_acompcor8_vs_reference.csv",
+      "blocks": 32
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/motion12_tissue_vs_reference.csv",
+      "blocks": 32
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/motion6_acompcor8_vs_reference.csv",
+      "blocks": 32
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/phase_component_results.csv",
+      "blocks": 336
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/repeat_regressor_vs_reference.csv",
+      "blocks": 32
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019/roi/stage_results.csv",
+      "blocks": 112
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019_joint_family/joint_only_discoveries.csv",
+      "blocks": 3
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019_joint_family/joint_stage_results.csv",
+      "blocks": 224
+    },
+    {
+      "path": "results/glm_volume/review_r1_20261019_joint_family/stage_discovery_survival.csv",
+      "blocks": 32
+    },
+    {
+      "path": "tables/observed_significant_rois.csv",
+      "blocks": 1
+    }
+  ],
+  "disclosure": {
+    "statistic_cells_checked": 89920,
+    "nested_relations": 162,
+    "blocked_csv_blocks": 9847
+  },
+  "withheld_derived_displays": [
+    "results/glm_volume/reanalysis_20261018_updated_n22/figures/REPORT.md",
+    "results/glm_volume/reanalysis_20261018_updated_n22/figures/condition_did_components.pdf",
+    "results/glm_volume/reanalysis_20261018_updated_n22/figures/condition_did_components.png",
+    "results/glm_volume/reanalysis_20261018_updated_n22/figures/sequence_trajectories.pdf",
+    "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/REPORT.md",
+    "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/REPORT.md",
+    "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/all_N22_specifications.pdf",
+    "results/glm_volume/reporting_20261012/all_roi_condition_profiles.pdf",
+    "results/glm_volume/reporting_20261012/model_stability.csv",
+    "results/glm_volume/review_r1_20261019/REPORT.md",
+    "results/glm_volume/review_r1_20261019/roi/REPORT.md",
+    "results/glm_volume/review_r1_20261019_joint_family/REPORT.md",
+    "results/reanalysis_20261018_updated_n22/SUMMARY.md",
+    "tables/observed_significant_rois.json",
+    "tables/observed_significant_rois.tex"
+  ]
+}

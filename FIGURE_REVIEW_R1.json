@@ -1,0 +1,14 @@
+{
+  "results/behavioral/review_r1_20261019/B3_design_statistics/representative_run_timeline.pdf": {
+    "source_sha256": "e282ed7a9fa595c219814b9d92f549d601b0cf09bfb9ed77b71febc1aa2c2264",
+    "release_sha256": "e282ed7a9fa595c219814b9d92f549d601b0cf09bfb9ed77b71febc1aa2c2264",
+    "pages": 1,
+    "review": "Nonidentifying design illustration only; no response traces, participant labels or private metadata."
+  },
+  "results/behavioral/review_r1_20261019/B3_design_statistics/representative_run_timeline.png": {
+    "source_sha256": "056b23614ffc878fdbe2452190988f42fc81697664679ead47f7b4b40e757e7e",
+    "release_sha256": "056b23614ffc878fdbe2452190988f42fc81697664679ead47f7b4b40e757e7e",
+    "pages": 1,
+    "review": "Nonidentifying design illustration only; no response traces, participant labels or private metadata."
+  }
+}

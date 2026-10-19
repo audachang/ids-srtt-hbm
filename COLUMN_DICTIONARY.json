@@ -14,7 +14,7 @@
   "q_enumerated_models_stages": "Exploratory BH across 1728 enumerated slots within coverage policy; not a correction for model/ROI/policy selection.",
   "q_three_pairs_144": "BH across three direct stage pairs x 48 planned slots within policy.",
   "q_within_pair_48": "Supplementary BH across 48 slots for one direct pair and policy.",
-  "q_bh_24": "BH across the 24 planned behavioral model contrasts within model/policy.",
+  "q_bh_24": "BH across 24 behavioral contrasts per RT policy; untested slots have p=1.",
   "model": "Updated reference means uncensored reference (primary N22); censored and alternative specifications are sensitivities. Historical v1.0.0 labels have earlier post hoc reporting roles.",
   "policy": "Coverage or RT validity policy; consult analysis specification.",
   "roi": "Atlas parcel identifier. SMA legacy names denote the whole BA6 parcel, not an SMA-specific subdivision.",
@@ -24,5 +24,11 @@
   "log_rt": "Fixed-effect natural log RT in milliseconds; exponentiation gives geometric milliseconds.",
   "log_difference": "Contrast of log RT; exponentiation gives geometric RT ratio.",
   "q": "BH 48 planned ROI slots per cohort/model/policy/contrast or stage; missing p treated as 1. See AGGREGATE_CHECK_SPEC.json.",
-  "cohort": "N22 primary; overlapping learner-selected N20 sensitivity, supplement only."
+  "cohort": "N22 primary; overlapping learner-selected N20 sensitivity, supplement only.",
+  "q_joint_stages_192": "BH across 4 stages x 48 regions per cohort/model/policy; missing p is 1.",
+  "q_joint_192": "BH across 4 stages x 48 regions per cohort/model/policy.",
+  "q_headline_early_4": "BH across the four displayed early regions per cohort/model/policy/component.",
+  "condition_mean": "(structured change + random change)/2, phase-mean coefficient units.",
+  "bootstrap_log_ci_low": "Saved whole-participant percentile interval lower limit; natural log RT contrast.",
+  "n_participants": "Participant count contributing to a group design summary; singleton duration cells are blank."
 }

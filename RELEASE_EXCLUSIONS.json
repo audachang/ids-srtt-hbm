@@ -21,8 +21,9 @@
   },
   {
     "path": "code/reanalysis/run_saved.py",
-    "reason": "Contains individual missing-response rates and inferred learning-test outcomes.",
-    "historical": false
+    "reason": "Full original source remains withheld because it embeds individual observations; the released file is a generic-function-only derivative.",
+    "historical": false,
+    "scope": "full original source only"
   },
   {
     "path": "code/reanalysis/updated_behavior_results.py",
@@ -63,5 +64,1091 @@
     "path": "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/all_right_accumbens_influence.csv",
     "reason": "Contains individual observations or values from which individual observations can be recovered.",
     "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/controls/REPORT.md",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/controls/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/controls/reproduction_checks.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/controls/validation.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/event_motion_diagnostics/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/event_motion_diagnostics/participant_phase_motion.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/event_motion_diagnostics/participant_phase_motion_differences.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/event_motion_diagnostics/participant_repeat_counts.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/event_motion_diagnostics/participant_run_motion.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/files_created.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/first_level/REPORT.md",
+    "reason": "First-level individual outputs and input provenance.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/first_level/condition_values.csv",
+    "reason": "First-level individual outputs and input provenance.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/first_level/design_qc.csv",
+    "reason": "First-level individual outputs and input provenance.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/first_level/input_manifest.json",
+    "reason": "First-level individual outputs and input provenance.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/first_level/validation.json",
+    "reason": "First-level individual outputs and input provenance.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/roi/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/roi/participant_acompcor_stage_reproduction.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/roi/participant_component_changes.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/roi/participant_phase_components.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/roi/participant_run_condition_values.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/roi/participant_stage_values.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/scratch_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/validation/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/validation/verified_first_level_input_hashes.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/design_matrix.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/early/timing.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/design_matrix.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/initial/timing.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/design_matrix.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/late/timing.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/design_matrix.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/middle/timing.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/design_matrix.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N20/censored_spike/pooled_r36_Str2_minus_Str1/timing.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/design_matrix.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/early/timing.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/design_matrix.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/initial/timing.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/design_matrix.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/late/timing.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/design_matrix.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/middle/timing.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/design_matrix.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/N22/censored_spike/pooled_r36_Str2_minus_Str1/timing.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise_inputs/REPORT.md",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise_inputs/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise_inputs/subject_map_manifest.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise_inputs/validation.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise_runtime_gate/REPORT.md",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise_runtime_gate/benchmark_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise_runtime_gate/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise_runtime_gate/runtime_estimate.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/voxelwise_runtime_gate/validation.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019_joint_family/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B1_participant_rt/cleaning_replay.log",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B1_participant_rt/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B1_participant_rt/participant_min100_bootstrap_indices.npy",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B1_participant_rt/participant_min100_bootstrap_subject_order.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B1_participant_rt/participant_min100_cell_log_rt.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B1_participant_rt/participant_min100_contrasts.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B1_participant_rt/participant_primary_bootstrap_indices.npy",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B1_participant_rt/participant_primary_bootstrap_subject_order.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B1_participant_rt/participant_primary_cell_log_rt.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B1_participant_rt/participant_primary_contrasts.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B2_repetition_behavior/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B2_repetition_behavior/participant_min100_bootstrap_indices.npy",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B2_repetition_behavior/participant_min100_bootstrap_subject_order.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B2_repetition_behavior/participant_min100_cell_log_rt.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B2_repetition_behavior/participant_min100_contrasts.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B2_repetition_behavior/participant_primary_bootstrap_indices.npy",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B2_repetition_behavior/participant_primary_bootstrap_subject_order.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B2_repetition_behavior/participant_primary_cell_log_rt.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B2_repetition_behavior/participant_primary_contrasts.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B2_repetition_behavior/participant_transition_category_phase_values.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B2_repetition_behavior/participant_trial_annotations.csv",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B3_design_statistics/fixation_pattern_frequencies.csv",
+    "reason": "Complete realized orders or singleton design patterns can reveal individual run designs.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B3_design_statistics/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B3_design_statistics/physical_subblock_order_frequencies.csv",
+    "reason": "Complete realized orders or singleton design patterns can reveal individual run designs.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B3_design_statistics/representative_run_timeline.csv",
+    "reason": "Single-participant realized run schedule withheld; the figure is an example stimulus-design schedule only, without responses.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B3_design_statistics/role_subblock_order_frequencies.csv",
+    "reason": "Complete realized orders or singleton design patterns can reveal individual run designs.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/B3_design_statistics/whole_run_role_order_frequencies.csv",
+    "reason": "Complete realized orders or singleton design patterns can reveal individual run designs.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/input_manifest.json",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/review_r1_20261019/owned_file_inventory.csv",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "historical": false
+  },
+  {
+    "path": "review sensitivity outputs/",
+    "reason": "Complete realized orders or singleton design patterns can reveal individual run designs.",
+    "files": 4,
+    "detail": "Files with individual identifiers in their names are counted rather than named."
+  },
+  {
+    "path": "review sensitivity outputs/",
+    "reason": "First-level individual outputs and input provenance.",
+    "files": 3973,
+    "detail": "Files with individual identifiers in their names are counted rather than named."
+  },
+  {
+    "path": "review sensitivity outputs/",
+    "reason": "Individual observations, trial records or bootstrap identities.",
+    "files": 27,
+    "detail": "Files with individual identifiers in their names are counted rather than named."
+  },
+  {
+    "path": "review sensitivity outputs/",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "files": 211,
+    "detail": "Files with individual identifiers in their names are counted rather than named."
+  },
+  {
+    "path": "review sensitivity outputs/",
+    "reason": "Restricted input provenance, individual validation details or unreviewed outputs.",
+    "files": 57,
+    "detail": "Files with individual identifiers in their names are counted rather than named."
+  },
+  {
+    "path": "review sensitivity outputs/",
+    "reason": "Single-participant realized run schedule withheld; the figure is an example stimulus-design schedule only, without responses.",
+    "files": 1,
+    "detail": "Files with individual identifiers in their names are counted rather than named."
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/figures/REPORT.md",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": true
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/figures/condition_did_components.pdf",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": true
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/figures/condition_did_components.png",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": true
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/figures/sequence_trajectories.pdf",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": true
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/REPORT.md",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": true
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/REPORT.md",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": true
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/all_N22_specifications.pdf",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": true
+  },
+  {
+    "path": "results/glm_volume/reporting_20261012/all_roi_condition_profiles.pdf",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": true
+  },
+  {
+    "path": "results/glm_volume/reporting_20261012/model_stability.csv",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": true
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/REPORT.md",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019/roi/REPORT.md",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_20261019_joint_family/REPORT.md",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": false
+  },
+  {
+    "path": "results/reanalysis_20261018_updated_n22/SUMMARY.md",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": true
+  },
+  {
+    "path": "tables/observed_significant_rois.json",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": true
+  },
+  {
+    "path": "tables/observed_significant_rois.tex",
+    "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
+    "historical": true
   }
 ]

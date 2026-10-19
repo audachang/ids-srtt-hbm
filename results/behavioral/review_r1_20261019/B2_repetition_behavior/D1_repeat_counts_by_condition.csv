@@ -1,0 +1,4 @@
+rule_group,n_trials,adjacent_1s_opportunities,same_target_previous_slot,immediate_repeats_D1,repeats_crossing_block,gap_separated_target_matches_excluded
+Ran,14080,13728,48,0,0,48
+Str1,21120,20573,2669,2640,0,29
+Str2,21120,20604,2658,2638,0,20

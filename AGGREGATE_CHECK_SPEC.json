@@ -9,7 +9,9 @@
       "df": "df",
       "low": "ci_low",
       "high": "ci_high",
-      "families": [
+      "families": [],
+      "suppression_n": "n",
+      "suppression_bounds_families": [
         {
           "q": "q_three_pairs_144",
           "p": "p",
@@ -31,8 +33,7 @@
           ],
           "slots": 48
         }
-      ],
-      "suppression_n": "n"
+      ]
     },
     {
       "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/phase_component_changes.csv",
@@ -43,7 +44,8 @@
       "low": "ci_low",
       "high": "ci_high",
       "families": [],
-      "suppression_n": "n"
+      "suppression_n": "n",
+      "suppression_bounds_families": []
     },
     {
       "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/phase_component_results.csv",
@@ -54,7 +56,8 @@
       "low": "ci_low",
       "high": "ci_high",
       "families": [],
-      "suppression_n": "n"
+      "suppression_n": "n",
+      "suppression_bounds_families": []
     },
     {
       "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/stage_results.csv",
@@ -64,7 +67,9 @@
       "df": "df",
       "low": "ci_low",
       "high": "ci_high",
-      "families": [
+      "families": [],
+      "suppression_n": "n",
+      "suppression_bounds_families": [
         {
           "q": "q",
           "p": "p",
@@ -76,8 +81,7 @@
           ],
           "slots": 48
         }
-      ],
-      "suppression_n": "n"
+      ]
     },
     {
       "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/trend_results.csv",
@@ -87,7 +91,9 @@
       "df": "df",
       "low": "ci_low",
       "high": "ci_high",
-      "families": [
+      "families": [],
+      "suppression_n": "n",
+      "suppression_bounds_families": [
         {
           "q": "q",
           "p": "p",
@@ -99,8 +105,7 @@
           ],
           "slots": 48
         }
-      ],
-      "suppression_n": "n"
+      ]
     },
     {
       "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/within_run_results.csv",
@@ -110,7 +115,9 @@
       "df": "df",
       "low": "ci_low",
       "high": "ci_high",
-      "families": [
+      "families": [],
+      "suppression_n": "n",
+      "suppression_bounds_families": [
         {
           "q": "q",
           "p": "p",
@@ -122,8 +129,7 @@
           ],
           "slots": 48
         }
-      ],
-      "suppression_n": "n"
+      ]
     },
     {
       "path": "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/all_direct_phase_results.csv",
@@ -133,7 +139,9 @@
       "df": "df",
       "low": "ci_low",
       "high": "ci_high",
-      "families": [
+      "families": [],
+      "suppression_n": "n",
+      "suppression_bounds_families": [
         {
           "q": "q_three_pairs_144",
           "p": "p",
@@ -155,8 +163,7 @@
           ],
           "slots": 48
         }
-      ],
-      "suppression_n": "n"
+      ]
     },
     {
       "path": "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/all_stage_results.csv",
@@ -166,7 +173,9 @@
       "df": "df",
       "low": "ci_low",
       "high": "ci_high",
-      "families": [
+      "families": [],
+      "suppression_n": "n",
+      "suppression_bounds_families": [
         {
           "q": "q",
           "p": "p",
@@ -178,8 +187,7 @@
           ],
           "slots": 48
         }
-      ],
-      "suppression_n": "n"
+      ]
     },
     {
       "path": "results/behavioral/reanalysis_20261018_updated_n22/error_models/matched_contrasts.csv",
@@ -395,5 +403,6 @@
         }
       ]
     }
-  ]
+  ],
+  "suppression_note": "Exact BH checks use complete families only. Withheld p values are checked by admissible BH bounds in verify_public_summaries_r1.py, with all planned slots retained."
 }

@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 29.210546368034557,
+  "passed": true,
+  "summary": {
+    "cohort": "N22",
+    "model": "censored_spike",
+    "contrast": "pooled_r36_Str2_minus_Str1",
+    "n_subjects": 22,
+    "alpha": 0.05,
+    "n_perm": 10000,
+    "seed": 20261018,
+    "positive_voxels": 575,
+    "negative_voxels": 0,
+    "n_mask_voxels": 58550,
+    "permutation_seconds": 28.81535245082341
+  },
+  "null_FWE_exact": true,
+  "native_observed_TFCE_checked": true,
+  "independent_t_max_abs_difference": 9.787388339788095e-07,
+  "all_images_unscaled_float32": true,
+  "output_sha256": {
+    "input_manifest.json": "f95960c87b85d59c19a55c6048d59b452e0f462ef9283478f24a655bee3bfa75",
+    "t.nii.gz": "47a3b8bd240e844bf67ac1d06a4dcda3f9149d202f0650971a71a7dceb2ae900",
+    "signed_tfce_corrected_t.nii.gz": "0c823e76bda4842ae8359fd0a84322a173c55924065d7556794fa798fb451905",
+    "standard_error.nii.gz": "98e5815794c5b0a7391b9172dc22dacc6ed1833a782e67750b0c17ccc19d0d2d",
+    "pointwise_ci_high.nii.gz": "758893166454067812dc138c70dfa268bb01b8b026ed6478a178969ae957c1e9",
+    "tfce.nii.gz": "c4db1c0ae4ecf3d22a192bface72f4012b69148d88838ab40bd077e401097eb0",
+    "raw_permutation_arrays.npz": "7788e0d401370bc3fa2681fd61b03ebf3a5359315d8b6d940d059fdf2d5f4128",
+    "logp_max_t.nii.gz": "36611cde02bbee3e8b79460362ab49065a036720c37a5f6c23b194503c52e3cb",
+    "components.csv": "0e401e1b68c80947605e9c47cca6e2a3be18d5d80498996186fa782154d7e947",
+    "design_matrix.csv": "66655a587d56c1e81468a65ce30d824dc6bcafd5b48c98ee48284883dc63c369",
+    "logp_max_tfce.nii.gz": "3307a33eed3e04d10fe1c08b733ec3b43a6d3e755dfb161715dcc15141d98dcd",
+    "REPORT.md": "dab5bbe85ab6d47205ff3652c45a672d50b6ec46ff0e78f7ee22fd0777c65295",
+    "pointwise_ci_low.nii.gz": "b04fef4b71b9ded89d394e82f5751badc833ad5c76c2b2b4820da23e604883e7",
+    "timing.json": "762796027e04ff0eb05b129e79abeabf18ef493b79f1b7594899c17521134d04",
+    "mean_effect.nii.gz": "7f247b035780a35c4d36fe7bca26ff1424abeb1a75f0e45e15a50d469df5f046"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "protected_file_checks": [],
+  "runtime_temp_deviation": {
+    "observed_during_permutations": true,
+    "automatically_removed_after_process_exit": true,
+    "remaining_directories_at_check": 0,
+    "remaining_files_at_check": 0,
+    "manual_deletion_outside_owned_paths": false
+  }
+}

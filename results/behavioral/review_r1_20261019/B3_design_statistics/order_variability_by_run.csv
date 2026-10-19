@@ -1,0 +1,9 @@
+run,n_participants,n_outer_block_orders,n_whole_run_role_orders,n_fixation_duration_patterns,distinct_subblock_orders_per_participant_mean,distinct_subblock_orders_per_participant_min,distinct_subblock_orders_per_participant_max,adjacent_identical_structured_orders_total
+1,22,1,1,22,1,1,1,110
+2,22,1,1,22,1,1,1,110
+3,22,1,22,22,4.090909090909091,3,5,0
+4,22,1,22,22,4.954545454545454,4,6,0
+5,22,1,22,22,5.090909090909091,4,6,0
+6,22,1,22,22,4.090909090909091,3,5,0
+7,22,1,1,22,1,1,1,110
+8,22,1,1,22,1,1,1,110

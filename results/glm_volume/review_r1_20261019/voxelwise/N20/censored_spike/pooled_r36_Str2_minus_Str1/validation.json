@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 26.077873119153082,
+  "passed": true,
+  "summary": {
+    "cohort": "N20",
+    "model": "censored_spike",
+    "contrast": "pooled_r36_Str2_minus_Str1",
+    "n_subjects": 20,
+    "alpha": 0.05,
+    "n_perm": 10000,
+    "seed": 20261018,
+    "positive_voxels": 391,
+    "negative_voxels": 0,
+    "n_mask_voxels": 58550,
+    "permutation_seconds": 25.683387376135215
+  },
+  "null_FWE_exact": true,
+  "native_observed_TFCE_checked": true,
+  "independent_t_max_abs_difference": 1.1765275278463605e-06,
+  "all_images_unscaled_float32": true,
+  "output_sha256": {
+    "input_manifest.json": "ecd86c6072df364f59c8d6fdea81e1c872c66f4b4bd70714c2afdb0a3a8bbf5b",
+    "t.nii.gz": "b13893b258df706451a2fb90817bba69978d054273ebacec20dc291b26668ca8",
+    "signed_tfce_corrected_t.nii.gz": "b17ffd010a9767ad8f6cbbe6741b03f4b98414f2136d1dbeb389902a45ad921c",
+    "standard_error.nii.gz": "97c48eba39c2e1d3d7b6de8914dc28a4cb1ee3b89c62ad1dc7964573667471aa",
+    "pointwise_ci_high.nii.gz": "3f09b66c39f4f17e5fcb6e9ba6bb07fdd2c0d228ac241c38b2e0ca5644eb9b71",
+    "tfce.nii.gz": "5c1b8d9e1576afc65ff75d6af05a3d07b6bf152e420c7316ac333d45ff4c96b8",
+    "raw_permutation_arrays.npz": "93ad9eeaa14d6475d8e44f39d41eb5c3e87d93eb5b2f93a42216817e701ed831",
+    "logp_max_t.nii.gz": "26a2b467587cbb4d01d9efc0885ce1dbc2b6848dd7dd0b8d987d168015153fc8",
+    "components.csv": "7286e279489ac5451e0e56f94934e4a3d1a29f93294dfd3620d769de2914b9a8",
+    "design_matrix.csv": "8365242232150fe378ed125ac1ba3d668c36315091cc1b0010c2b94a0b96a46e",
+    "logp_max_tfce.nii.gz": "fbbafcbea790e0b11453972695f84d9d845cf8a6deee40a37557329ae3e22edc",
+    "REPORT.md": "25c6a7614b5f93753e0c67eb6b5becf5fd8a2f80c437714215b0301bc621d950",
+    "pointwise_ci_low.nii.gz": "7ed79d34eb8a7bf2db97a8c9b3c7eee4edae55e72d8e23903417df931a2f903a",
+    "timing.json": "85cfab14212473a5bb70c1d53cfefa18030d30e1d1975ed2366d55ce6adbe8d3",
+    "mean_effect.nii.gz": "2af16dd5445ae8eb75fa759609f3a98016b4ab831e8abd5473b1f8edb452e754"
+  }
+}

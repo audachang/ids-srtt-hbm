@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 38.586238629883155,
+  "passed": true,
+  "n_arithmetic_checks": 73682,
+  "n_first_level_qc": 880,
+  "n_unique_first_level_inputs": 1126,
+  "n_output_hashes_verified": 3230,
+  "stage_families_48": true,
+  "joint_families_192": true,
+  "direct_families_144": true,
+  "headline_families_4": true,
+  "paired_component_identity": true,
+  "D1_repeat_counts_verified": true,
+  "spike_indicators_verified": true,
+  "all_designs_full_rank": true,
+  "min_residual_df": 134,
+  "n_permutation_analyses": 10,
+  "aCompCor_short_component_runs": [],
+  "output_sha256": {
+    "input_manifest.json": "3e5d9b0ab099c78b2d06efc7cebe43f686355fd50a45b44a68678f04e6265021",
+    "verified_first_level_input_hashes.csv": "edbeef83f9bd3e14cbdebd763d8cf35f976797d12ef3be238531c44f1e7798ca",
+    "REPORT.md": "38dff83a3d488551978a0c958d217a30b59aa47bbf3c496fc8ef1dd01865a07b"
+  }
+}

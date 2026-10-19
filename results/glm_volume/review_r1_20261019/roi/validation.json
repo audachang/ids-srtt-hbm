@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 4.046568361110985,
+  "passed": true,
+  "n_models": 7,
+  "n_stage_slots": 2688,
+  "n_direct_slots": 2016,
+  "n_component_slots": 8064,
+  "all_stage_families_48": true,
+  "all_joint_families_192": true,
+  "all_direct_families_144": true,
+  "max_expanded_stage_reproduction_difference": 9.534510003739172e-08,
+  "reference_censored_saved_results_reproduced": true,
+  "paired_component_identity_checked": true,
+  "output_sha256": {
+    "input_manifest.json": "3d783ec907efe0dab8a0815016a7b4d18cb3d951c5d7c9b773d97cd98ca8723a",
+    "stage_results.csv": "e46c2262ff103167b914a1f3f96b6566a6ae3de3c9d01efe0e10eb7a4330511f",
+    "component_balance_results.csv": "33f90a8f9a8c171ba93a08bcf1013d0aef18fde0bc77bbc501fe6f2ce968cf23",
+    "repeat_regressor_vs_reference.csv": "ac36e3f5864b0f5b7315ffa2cc1cbe6e3a5a63bf41dbc804d2478060420ca2ee",
+    "phase_component_results.csv": "5454eb9b3dc4d26d1b4b418ce7ce3ad4a25fc66c0dffc67fa781cd83ec317e4d",
+    "headline_tidy_all_specifications.csv": "5d041918b487457d5b9c49e62d9e605790d21d4991cc4a7587b54b964906ef37",
+    "censored_spike_vs_row_deletion.csv": "b336eaf2cab9c6c9cacd581508af9af0aaf4476c8b8b22d15ce1727b2284010d",
+    "motion6_acompcor8_vs_reference.csv": "69b3b7d6624d52cfa8571bd2a97df03114039dc4906ef8d08d037ad8606e427c",
+    "REPORT.md": "aca1fa5d9e40dade8d9fd7165e26fda96488be3925e2e882687883d9506f8c82",
+    "motion12_tissue_vs_reference.csv": "1570f776015024194d91c42bd42eaef29ea590e84875185b6bdd0ed6e4734126",
+    "censored_spike_vs_reference.csv": "08e51ca1a64837a3195fd5e8d36dad5e39a5bea1c94afda3812611b6fa7d48da",
+    "headline_early_component_balance.csv": "6347e532ca32946f3d16037e2151ac18ddfe663b87de8058d09434b4679de6a4",
+    "direct_phase_results.csv": "daac89c14683e5178cc2e83881412cbd44c06930adc50b4e38e03e539b8359b2",
+    "motion12_acompcor8_vs_reference.csv": "02aa3eb74518038e320be6e304d01ad206600cc1daaf63571fd028c2af9a5f70"
+  }
+}

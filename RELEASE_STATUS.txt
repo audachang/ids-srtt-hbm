@@ -1,7 +1,7 @@
-Version 1.1.0 published on 2026-10-19.
-Frozen commit: c05796046172e26daa25b5ca35f7ee1b5cd9527d
-Version DOI: https://doi.org/10.5281/zenodo.23471923
-GitHub release: https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.1.0
-Version 1.0.0 remains available at doi:10.5281/zenodo.23438462.
-Original software: MIT. Group summaries and documentation: CC BY 4.0.
+Version 1.2.0 prepared on 2026-10-19.
+The version DOI will be linked after archival completes.
+GitHub release: https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.2.0
+Version 1.1.0: doi:10.5281/zenodo.23471923.
+Version 1.0.0: doi:10.5281/zenodo.23438462.
 Participant-level data are not distributed.
+Original software: MIT. Group summaries and documentation: CC BY 4.0.

@@ -13,7 +13,6 @@
   "all_reference_control_checks_passed": true,
   "output_sha256": {
     "direct_phase_results.csv": "85fe4f20a72128707af7af29455adb1106e530b01c6fed1c01440b55e52a77d8",
-    "participant_run_condition_values.csv": "6221414585aaa7e08d2d0812cf8094d57a349d147af852fb1f231549e28bb669",
     "N20_timing_repair_comparison.csv": "4552fc92230993d6a9e98920489ed1ede1994498e9ab72689e538873e391920a",
     "trajectory_results.csv": "f897afe34fa9643a3e53bd1713679c63dfb297737b3df3846b60fb02bed49136",
     "primary_significant_slot_influence.csv": "fdb252c1c6cd4e19f61e82c7fd2eb616240f1816b287980e3f15c753d9885d35",
@@ -21,18 +20,13 @@
     "sample_comparison.pdf": "cdc160511724437771300409e2f8e7ca05b129e3dbc1c5fd4361fed7276a5544",
     "phase_component_covariance.csv": "04abd9288e0bcd23fb0cfae2147fd7ed22c80c7dd9545da00079ebd2aacbc494",
     "phase_component_results.csv": "40a3875cc9fc3322d659c5bc2b10636ed9d7790b737e88f06ec64111fe54fe55",
-    "participant_within_run_values.csv": "bf962e8fe396554f461c2c244ddc3783060c3c74351e8ac1471a98db2ddb78e2",
     "stage_results.csv": "d6bba7cf1d34db8f6f63c979e683fb602e6a20f278e7ec644401deddde183841",
     "within_run_results.csv": "92e5a08e9c87aacf1c65d538b1ea5e2522e634fd52b392945d6af71e3348c2d1",
-    "participant_stage_values.csv": "7d0a90e54324f342fb33b11acd9dba38f7407021d64b652e3436e5064b160c8c",
-    "participant_slopes.csv": "4d23e58a984f2d4f4d268bb000b845e129a34c328e772bed8d0827ef894c879d",
     "updated_model_specifications.pdf": "890c21f98151338f0867c144d6ccc823065f404a73d932db224311b5486dd902",
     "trend_results.csv": "dafd5a0b61b40a40985c2b2554021190a59b0b4472da6554451660144140a9a8",
     "right_accumbens_early_minus_late.csv": "d28f66cb6fc14ce05865b2a2a44bbae1c9b1788f1a0aa838eafe1d8c9ddcefcf",
     "phase_component_changes.csv": "095d40a0c3b5b2c7ddd676358d9535728be62c558f4e0996cd695e075ad1e3b5",
-    "participant_phase_components.csv": "2e786c65182df8f72cccc338b9ab044c59acb97ddb562d16f32cbd45edcc1a5d",
     "N20_vs_N22_stage_comparison.csv": "f7f22d625d2d162acb8df137fe4f6b812ebaa5f371a2efce8bee7f78a3efc380",
-    "participant_roi_coverage.csv": "44e93cd0177fba1a92698c45367e257aac68d8d9607a1e8d919f91aeb26fbe66",
     "run_covariance_propagation.csv": "20d805a089adb8a8ab77182f105394fd208fee603cd7b74ca316027a7313e8fd"
   }
 }

@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "passed": true,
+  "elapsed_seconds": 19.20725284004584,
+  "checks": {
+    "n_contrast_rows": 48,
+    "participants": 22,
+    "required_cells_each_policy": 440,
+    "empty_cells": 0,
+    "all_df_21": true,
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 20261019,
+    "contrast_weights_match_source": true,
+    "LME_BH_reproduced": true,
+    "cleaning_replay": {
+      "passed": true,
+      "R_version": "R version 4.4.2 (2024-10-31)",
+      "trimr_version": "1.1.1",
+      "retained_trial_keys_and_RT_exact": true,
+      "n_primary": 53959,
+      "n_min100": 52126,
+      "no_LME_refit": true,
+      "method": "Original custom block-wise helper, minRT=0; min100 applied after cleaning"
+    },
+    "q05_discoveries": {
+      "primary": 21,
+      "min100": 22
+    },
+    "q05_agreement_counts": {
+      "primary": 19,
+      "min100": 20
+    }
+  },
+  "consumed_inputs_unchanged": true,
+  "output_sha256": {
+    "REPORT.md": "bcde7ecb21a6766efeebb11f56ec21b634996e04f7cbe04d1a059f61f4883a61",
+    "R_session_info.txt": "51cd3617637b4021cd14435a4fac954a73d9e49462616b1fd3c5543e6966759b",
+    "all_contrast_comparisons.csv": "48b3afc82cefb8802b6ddc5ffbba93fa418f7a6937a3eeb3786d192190476f1d",
+    "cleaning_replay.log": "26445a8280d5c802bc98fee1736f4475af101c2a2a33c07c4d73277c98306f84",
+    "cleaning_replay_validation.json": "6a31c91b36c553f812bbbcccea7683d32fb37e2e92c5dd0d99a0ac389723258e",
+    "min100_BH_family_slots.csv": "806a9817ae033210496528e11e4b920304b3cb889f174dcc73b45de9ee3bb9ea",
+    "min100_contrast_comparison.csv": "88ae0ae283a259aae11991a58cd640914e1522bf106f385b6136960ce9236de1",
+    "primary_BH_family_slots.csv": "d98adcc61a9dc9501ffa7e1812d5d57ae609b3e479386f5ea7368434c24c9837",
+    "primary_contrast_comparison.csv": "66840cab3882e457ed792478494c62b2364412b73b970a182579dcf03dd28e5b"
+  }
+}

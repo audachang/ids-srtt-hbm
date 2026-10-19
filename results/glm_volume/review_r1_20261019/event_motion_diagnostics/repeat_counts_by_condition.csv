@@ -1,0 +1,7 @@
+cohort,condition,n_trials,n_repeats,n_repeats_cross_block,n_equal_previous_excluded_gap,repeat_rate
+N20,Ran,12800,0,0,41,0
+N20,Str1,19200,2400,0,28,0.125
+N20,Str2,19200,2399,0,19,0.124947916667
+N22,Ran,14080,0,0,48,0
+N22,Str1,21120,2640,0,29,0.125
+N22,Str2,21120,2638,0,20,0.12490530303

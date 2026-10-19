@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "verification_source": "code/review_r1/stats_validate.py",
+  "verification_source_sha256": "c1767e7a2856c21ac133b224b64708ca4f50af35491bee9af2fb30843c72087b",
+  "elapsed_seconds": 23.2912157359533,
+  "checks": {
+    "A1": {
+      "passed": true,
+      "n_slots": 4992,
+      "manual_BH_stage_families": 104,
+      "manual_BH_joint_families": 26
+    },
+    "B1": {
+      "passed": true,
+      "n_policies": 2,
+      "n_contrasts_per_policy": 24,
+      "whole_participant_bootstrap_reproduced": true,
+      "all_t_tests_CIs_ratios_width_ratios_and_BH_reproduced": true,
+      "seed": 20261019,
+      "resamples": 10000,
+      "max_participant_contrast_difference": 4.440892098500626e-16
+    },
+    "B2": {
+      "passed": true,
+      "n_policies": 2,
+      "n_contrasts_per_policy": 4,
+      "whole_participant_bootstrap_reproduced": true,
+      "all_t_tests_CIs_ratios_width_ratios_and_BH_reproduced": true,
+      "seed": 20261019,
+      "resamples": 10000,
+      "max_participant_contrast_difference": 4.440892098500626e-16
+    },
+    "B3": {
+      "passed": true,
+      "D1_labels_independently_recomputed": 56320,
+      "repeat_counts_agree_between_B2_B3": true,
+      "all_80_target_counts_and_320_transition_counts_recomputed": true,
+      "cyclic_pairs_triplets_recomputed": true,
+      "timeline_tiles_400s": true,
+      "no_participant_id_columns_in_B3_CSVs": true
+    },
+    "integrity": {
+      "passed": true,
+      "unique_consumed_input_hashes_checked": 1981,
+      "recorded_output_hashes_checked": 119,
+      "preflight_protected_files_checked": 5537,
+      "preflight_mismatches": []
+    }
+  }
+}

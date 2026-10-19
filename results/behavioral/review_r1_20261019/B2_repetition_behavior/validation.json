@@ -1,0 +1,73 @@
+{
+  "status": "complete",
+  "passed": true,
+  "elapsed_seconds": 0.8282407280057669,
+  "checks": {
+    "participants": 22,
+    "n_key_tests_per_policy": 4,
+    "BH_slots_per_policy": 24,
+    "untested_slots_at_p1": 20,
+    "empty_required_cells": 0,
+    "bootstrap_seed": 20261019,
+    "bootstrap_resamples": 10000,
+    "repeat_definition": "D1_same_run_previous_trial_slot_equal_target_exactly_1s_onset_difference",
+    "repeat_counts": [
+      {
+        "rule_group": "Ran",
+        "n_trials": 14080,
+        "adjacent_1s_opportunities": 13728,
+        "same_target_previous_slot": 48,
+        "immediate_repeats_D1": 0,
+        "repeats_crossing_block": 0,
+        "gap_separated_target_matches_excluded": 48
+      },
+      {
+        "rule_group": "Str1",
+        "n_trials": 21120,
+        "adjacent_1s_opportunities": 20573,
+        "same_target_previous_slot": 2669,
+        "immediate_repeats_D1": 2640,
+        "repeats_crossing_block": 0,
+        "gap_separated_target_matches_excluded": 29
+      },
+      {
+        "rule_group": "Str2",
+        "n_trials": 21120,
+        "adjacent_1s_opportunities": 20604,
+        "same_target_previous_slot": 2658,
+        "immediate_repeats_D1": 2638,
+        "repeats_crossing_block": 0,
+        "gap_separated_target_matches_excluded": 20
+      }
+    ],
+    "n_secondary_description_rows": 24,
+    "retained_trials": [
+      {
+        "policy": "primary",
+        "n_cleaned": 53959,
+        "repeats_excluded": 5174,
+        "n_nonrepeat": 48785
+      },
+      {
+        "policy": "min100",
+        "n_cleaned": 52126,
+        "repeats_excluded": 4905,
+        "n_nonrepeat": 47221
+      }
+    ],
+    "all_description_phase_run_counts_equal_two": true
+  },
+  "consumed_inputs_unchanged": true,
+  "output_sha256": {
+    "D1_repeat_counts_by_condition.csv": "1ab00276b92638991e8f8eaa9283af278df77ce4c71ee79b6faa20d2f7418227",
+    "D1_repeat_counts_by_condition_run.csv": "e4e817e6f363beafb92e6dfc752a1fcfdd48c234f3afb54a69367cf2fdb4e4c7",
+    "REPORT.md": "92f73dc2469f1048921601c315386b71af201961a4828695ca87bc41432857c3",
+    "descriptive_transition_category_advantage.csv": "41a32ff37174df23f6435f974c669ec145f6afff6703be6a1084ee2b8291b739",
+    "key_contrast_comparisons.csv": "5fbaf0377a72d7f4e038a730a0734462c173b5a8929efb42cd4638614ff90d6e",
+    "min100_BH_family_slots.csv": "6104c05dbb8814b7db5c1abde85f0328b5da85164845807848334c1ec4bc1c02",
+    "min100_contrast_comparison.csv": "19ca1288ec0f768d1801dd6b660cc5591d1a7b84c5a4bca9b659ff260dc0067e",
+    "primary_BH_family_slots.csv": "9a9a7091b93d4ba0aadfc40fca9ae867256d4a8b9e89e356420edcbcbba5ad22",
+    "primary_contrast_comparison.csv": "94e4496cd5afa6d0bf085b67e947cfd93a4e8edf0890cbc24fd075a16b3fc36d",
+    "trial_retention.csv": "658f1bd01e838c7025b7da19ca108dfd17e8ecd81c1a352463bb550abab04056"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "R_version": "R version 4.4.2 (2024-10-31)",
+  "trimr_version": "1.1.1",
+  "retained_trial_keys_and_RT_exact": true,
+  "n_primary": 53959,
+  "n_min100": 52126,
+  "no_LME_refit": true,
+  "method": "Original custom block-wise helper, minRT=0; min100 applied after cleaning"
+}

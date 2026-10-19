@@ -1,0 +1,9 @@
+run,outer_block_order,n_participant_runs
+1,Random1 > Structured1 > Structured2 > Structured3 > Structured4 > Structured5 > Structured6 > Random2,22
+2,Random1 > Structured1 > Structured2 > Structured3 > Structured4 > Structured5 > Structured6 > Random2,22
+3,Random1 > Structured1 > Structured2 > Structured3 > Structured4 > Structured5 > Structured6 > Random2,22
+4,Random1 > Structured1 > Structured2 > Structured3 > Structured4 > Structured5 > Structured6 > Random2,22
+5,Random1 > Structured1 > Structured2 > Structured3 > Structured4 > Structured5 > Structured6 > Random2,22
+6,Random1 > Structured1 > Structured2 > Structured3 > Structured4 > Structured5 > Structured6 > Random2,22
+7,Random1 > Structured1 > Structured2 > Structured3 > Structured4 > Structured5 > Structured6 > Random2,22
+8,Random1 > Structured1 > Structured2 > Structured3 > Structured4 > Structured5 > Structured6 > Random2,22
