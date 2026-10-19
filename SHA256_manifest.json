@@ -36,8 +36,8 @@
   },
   {
     "path": "CITATION.cff",
-    "bytes": 666,
-    "sha256": "96feae114260a91b8c93576101e4f4a6aacc2d414f3d0c42bb676d21e972fe60"
+    "bytes": 748,
+    "sha256": "8ef71f017b547a46e0167285d73c13d90b931beba6251e6156e5b5a198cbcfdc"
   },
   {
     "path": "CODE_REVIEW.csv",
@@ -86,8 +86,8 @@
   },
   {
     "path": "README.txt",
-    "bytes": 5971,
-    "sha256": "a691e5883fdba5b3c40213d650303b79bb96bb6cc8dfad182328e80b7841d77e"
+    "bytes": 6024,
+    "sha256": "124db57f5eaa32e68c8657793d07e7d3c1fa25ef96d717407faa9a8456ddf98c"
   },
   {
     "path": "RELEASE_COVERAGE.csv",
@@ -106,8 +106,8 @@
   },
   {
     "path": "RELEASE_STATUS.txt",
-    "bytes": 419,
-    "sha256": "a7f015e29b0a9dd8bdb7e26d52e135cf7e6bff587941e2606130bd0e74a6c581"
+    "bytes": 472,
+    "sha256": "3abc62e9f947a348ad854c855e4599f7f1c1eeb2a385666d6e584dca2c8daab0"
   },
   {
     "path": "code/common/srtt_paths.py",
