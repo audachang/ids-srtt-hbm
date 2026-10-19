@@ -1,0 +1,44 @@
+{
+  "description": "Saved continuing-sequence benchmark aggregates only; no fitting or new inference.",
+  "added_results": [
+    "results/glm_volume/review_r2_benchmark_20261020/continuing_sequence_results.csv",
+    "results/glm_volume/review_r2_benchmark_20261020/early_comparison_all_rois.csv",
+    "results/glm_volume/review_r2_benchmark_20261020/early_new_sequence_results.csv",
+    "results/glm_volume/review_r2_benchmark_20261020/early_paired_difference_results.csv",
+    "results/glm_volume/review_r2_benchmark_20261020/family_summary.csv",
+    "results/glm_volume/review_r2_benchmark_20261020/headline_continuing_sequence_results.csv",
+    "results/glm_volume/review_r2_benchmark_20261020/headline_early_comparison.csv",
+    "results/glm_volume/review_r2_benchmark_20261020/independent_validation.json",
+    "results/glm_volume/review_r2_benchmark_20261020/validation.json"
+  ],
+  "complementary_suppression": [
+    {
+      "path": "results/glm_volume/review_r2_benchmark_20261020/continuing_sequence_results.csv",
+      "blocks": 16
+    },
+    {
+      "path": "results/glm_volume/review_r2_benchmark_20261020/early_comparison_all_rois.csv",
+      "blocks": 24
+    },
+    {
+      "path": "results/glm_volume/review_r2_benchmark_20261020/early_new_sequence_results.csv",
+      "blocks": 8
+    },
+    {
+      "path": "results/glm_volume/review_r2_benchmark_20261020/early_paired_difference_results.csv",
+      "blocks": 8
+    }
+  ],
+  "disclosure": {
+    "statistic_cells_checked": 95528,
+    "nested_relations": 166,
+    "blocked_csv_blocks": 10463
+  },
+  "planned_BH_slots": {
+    "continuing_per_phase": 48,
+    "continuing_headline_per_phase": 4,
+    "early_new": 48,
+    "early_paired": 48
+  },
+  "excluded_files": 7
+}

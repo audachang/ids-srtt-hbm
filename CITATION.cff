@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite the version DOI when available; otherwise cite the release URL."
 type: software
-title: "Analysis code and group summaries for Neural responses during motor statistical learning and gradual sequence updating"
+title: "Analysis code and group summaries for Neural responses during motor statistical learning and gradual sequence replacement"
 authors:
   - family-names: Chan
     given-names: Chiao-En
@@ -10,12 +10,10 @@ authors:
     orcid: "https://orcid.org/0000-0002-1813-9663"
   - family-names: Wu
     given-names: Denise Hsien
-version: 1.2.1
+version: 1.2.2
 date-released: 2026-10-20
-url: "https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.2.1"
+url: "https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.2.2"
 repository-code: "https://github.com/audachang/ids-srtt-hbm"
 license:
   - MIT
   - CC-BY-4.0
-doi: "10.5281/zenodo.23484681"
-commit: "fd6fdcca5513a158671e06fd2e3a6e9bbcbad600"

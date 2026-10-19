@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "status": "complete",
+  "validator": "code/review_r1/benchmark_validate.py",
+  "validator_sha256": "cf745a2de6a5a87ba3432d122cc8212aee129970b539deb98949ad9cbbb1aa24",
+  "no_helper_summary_or_bh_imports": true,
+  "scalar_input_rows": 21120,
+  "independently_recomputed_summary_values": 3840,
+  "manual_BH_values": 400,
+  "within_run_participant_reproduction_rows": 2016,
+  "within_run_group_reproduction_rows": 96,
+  "saved_within_run_scaling_and_tests_passed": true,
+  "exact_N20_subset_passed": true,
+  "full_slot_and_headline_membership_passed": true,
+  "wide_table_consistency_passed": true,
+  "input_and_source_hashes_verified": true,
+  "producer_output_hashes_verified": true,
+  "runtime_seconds": 0.9046343229711056
+}

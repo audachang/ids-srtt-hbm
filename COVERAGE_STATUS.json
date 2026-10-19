@@ -1,9 +1,9 @@
 {
   "complete": true,
-  "source_sha256": "bb8c4914a22ee9b911c8b59d41b1f101faaf287d22798812b11a78840f6d7ad0",
-  "source_files": 115,
-  "recorded_values": 293289,
-  "verifiable_values": 274451,
-  "withheld_values": 18838,
+  "source_sha256": "0da68e2fd0d8994ef305c676b059d09398a18863509156f9f571a73bb0ea81ee",
+  "source_files": 122,
+  "recorded_values": 301453,
+  "verifiable_values": 282321,
+  "withheld_values": 19132,
   "description": "Coverage uses the completed article value inventory."
 }

@@ -33,5 +33,11 @@
   "n_participants": "Participant count contributing to a group design summary; singleton duration cells are blank.",
   "n_aligned": "Number of eligible participants in the slice-timing-aligned sensitivity.",
   "mean_aligned": "Saved group mean for the slice-timing-aligned sensitivity; blank when suppressed.",
-  "mean_shift": "Descriptive aligned-minus-reference mean difference; blank if either side is suppressed."
+  "mean_shift": "Descriptive aligned-minus-reference mean difference; blank if either side is suppressed.",
+  "q_BH48": "Saved Benjamini-Hochberg q across all 48 parcel slots within the specified cohort, phase and contrast.",
+  "q_BH4": "Saved Benjamini-Hochberg q for the four continuing-sequence headline parcels within cohort and phase; other slots blank.",
+  "phase": "For the continuing-sequence benchmark, early uses runs 3–4, middle uses runs 5–6, and the initial baseline uses runs 1–2; other files retain their source-defined phase labels.",
+  "continuing_mean": "Continuing-sequence two-run summed difference in differences; blank when suppressed.",
+  "new_sequence_mean": "Early new-sequence two-run summed difference in differences; blank when suppressed.",
+  "paired_difference_mean": "Participant-paired early new-minus-continuing difference, twice the two-run mean Str2-minus-Str1; blank when suppressed."
 }

@@ -4,20 +4,21 @@ path,rows,units,description
 AGGREGATE_CHECK_SPEC.json,,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
 AGGREGATE_CHECK_SPEC_R1.json,,Source-defined / not applicable,"Exploratory sensitivity group summary, design illustration, source code or release documentation; see README and column definitions."
 AGGREGATE_CHECK_SPEC_R1_1.json,,Source-defined / not applicable,"Slice-timing sensitivity group summary, verbatim source code or release documentation; see README and column definitions."
+AGGREGATE_CHECK_SPEC_R2.json,,Source-defined / not applicable,"Continuing-sequence benchmark group summary, verbatim source code or release documentation; see README and column definitions."
 AGGREGATION_NOTES.json,,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
 BASE_PRESERVATION.json,,Source-defined / not applicable,"Exploratory sensitivity group summary, design illustration, source code or release documentation; see README and column definitions."
 CITATION.cff,,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
-CODE_REVIEW.csv,113,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
+CODE_REVIEW.csv,117,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
 COLUMN_DICTIONARY.json,,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
 COVERAGE_STATUS.json,,Source-defined / not applicable,"Exploratory sensitivity group summary, design illustration, source code or release documentation; see README and column definitions."
 FIGURE_REVIEW.json,,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
 FIGURE_REVIEW_R1.json,,Source-defined / not applicable,"Exploratory sensitivity group summary, design illustration, source code or release documentation; see README and column definitions."
-FILE_DICTIONARY.csv,417,Not applicable,Complete file inventory.
+FILE_DICTIONARY.csv,431,Not applicable,Complete file inventory.
 LICENSE.txt,,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
 LICENSES/CC-BY-4.0.txt,,Source-defined / not applicable,Earlier 20-participant reporting from version 1.0.0; retained unchanged.
 LICENSES/MIT.txt,,Source-defined / not applicable,Earlier 20-participant reporting from version 1.0.0; retained unchanged.
 README.txt,,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
-RELEASE_COVERAGE.csv,115,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
+RELEASE_COVERAGE.csv,122,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
 RELEASE_COVERAGE_V1_1.csv,56,Source-defined / not applicable,"Exploratory sensitivity group summary, design illustration, source code or release documentation; see README and column definitions."
 RELEASE_EXCLUSIONS.json,,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
 RELEASE_STATUS.txt,,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
@@ -89,6 +90,7 @@ code/reporting/build_public_release.py,,Source-defined / not applicable,Earlier 
 code/reporting/build_public_release_v1_1.py,,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
 code/reporting/build_public_release_v1_2.py,,Source-defined / not applicable,"Exploratory sensitivity group summary, design illustration, source code or release documentation; see README and column definitions."
 code/reporting/build_public_release_v1_2_1.py,,Source-defined / not applicable,"Slice-timing sensitivity group summary, verbatim source code or release documentation; see README and column definitions."
+code/reporting/build_public_release_v1_2_2.py,,Source-defined / not applicable,"Continuing-sequence benchmark group summary, verbatim source code or release documentation; see README and column definitions."
 code/reporting/coverage_significant_table.py,,Source-defined / not applicable,Earlier 20-participant reporting from version 1.0.0; retained unchanged.
 code/reporting/fit_error_mixed_models.R,,Source-defined / not applicable,Earlier 20-participant reporting from version 1.0.0; retained unchanged.
 code/reporting/fit_fmri_rt_lme.R,,Source-defined / not applicable,Earlier 20-participant reporting from version 1.0.0; retained unchanged.
@@ -109,6 +111,9 @@ code/reporting/verify_public_summaries.py,,Source-defined / not applicable,Earli
 code/reporting/verify_public_summaries_n22.py,,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
 code/reporting/verify_public_summaries_r1.py,,Source-defined / not applicable,"Exploratory sensitivity group summary, design illustration, source code or release documentation; see README and column definitions."
 code/reporting/verify_public_summaries_r1_1.py,,Source-defined / not applicable,"Slice-timing sensitivity group summary, verbatim source code or release documentation; see README and column definitions."
+code/reporting/verify_public_summaries_r2.py,,Source-defined / not applicable,"Continuing-sequence benchmark group summary, verbatim source code or release documentation; see README and column definitions."
+code/review_r1/benchmark_run.py,,Source-defined / not applicable,"Continuing-sequence benchmark group summary, verbatim source code or release documentation; see README and column definitions."
+code/review_r1/benchmark_validate.py,,Source-defined / not applicable,"Continuing-sequence benchmark group summary, verbatim source code or release documentation; see README and column definitions."
 code/review_r1/imaging_common.py,,Source-defined / not applicable,"Exploratory sensitivity group summary, design illustration, source code or release documentation; see README and column definitions."
 code/review_r1/imaging_finalize.py,,Source-defined / not applicable,"Exploratory sensitivity group summary, design illustration, source code or release documentation; see README and column definitions."
 code/review_r1/imaging_fits.py,,Source-defined / not applicable,"Exploratory sensitivity group summary, design illustration, source code or release documentation; see README and column definitions."
@@ -412,6 +417,15 @@ results/glm_volume/review_r1_slicetime_20261019/voxelwise/REPORT.md,,Source-defi
 results/glm_volume/review_r1_slicetime_20261019/voxelwise/aligned_vs_reference_counts.csv,10,Source-defined / not applicable,"Slice-timing sensitivity group summary, verbatim source code or release documentation; see README and column definitions."
 results/glm_volume/review_r1_slicetime_20261019/voxelwise/permutation_summary.csv,10,Source-defined / not applicable,"Slice-timing sensitivity group summary, verbatim source code or release documentation; see README and column definitions."
 results/glm_volume/review_r1_slicetime_20261019/voxelwise/validation.json,,Source-defined / not applicable,"Slice-timing sensitivity group summary, verbatim source code or release documentation; see README and column definitions."
+results/glm_volume/review_r2_benchmark_20261020/continuing_sequence_results.csv,192,Source-defined / not applicable,"Continuing-sequence benchmark group summary, verbatim source code or release documentation; see README and column definitions."
+results/glm_volume/review_r2_benchmark_20261020/early_comparison_all_rois.csv,96,Source-defined / not applicable,"Continuing-sequence benchmark group summary, verbatim source code or release documentation; see README and column definitions."
+results/glm_volume/review_r2_benchmark_20261020/early_new_sequence_results.csv,96,Source-defined / not applicable,"Continuing-sequence benchmark group summary, verbatim source code or release documentation; see README and column definitions."
+results/glm_volume/review_r2_benchmark_20261020/early_paired_difference_results.csv,96,Source-defined / not applicable,"Continuing-sequence benchmark group summary, verbatim source code or release documentation; see README and column definitions."
+results/glm_volume/review_r2_benchmark_20261020/family_summary.csv,4,Source-defined / not applicable,"Continuing-sequence benchmark group summary, verbatim source code or release documentation; see README and column definitions."
+results/glm_volume/review_r2_benchmark_20261020/headline_continuing_sequence_results.csv,16,Source-defined / not applicable,"Continuing-sequence benchmark group summary, verbatim source code or release documentation; see README and column definitions."
+results/glm_volume/review_r2_benchmark_20261020/headline_early_comparison.csv,8,Source-defined / not applicable,"Continuing-sequence benchmark group summary, verbatim source code or release documentation; see README and column definitions."
+results/glm_volume/review_r2_benchmark_20261020/independent_validation.json,,Source-defined / not applicable,"Continuing-sequence benchmark group summary, verbatim source code or release documentation; see README and column definitions."
+results/glm_volume/review_r2_benchmark_20261020/validation.json,,Source-defined / not applicable,"Continuing-sequence benchmark group summary, verbatim source code or release documentation; see README and column definitions."
 results/glm_volume/whole_brain/components_peaks.csv,27,Source-defined / not applicable,Earlier 20-participant reporting from version 1.0.0; retained unchanged.
 results/reanalysis_20261018_updated_n22/REPRODUCE.md,,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."
 results/reanalysis_20261018_updated_n22/validation.json,,Source-defined / not applicable,"Source code, documentation, validation record or descriptive metadata; see README."

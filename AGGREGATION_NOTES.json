@@ -114164,5 +114164,1318 @@
       }
     ],
     "reason": "Smaller nested and equivalent sample sets lose all statistics, including related components; N, slots and BH q remain."
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/independent_validation.json",
+    "source_sha256": "04c7b6579fc531c57556e28c9f8328c06f7372ecbd3852cd0838d009c743e38e",
+    "release_sha256": "55d79d2dc7ecf8cc98d3fd5acefa9000a6391e2d2ecadfcfef23354a7361c3ec",
+    "operation": "redaction",
+    "removed_json_pointers": [
+      "/participant_numeric_checks"
+    ],
+    "reason": "Withhold private/runtime paths and individual-file provenance."
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/validation.json",
+    "source_sha256": "5bb6dabdaec0c0557cfb013ee1d04f2ff22a80d1e7b38b8ab5375015c154f35f",
+    "release_sha256": "54d019753a6310bc583adfa8e24dd53bc6c0e1d790c2bab3f5fb51a89279fda8",
+    "operation": "redaction",
+    "removed_json_pointers": [
+      "/participant_saved_within_run_reproduction",
+      "/row_counts/participant_continuing_sequence_values.csv",
+      "/row_counts/participant_early_comparison_values.csv",
+      "/row_counts/participant_paired_difference_reproduction.csv",
+      "/output_sha256/participant_continuing_sequence_values.csv",
+      "/output_sha256/participant_early_comparison_values.csv",
+      "/output_sha256/participant_paired_difference_reproduction.csv",
+      "/independent_checks/participant_numeric_checks"
+    ],
+    "reason": "Withhold private/runtime paths and individual-file provenance."
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/REPORT.md",
+    "operation": "withholding derived display",
+    "source_sha256": "b083308a833d8d613d71157435301a3184b5c0de92d10ce19257c65cd71e6ecf",
+    "reason": "Derived numerical report or reproduction table could restore suppressed statistics."
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/new_sequence_reproduction.csv",
+    "operation": "withholding derived display",
+    "source_sha256": "64b2c14073e871acd33186486b68c080f52091c4fe56249be19f75fcc17f8459",
+    "reason": "Derived numerical report or reproduction table could restore suppressed statistics."
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/paired_difference_reproduction.csv",
+    "operation": "withholding derived display",
+    "source_sha256": "b59659aa61005df6f2e82b9e3b23b0eeae5073a72368c8f8347fcb7dad6e7da1",
+    "reason": "Derived numerical report or reproduction table could restore suppressed statistics."
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/continuing_sequence_results.csv",
+    "operation": "complementary suppression",
+    "source_sha256": "376193135878aebfc12babacbf9acf58ff07a7accbb03d0dcaca14365fa84157",
+    "release_sha256": "d189f5d6e7427d15a208a21bd91f1db2a9c0d571a67e8ca2e26f058e66c953d1",
+    "blocks": [
+      {
+        "row_key": {
+          "cohort": "N22",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 9,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N22",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 33,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N22",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftFrontalPole",
+          "phase": "middle"
+        },
+        "csv_line": 57,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N22",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightFrontalPole",
+          "phase": "middle"
+        },
+        "csv_line": 81,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftCerebellum",
+          "phase": "early"
+        },
+        "csv_line": 102,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 105,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftMiddleTemporal",
+          "phase": "early"
+        },
+        "csv_line": 112,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightCerebellum",
+          "phase": "early"
+        },
+        "csv_line": 126,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 129,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightMiddleTemporal",
+          "phase": "early"
+        },
+        "csv_line": 136,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftCerebellum",
+          "phase": "middle"
+        },
+        "csv_line": 150,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftFrontalPole",
+          "phase": "middle"
+        },
+        "csv_line": 153,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftMiddleTemporal",
+          "phase": "middle"
+        },
+        "csv_line": 160,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightCerebellum",
+          "phase": "middle"
+        },
+        "csv_line": 174,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightFrontalPole",
+          "phase": "middle"
+        },
+        "csv_line": 177,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightMiddleTemporal",
+          "phase": "middle"
+        },
+        "csv_line": 184,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      }
+    ],
+    "reason": "Smaller nested and equivalent sample sets lose all statistics, including related components; N, slots and BH q remain."
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/early_comparison_all_rois.csv",
+    "operation": "complementary suppression",
+    "source_sha256": "956d609492564c98d12a1f546e7eb208d897314e02537252a69bddd276b9a515",
+    "release_sha256": "e2263b73cd63dfccf69153864c47252b34a758d09bd40a444a73c8cac1dd50f9",
+    "blocks": [
+      {
+        "row_key": {
+          "cohort": "N22",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 9,
+        "statistic_block": "new_sequence_",
+        "columns": [
+          "new_sequence_ci_high",
+          "new_sequence_ci_low",
+          "new_sequence_cohen_dz",
+          "new_sequence_df",
+          "new_sequence_mean",
+          "new_sequence_p",
+          "new_sequence_sd",
+          "new_sequence_se",
+          "new_sequence_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N22",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 33,
+        "statistic_block": "new_sequence_",
+        "columns": [
+          "new_sequence_ci_high",
+          "new_sequence_ci_low",
+          "new_sequence_cohen_dz",
+          "new_sequence_df",
+          "new_sequence_mean",
+          "new_sequence_p",
+          "new_sequence_sd",
+          "new_sequence_se",
+          "new_sequence_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftCerebellum",
+          "phase": "early"
+        },
+        "csv_line": 54,
+        "statistic_block": "new_sequence_",
+        "columns": [
+          "new_sequence_ci_high",
+          "new_sequence_ci_low",
+          "new_sequence_cohen_dz",
+          "new_sequence_df",
+          "new_sequence_mean",
+          "new_sequence_p",
+          "new_sequence_sd",
+          "new_sequence_se",
+          "new_sequence_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 57,
+        "statistic_block": "new_sequence_",
+        "columns": [
+          "new_sequence_ci_high",
+          "new_sequence_ci_low",
+          "new_sequence_cohen_dz",
+          "new_sequence_df",
+          "new_sequence_mean",
+          "new_sequence_p",
+          "new_sequence_sd",
+          "new_sequence_se",
+          "new_sequence_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftMiddleTemporal",
+          "phase": "early"
+        },
+        "csv_line": 64,
+        "statistic_block": "new_sequence_",
+        "columns": [
+          "new_sequence_ci_high",
+          "new_sequence_ci_low",
+          "new_sequence_cohen_dz",
+          "new_sequence_df",
+          "new_sequence_mean",
+          "new_sequence_p",
+          "new_sequence_sd",
+          "new_sequence_se",
+          "new_sequence_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightCerebellum",
+          "phase": "early"
+        },
+        "csv_line": 78,
+        "statistic_block": "new_sequence_",
+        "columns": [
+          "new_sequence_ci_high",
+          "new_sequence_ci_low",
+          "new_sequence_cohen_dz",
+          "new_sequence_df",
+          "new_sequence_mean",
+          "new_sequence_p",
+          "new_sequence_sd",
+          "new_sequence_se",
+          "new_sequence_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 81,
+        "statistic_block": "new_sequence_",
+        "columns": [
+          "new_sequence_ci_high",
+          "new_sequence_ci_low",
+          "new_sequence_cohen_dz",
+          "new_sequence_df",
+          "new_sequence_mean",
+          "new_sequence_p",
+          "new_sequence_sd",
+          "new_sequence_se",
+          "new_sequence_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightMiddleTemporal",
+          "phase": "early"
+        },
+        "csv_line": 88,
+        "statistic_block": "new_sequence_",
+        "columns": [
+          "new_sequence_ci_high",
+          "new_sequence_ci_low",
+          "new_sequence_cohen_dz",
+          "new_sequence_df",
+          "new_sequence_mean",
+          "new_sequence_p",
+          "new_sequence_sd",
+          "new_sequence_se",
+          "new_sequence_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N22",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 9,
+        "statistic_block": "continuing_",
+        "columns": [
+          "continuing_ci_high",
+          "continuing_ci_low",
+          "continuing_cohen_dz",
+          "continuing_df",
+          "continuing_mean",
+          "continuing_p",
+          "continuing_sd",
+          "continuing_se",
+          "continuing_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N22",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 33,
+        "statistic_block": "continuing_",
+        "columns": [
+          "continuing_ci_high",
+          "continuing_ci_low",
+          "continuing_cohen_dz",
+          "continuing_df",
+          "continuing_mean",
+          "continuing_p",
+          "continuing_sd",
+          "continuing_se",
+          "continuing_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftCerebellum",
+          "phase": "early"
+        },
+        "csv_line": 54,
+        "statistic_block": "continuing_",
+        "columns": [
+          "continuing_ci_high",
+          "continuing_ci_low",
+          "continuing_cohen_dz",
+          "continuing_df",
+          "continuing_mean",
+          "continuing_p",
+          "continuing_sd",
+          "continuing_se",
+          "continuing_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 57,
+        "statistic_block": "continuing_",
+        "columns": [
+          "continuing_ci_high",
+          "continuing_ci_low",
+          "continuing_cohen_dz",
+          "continuing_df",
+          "continuing_mean",
+          "continuing_p",
+          "continuing_sd",
+          "continuing_se",
+          "continuing_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftMiddleTemporal",
+          "phase": "early"
+        },
+        "csv_line": 64,
+        "statistic_block": "continuing_",
+        "columns": [
+          "continuing_ci_high",
+          "continuing_ci_low",
+          "continuing_cohen_dz",
+          "continuing_df",
+          "continuing_mean",
+          "continuing_p",
+          "continuing_sd",
+          "continuing_se",
+          "continuing_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightCerebellum",
+          "phase": "early"
+        },
+        "csv_line": 78,
+        "statistic_block": "continuing_",
+        "columns": [
+          "continuing_ci_high",
+          "continuing_ci_low",
+          "continuing_cohen_dz",
+          "continuing_df",
+          "continuing_mean",
+          "continuing_p",
+          "continuing_sd",
+          "continuing_se",
+          "continuing_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 81,
+        "statistic_block": "continuing_",
+        "columns": [
+          "continuing_ci_high",
+          "continuing_ci_low",
+          "continuing_cohen_dz",
+          "continuing_df",
+          "continuing_mean",
+          "continuing_p",
+          "continuing_sd",
+          "continuing_se",
+          "continuing_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightMiddleTemporal",
+          "phase": "early"
+        },
+        "csv_line": 88,
+        "statistic_block": "continuing_",
+        "columns": [
+          "continuing_ci_high",
+          "continuing_ci_low",
+          "continuing_cohen_dz",
+          "continuing_df",
+          "continuing_mean",
+          "continuing_p",
+          "continuing_sd",
+          "continuing_se",
+          "continuing_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N22",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 9,
+        "statistic_block": "paired_difference_",
+        "columns": [
+          "paired_difference_ci_high",
+          "paired_difference_ci_low",
+          "paired_difference_cohen_dz",
+          "paired_difference_df",
+          "paired_difference_mean",
+          "paired_difference_p",
+          "paired_difference_sd",
+          "paired_difference_se",
+          "paired_difference_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N22",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 33,
+        "statistic_block": "paired_difference_",
+        "columns": [
+          "paired_difference_ci_high",
+          "paired_difference_ci_low",
+          "paired_difference_cohen_dz",
+          "paired_difference_df",
+          "paired_difference_mean",
+          "paired_difference_p",
+          "paired_difference_sd",
+          "paired_difference_se",
+          "paired_difference_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftCerebellum",
+          "phase": "early"
+        },
+        "csv_line": 54,
+        "statistic_block": "paired_difference_",
+        "columns": [
+          "paired_difference_ci_high",
+          "paired_difference_ci_low",
+          "paired_difference_cohen_dz",
+          "paired_difference_df",
+          "paired_difference_mean",
+          "paired_difference_p",
+          "paired_difference_sd",
+          "paired_difference_se",
+          "paired_difference_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 57,
+        "statistic_block": "paired_difference_",
+        "columns": [
+          "paired_difference_ci_high",
+          "paired_difference_ci_low",
+          "paired_difference_cohen_dz",
+          "paired_difference_df",
+          "paired_difference_mean",
+          "paired_difference_p",
+          "paired_difference_sd",
+          "paired_difference_se",
+          "paired_difference_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftMiddleTemporal",
+          "phase": "early"
+        },
+        "csv_line": 64,
+        "statistic_block": "paired_difference_",
+        "columns": [
+          "paired_difference_ci_high",
+          "paired_difference_ci_low",
+          "paired_difference_cohen_dz",
+          "paired_difference_df",
+          "paired_difference_mean",
+          "paired_difference_p",
+          "paired_difference_sd",
+          "paired_difference_se",
+          "paired_difference_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightCerebellum",
+          "phase": "early"
+        },
+        "csv_line": 78,
+        "statistic_block": "paired_difference_",
+        "columns": [
+          "paired_difference_ci_high",
+          "paired_difference_ci_low",
+          "paired_difference_cohen_dz",
+          "paired_difference_df",
+          "paired_difference_mean",
+          "paired_difference_p",
+          "paired_difference_sd",
+          "paired_difference_se",
+          "paired_difference_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 81,
+        "statistic_block": "paired_difference_",
+        "columns": [
+          "paired_difference_ci_high",
+          "paired_difference_ci_low",
+          "paired_difference_cohen_dz",
+          "paired_difference_df",
+          "paired_difference_mean",
+          "paired_difference_p",
+          "paired_difference_sd",
+          "paired_difference_se",
+          "paired_difference_t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightMiddleTemporal",
+          "phase": "early"
+        },
+        "csv_line": 88,
+        "statistic_block": "paired_difference_",
+        "columns": [
+          "paired_difference_ci_high",
+          "paired_difference_ci_low",
+          "paired_difference_cohen_dz",
+          "paired_difference_df",
+          "paired_difference_mean",
+          "paired_difference_p",
+          "paired_difference_sd",
+          "paired_difference_se",
+          "paired_difference_t"
+        ]
+      }
+    ],
+    "reason": "Smaller nested and equivalent sample sets lose all statistics, including related components; N, slots and BH q remain."
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/early_new_sequence_results.csv",
+    "operation": "complementary suppression",
+    "source_sha256": "2e19d0429d5d739eb560b01b6fdf77c8ee89c1136d81a809cf7aa3dbb2c2b427",
+    "release_sha256": "69711833ca7b31d061af11ea64b0af07041d42b6ee6abc2f7617607e387f3f03",
+    "blocks": [
+      {
+        "row_key": {
+          "cohort": "N22",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 9,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N22",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 33,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftCerebellum",
+          "phase": "early"
+        },
+        "csv_line": 54,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 57,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftMiddleTemporal",
+          "phase": "early"
+        },
+        "csv_line": 64,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightCerebellum",
+          "phase": "early"
+        },
+        "csv_line": 78,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 81,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightMiddleTemporal",
+          "phase": "early"
+        },
+        "csv_line": 88,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      }
+    ],
+    "reason": "Smaller nested and equivalent sample sets lose all statistics, including related components; N, slots and BH q remain."
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/early_paired_difference_results.csv",
+    "operation": "complementary suppression",
+    "source_sha256": "a60c64052f2e84ecfb3d64e5eca9bcbbd17ecc47ee63d67fa8099e856d351ed6",
+    "release_sha256": "fbb52be7105064c41caaa709d74e07087a9a41de2478a0a202f3b965f9b681bf",
+    "blocks": [
+      {
+        "row_key": {
+          "cohort": "N22",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 9,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N22",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 33,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftCerebellum",
+          "phase": "early"
+        },
+        "csv_line": 54,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 57,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "LeftMiddleTemporal",
+          "phase": "early"
+        },
+        "csv_line": 64,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightCerebellum",
+          "phase": "early"
+        },
+        "csv_line": 78,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightFrontalPole",
+          "phase": "early"
+        },
+        "csv_line": 81,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      },
+      {
+        "row_key": {
+          "cohort": "N20",
+          "model": "reference",
+          "policy": "observed80",
+          "roi": "RightMiddleTemporal",
+          "phase": "early"
+        },
+        "csv_line": 88,
+        "statistic_block": "main",
+        "columns": [
+          "ci_high",
+          "ci_low",
+          "cohen_dz",
+          "df",
+          "mean",
+          "p",
+          "sd",
+          "se",
+          "t"
+        ]
+      }
+    ],
+    "reason": "Smaller nested and equivalent sample sets lose all statistics, including related components; N, slots and BH q remain."
   }
 ]

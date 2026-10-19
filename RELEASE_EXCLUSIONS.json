@@ -1975,5 +1975,58 @@
     "reason": "Restricted provenance or outputs outside the reviewed public file set.",
     "files": 38,
     "detail": "Excluded files counted by category; individual identifier paths are not named."
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/REPORT.md",
+    "reason": "Derived numerical report or reproduction table could restore suppressed statistics.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/new_sequence_reproduction.csv",
+    "reason": "Derived numerical report or reproduction table could restore suppressed statistics.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/paired_difference_reproduction.csv",
+    "reason": "Derived numerical report or reproduction table could restore suppressed statistics.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/participant_continuing_sequence_values.csv",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/participant_early_comparison_values.csv",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/participant_paired_difference_reproduction.csv",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/",
+    "reason": "Derived numerical report or reproduction table could restore suppressed statistics.",
+    "files": 3,
+    "detail": "Excluded files counted by category; individual identifier paths are not named."
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "files": 3,
+    "detail": "Excluded files counted by category; individual identifier paths are not named."
+  },
+  {
+    "path": "results/glm_volume/review_r2_benchmark_20261020/",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "files": 1,
+    "detail": "Excluded files counted by category; individual identifier paths are not named."
   }
 ]
