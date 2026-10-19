@@ -1,0 +1,89 @@
+{
+  "description": "Saved slice-timing sensitivity aggregates only; no fitting or new inference.",
+  "added_results": [
+    "results/glm_volume/review_r1_slicetime_20261019/direct_phase_discovery_counts.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/metadata/REPORT.md",
+    "results/glm_volume/review_r1_slicetime_20261019/metadata/validation.json",
+    "results/glm_volume/review_r1_slicetime_20261019/roi/component_balance_results.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/roi/direct_phase_results.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/roi/headline_and_accumbens_comparison.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/roi/headline_early_component_balance.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/roi/headline_tidy_all_specifications.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/roi/phase_component_results.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/roi/slicetime_aligned_vs_reference.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/roi/stage_results.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/roi/validation.json",
+    "results/glm_volume/review_r1_slicetime_20261019/stage_discovery_counts.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/validation.json",
+    "results/glm_volume/review_r1_slicetime_20261019/validation/REPORT.md",
+    "results/glm_volume/review_r1_slicetime_20261019/validation/validation.json",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/REPORT.md",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/components.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/validation.json",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/REPORT.md",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/components.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/validation.json",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/REPORT.md",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/components.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/validation.json",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/REPORT.md",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/components.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/validation.json",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/REPORT.md",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/components.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/validation.json",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/REPORT.md",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/components.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/validation.json",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/REPORT.md",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/components.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/validation.json",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/REPORT.md",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/components.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/validation.json",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/REPORT.md",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/components.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/validation.json",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/REPORT.md",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/components.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/validation.json",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/REPORT.md",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/aligned_vs_reference_counts.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/permutation_summary.csv",
+    "results/glm_volume/review_r1_slicetime_20261019/voxelwise/validation.json"
+  ],
+  "complementary_suppression": [
+    {
+      "path": "results/glm_volume/review_r1_slicetime_20261019/roi/component_balance_results.csv",
+      "blocks": 192
+    },
+    {
+      "path": "results/glm_volume/review_r1_slicetime_20261019/roi/direct_phase_results.csv",
+      "blocks": 48
+    },
+    {
+      "path": "results/glm_volume/review_r1_slicetime_20261019/roi/phase_component_results.csv",
+      "blocks": 192
+    },
+    {
+      "path": "results/glm_volume/review_r1_slicetime_20261019/roi/slicetime_aligned_vs_reference.csv",
+      "blocks": 64
+    },
+    {
+      "path": "results/glm_volume/review_r1_slicetime_20261019/roi/stage_results.csv",
+      "blocks": 64
+    }
+  ],
+  "disclosure": {
+    "statistic_cells_checked": 95024,
+    "nested_relations": 166,
+    "blocked_csv_blocks": 10407
+  },
+  "planned_BH_slots": {
+    "stage": 48,
+    "joint": 192,
+    "direct": 144,
+    "headline": 4
+  },
+  "excluded_files": 1421
+}

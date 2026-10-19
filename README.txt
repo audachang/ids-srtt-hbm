@@ -1,24 +1,30 @@
-IDS-SRTT HBM companion — v1.2.0 (2026-10-19)
+IDS-SRTT HBM companion — v1.2.1 (2026-10-20)
 
 Analysis source code and group summaries only.
 Public repository: https://github.com/audachang/ids-srtt-hbm
-GitHub release: https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.2.0
-Version 1.2.0 published on 2026-10-19.
-Version DOI: https://doi.org/10.5281/zenodo.23474855
-Frozen commit: fb6bbe2afb92765098268549c8c8aa6316036a72
+GitHub release: https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.2.1
+Version 1.2.1 prepared on 2026-10-20.
+The version DOI will be linked after archival completes.
+Version 1.2.0: doi:10.5281/zenodo.23474855.
 Version 1.1.0: doi:10.5281/zenodo.23471923.
 Version 1.0.0: doi:10.5281/zenodo.23438462.
 
-What's new in 1.2.0
+What's new in 1.2.1
 
-Sensitivity analyses requested in review address nuisance-model decomposition,
-spike-regressor censoring, immediate-repetition sensitivity, joint stage
-correction, condition-mean component balance, participant-level reaction-time
-intervals, design statistics and motion by condition. These are exploratory
-sensitivities and secondary analyses. Version 1.2.0 applies stricter suppression
-to group summaries of overlapping samples and coverage rules, including summaries
-inherited from v1.1.0. Version 1.2.0 supersedes v1.1.0 for citation. Earlier code
-remains unchanged; affected statistics and derived ROI displays are withheld.
+This version adds the slice-timing-aligned sensitivity: group-level ROI estimates,
+condition components, direct phase comparisons and matched voxelwise summary counts,
+with the source code that produced them. Alignment uses each run's recorded timing.
+The unaligned uncensored reference analysis remains primary. The aligned analyses
+are exploratory sensitivities; differences in estimates or thresholded counts do
+not test model differences. Brodmann area 6 parcels retain the storage names
+LeftSMA and RightSMA; they are not masks specific to the supplementary motor area.
+
+Complementary suppression applies jointly to the added and inherited group summaries,
+including duplicates and related components. Numerical ROI reports that could restore
+suppressed values are withheld. This version supersedes version 1.2.0 for citation.
+Earlier published versions remain available and unaltered; this release cannot
+remove disclosures already present in earlier archives.
+
 The 22-participant uncensored reference analysis
 with at least 80% observed regional support remains primary. The overlapping
 learner-selected 20-participant subsample appears only in the supplement.
@@ -26,8 +32,8 @@ Intervals are pointwise. Analysis choices followed earlier observations;
 see the article Methods for the disclosed model-selection history.
 
 Verify the supplied summaries (NumPy, pandas and SciPy required):
-  python -B code/reporting/verify_public_summaries_r1.py .
-  python -B code/reporting/verify_public_summaries_r1.py --legacy .
+  python -B code/reporting/verify_public_summaries_r1_1.py .
+  python -B code/reporting/verify_public_summaries_r1_1.py --legacy .
 The first command checks new aggregate arithmetic, t intervals, back-transforms,
 48/192/144/4-slot imaging and 24-slot behavioral BH families, suppressed cells,
 file inventory and coverage totals. It does not fit models or generate new
@@ -44,10 +50,10 @@ against this release. Its family specification assigns incomplete BH families
 to the new verifier's bounds check. Neither command verifies the manuscript or model fits.
 
 FILE_DICTIONARY.csv describes every file. COLUMN_DICTIONARY.json explains
-statistical units; AGGREGATE_CHECK_SPEC_R1.json specifies the added checks.
-RELEASE_COVERAGE.csv accounts for 211,354 article
-values from 102 sources, of which
-195,480 values can be checked against public files.
+statistical units; AGGREGATE_CHECK_SPEC_R1.json and AGGREGATE_CHECK_SPEC_R1_1.json specify the added checks.
+RELEASE_COVERAGE.csv accounts for 293,289 article
+values from 115 sources, of which
+274,451 values can be checked against public files.
 COVERAGE_STATUS.json records completeness and the source inventory checksum.
 Restricted source filenames use opaque references in the coverage table;
 their recorded values remain withheld and their source checksums are retained.

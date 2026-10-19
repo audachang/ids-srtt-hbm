@@ -1,0 +1,17 @@
+cohort,model,stage,stage_BH48,joint_BH192
+N20,reference,early,7,7
+N20,reference,initial,27,25
+N20,reference,late,0,1
+N20,reference,middle,0,3
+N20,slicetime_aligned,early,6,7
+N20,slicetime_aligned,initial,28,26
+N20,slicetime_aligned,late,0,1
+N20,slicetime_aligned,middle,0,2
+N22,reference,early,4,4
+N22,reference,initial,28,24
+N22,reference,late,0,1
+N22,reference,middle,0,2
+N22,slicetime_aligned,early,5,5
+N22,slicetime_aligned,initial,29,24
+N22,slicetime_aligned,late,0,0
+N22,slicetime_aligned,middle,0,1

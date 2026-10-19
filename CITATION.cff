@@ -10,12 +10,10 @@ authors:
     orcid: "https://orcid.org/0000-0002-1813-9663"
   - family-names: Wu
     given-names: Denise Hsien
-version: 1.2.0
-date-released: 2026-10-19
-url: "https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.2.0"
+version: 1.2.1
+date-released: 2026-10-20
+url: "https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.2.1"
 repository-code: "https://github.com/audachang/ids-srtt-hbm"
 license:
   - MIT
   - CC-BY-4.0
-doi: "10.5281/zenodo.23474855"
-commit: "fb6bbe2afb92765098268549c8c8aa6316036a72"

@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 0.06566100800409913,
+  "passed": true,
+  "n_runs": 176,
+  "min_StartTime": 0.95,
+  "max_StartTime": 0.951,
+  "result_directory_absent_before_start": true,
+  "output_sha256": {
+    "input_manifest.json": "6db492e549200d4e40ce498cb8e4bd34b1ba7c14857afa29aaf8284ae1118993",
+    "REPORT.md": "692adc52c625bb84c771be71a559a1018121e74075f66c994ee4382d6d7991c5"
+  }
+}

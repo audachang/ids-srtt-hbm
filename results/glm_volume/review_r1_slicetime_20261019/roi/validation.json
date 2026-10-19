@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 1.2379435640759766,
+  "passed": true,
+  "n_models": 2,
+  "n_stage_slots": 768,
+  "n_direct_slots": 576,
+  "n_component_slots": 2304,
+  "all_stage_families_48": true,
+  "all_joint_families_192": true,
+  "all_direct_families_144": true,
+  "reference_saved_results_reproduced": true,
+  "paired_component_identity_checked": true,
+  "output_sha256": {
+    "input_manifest.json": "01ad7fd9572d8167573cf5acbf4afed0d278f870a0cb0e1305bb14a2d7a0027f",
+    "stage_results.csv": "90254c454469feb2f8b77912a3026aec734da89ef48f3b03053d45a67fa047b6",
+    "component_balance_results.csv": "02f215439f061187734ff94f11456b7e4094a5aa33787fe90327c104bfcbacbe",
+    "headline_and_accumbens_comparison.csv": "3700c4d381d480186536c896af70d751d236febb6bb738340c255a27f4fcdb9f",
+    "slicetime_aligned_vs_reference.csv": "df858ce6c33b5cf1c9f9dc9a2e617c03bf344d2af57878ca33e0f482215e57be",
+    "phase_component_results.csv": "b1eda76cc12ee46c2bab80ecd66434a8ddebda868a4989713d21980ad1361a6b",
+    "headline_tidy_all_specifications.csv": "9509ea60dfba78a9121b11a8d2476186e83cd6d291e79a1470e408924bc7cb06",
+    "REPORT.md": "c66be30f867ba08ad7e4bea865193ba6e8792fae1735f672f65099122eb66302",
+    "headline_early_component_balance.csv": "4516499fa9767d6c2226e183e2d7c97c9b373d5359297d367ca13b0fb5bbcfb9",
+    "direct_phase_results.csv": "d601febdb91d872bdd8ce7d728adf750846751e7621aae8bfca2df153afb8f4b"
+  }
+}

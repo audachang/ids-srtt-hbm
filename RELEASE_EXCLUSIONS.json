@@ -1150,5 +1150,830 @@
     "path": "tables/observed_significant_rois.tex",
     "reason": "Derived ROI display or report could expose statistics suppressed in the CSVs; withheld in this version.",
     "historical": true
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/REPORT.md",
+    "reason": "Derived numerical ROI report could restore suppressed statistics.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/controls/REPORT.md",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/controls/input_manifest.json",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/controls/reproduction_checks.csv",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/controls/validation.json",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/files_created.csv",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/first_level/REPORT.md",
+    "reason": "Individual first-level/run outputs, participant maps and input provenance.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/first_level/condition_values.csv",
+    "reason": "Individual first-level/run outputs, participant maps and input provenance.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/first_level/design_qc.csv",
+    "reason": "Individual first-level/run outputs, participant maps and input provenance.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/first_level/input_manifest.json",
+    "reason": "Individual first-level/run outputs, participant maps and input provenance.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/first_level/validation.json",
+    "reason": "Individual first-level/run outputs, participant maps and input provenance.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/metadata/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/metadata/participant_run_slice_timing.csv",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/roi/REPORT.md",
+    "reason": "Derived numerical ROI report could restore suppressed statistics.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/roi/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/roi/participant_component_changes.csv",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/roi/participant_phase_components.csv",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/roi/participant_run_condition_values.csv",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/roi/participant_stage_values.csv",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/validation/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/validation/participant_roi_coverage.csv",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/validation/preservation_check.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/validation/verified_first_level_input_hashes.csv",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/design_matrix.csv",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/early/timing.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/design_matrix.csv",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/initial/timing.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/design_matrix.csv",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/late/timing.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/design_matrix.csv",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/middle/timing.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/design_matrix.csv",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N20/slicetime_aligned/pooled_r36_Str2_minus_Str1/timing.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/design_matrix.csv",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/early/timing.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/design_matrix.csv",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/initial/timing.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/design_matrix.csv",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/late/timing.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/design_matrix.csv",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/middle/timing.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/design_matrix.csv",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/logp_max_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/logp_max_tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/mean_effect.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/pointwise_ci_high.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/pointwise_ci_low.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/raw_permutation_arrays.npz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/signed_tfce_corrected_t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/standard_error.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/t.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/tfce.nii.gz",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/N22/slicetime_aligned/pooled_r36_Str2_minus_Str1/timing.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise/input_manifest.json",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise_inputs/REPORT.md",
+    "reason": "Individual first-level/run outputs, participant maps and input provenance.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise_inputs/input_manifest.json",
+    "reason": "Individual first-level/run outputs, participant maps and input provenance.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise_inputs/subject_map_manifest.csv",
+    "reason": "Individual first-level/run outputs, participant maps and input provenance.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/voxelwise_inputs/validation.json",
+    "reason": "Individual first-level/run outputs, participant maps and input provenance.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/",
+    "reason": "Derived numerical ROI report could restore suppressed statistics.",
+    "files": 2,
+    "detail": "Excluded files counted by category; individual identifier paths are not named."
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/",
+    "reason": "Individual first-level/run outputs, participant maps and input provenance.",
+    "files": 1271,
+    "detail": "Excluded files counted by category; individual identifier paths are not named."
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/",
+    "reason": "MRI images, participant arrays or raw permutation nulls.",
+    "files": 100,
+    "detail": "Excluded files counted by category; individual identifier paths are not named."
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/",
+    "reason": "Participant/run-level values, metadata or individual control results.",
+    "files": 10,
+    "detail": "Excluded files counted by category; individual identifier paths are not named."
+  },
+  {
+    "path": "results/glm_volume/review_r1_slicetime_20261019/",
+    "reason": "Restricted provenance or outputs outside the reviewed public file set.",
+    "files": 38,
+    "detail": "Excluded files counted by category; individual identifier paths are not named."
   }
 ]

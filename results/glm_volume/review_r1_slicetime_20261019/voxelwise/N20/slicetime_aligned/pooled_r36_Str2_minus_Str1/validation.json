@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 26.03514330694452,
+  "passed": true,
+  "summary": {
+    "cohort": "N20",
+    "model": "slicetime_aligned",
+    "contrast": "pooled_r36_Str2_minus_Str1",
+    "n_subjects": 20,
+    "alpha": 0.05,
+    "n_perm": 10000,
+    "seed": 20261018,
+    "positive_voxels": 66,
+    "negative_voxels": 0,
+    "n_mask_voxels": 58550,
+    "permutation_seconds": 25.655637793941423
+  },
+  "null_FWE_exact": true,
+  "native_observed_TFCE_checked": true,
+  "independent_t_max_abs_difference": 1.079797597114407e-06,
+  "all_images_unscaled_float32": true,
+  "output_sha256": {
+    "input_manifest.json": "223172f8518f2739d2747f14e3f6f15bcee4b1ee1d142a24d99b64833cf283cd",
+    "t.nii.gz": "0b5a004599322557266dfb1dbf71e327c82ff20e69a10ced7597b95193f629c0",
+    "signed_tfce_corrected_t.nii.gz": "a8aa900be4db4dfda5b8969d9a61c3a6a3d5612ee7b4ac74b5d84978e791658a",
+    "standard_error.nii.gz": "27747c666f8d3cb3ab92b97874bc3b357cb6c9a2fe1624837a5702872ec438a9",
+    "pointwise_ci_high.nii.gz": "d03386947d13c127797c919b6435d9e2199a21109e32f0a44ac66375addbc7c2",
+    "tfce.nii.gz": "707f9db8c9b31d926b04960036b2327f2fd274be7f72dd7aa8a489c1f2a29ab5",
+    "raw_permutation_arrays.npz": "d0ecd3ddde99b1c49acef441a233d3b1e7bff82cf2c0b37d2402a58835b295d0",
+    "logp_max_t.nii.gz": "0fe2261632a9aa88bb81a7d3e40cfab1574ca2a95384dbf2560cf469ed207bca",
+    "components.csv": "3fd64a13ebff601095719fafb31d521a36e6b31732ad1ef9a44ff5a7fc9d8ad7",
+    "design_matrix.csv": "8365242232150fe378ed125ac1ba3d668c36315091cc1b0010c2b94a0b96a46e",
+    "logp_max_tfce.nii.gz": "c700be7d2387cd7ed7be3dbe19e34a64ce4eb83d3498d127e2e63f0d44d67354",
+    "REPORT.md": "2c7524982ad76ed17292f954fdd49289cf6fc378927d6ef9febbb2973151456f",
+    "pointwise_ci_low.nii.gz": "08f940d045f78856361f59de558221edaccda4a7c7720f3ea6609537e7a98ec8",
+    "timing.json": "2ab1989dad50368375e6af71efdecc13349185d38c3710f989d3191be382256e",
+    "mean_effect.nii.gz": "51985352666f78790a833a832abfeab40e6d462b2c6d155320d589da0e627e04"
+  }
+}

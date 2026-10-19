@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 26.698862488847226,
+  "passed": true,
+  "summary": {
+    "cohort": "N20",
+    "model": "slicetime_aligned",
+    "contrast": "initial",
+    "n_subjects": 20,
+    "alpha": 0.0125,
+    "n_perm": 10000,
+    "seed": 20261018,
+    "positive_voxels": 0,
+    "negative_voxels": 8471,
+    "n_mask_voxels": 58550,
+    "permutation_seconds": 26.299319935962558
+  },
+  "null_FWE_exact": true,
+  "native_observed_TFCE_checked": true,
+  "independent_t_max_abs_difference": 3.659268177358399e-06,
+  "all_images_unscaled_float32": true,
+  "output_sha256": {
+    "input_manifest.json": "916af0d73df9f8beaa8aa566750d2370fa7c0d646cc961ad9ed85dd458cd6504",
+    "t.nii.gz": "171633ef15ef539c17a517dbc29cb8c3e47cfb3caf522f028502e19e7ba9f70c",
+    "signed_tfce_corrected_t.nii.gz": "e6c71f4155bf9e517129827fc937c98d744ab874c9c85ac00ada70cf8445fba6",
+    "standard_error.nii.gz": "2ac5ea2cc38e92622d83f6610b50ed4e3df0b2a42b12ef7f666a71b1080934f4",
+    "pointwise_ci_high.nii.gz": "d88f6d13dfc37c7ff6c1f681d48833c14a4f9032e7831d10c8e0c2471613a07e",
+    "tfce.nii.gz": "1128dfb51db86c1c1f21e6961cd89db499698cd19318becf3ca24e4479f9407e",
+    "raw_permutation_arrays.npz": "1388118915f2642cf1c62c6d423c10564216ecc423ab246a4117f2f5b04b3ce4",
+    "logp_max_t.nii.gz": "5595b964bde7b546aead5cc4fefef39a5204eead2ed53e3788c6d4c50176f1f4",
+    "components.csv": "3dab9995ea1a6b084962cfadb4596c586dcf969e3f6198a5ad827eecf485ce0a",
+    "design_matrix.csv": "8365242232150fe378ed125ac1ba3d668c36315091cc1b0010c2b94a0b96a46e",
+    "logp_max_tfce.nii.gz": "7a3ce835f4ef10926e08e8ae9222bc335464e7e70c13fa0df55fb2f499a66441",
+    "REPORT.md": "a6ab4c71ad8b3a85fa415613e1949cf779c89002e77daddbe73295134c926f9c",
+    "pointwise_ci_low.nii.gz": "34158173f0b1f82aaf371d2f39c44c07cbf065d5657eea0e6f9891e1869f8d0f",
+    "timing.json": "f62f5240704282919579d4caa05623df355c2074934f88ae8ce01bd082501dcd",
+    "mean_effect.nii.gz": "769bb18dc86b945ed50830212bc33a96511f9ae5696333e635f6359edb16511a"
+  }
+}

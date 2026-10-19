@@ -25,3 +25,5 @@ participant-level data release. The statistical limitations in README.txt apply.
 Version 1.1.0: original software under code/ is licensed under MIT. Group summaries, figures, source descriptions, verification specifications, dictionaries and documentation are licensed under CC BY 4.0. Attribution should identify the authors and version 1.1.0 release at https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.1.0.
 
 Version 1.2.0: original software under code/ is MIT; group summaries, figures, documentation and descriptive metadata are CC BY 4.0. Attribute the authors and version at https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.2.0.
+
+Version 1.2.1: original software under code/ is MIT; group summaries, figures, documentation and descriptive metadata are CC BY 4.0. Attribute the authors and version at https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.2.1.

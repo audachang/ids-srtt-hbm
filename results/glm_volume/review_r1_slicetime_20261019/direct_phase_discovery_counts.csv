@@ -1,0 +1,13 @@
+cohort,model,pair,direct_BH144
+N20,reference,early_minus_late,0
+N20,reference,early_minus_middle,0
+N20,reference,middle_minus_late,0
+N20,slicetime_aligned,early_minus_late,0
+N20,slicetime_aligned,early_minus_middle,0
+N20,slicetime_aligned,middle_minus_late,0
+N22,reference,early_minus_late,0
+N22,reference,early_minus_middle,0
+N22,reference,middle_minus_late,0
+N22,slicetime_aligned,early_minus_late,0
+N22,slicetime_aligned,early_minus_middle,0
+N22,slicetime_aligned,middle_minus_late,0

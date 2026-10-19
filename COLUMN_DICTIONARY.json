@@ -30,5 +30,8 @@
   "q_headline_early_4": "BH across the four displayed early regions per cohort/model/policy/component.",
   "condition_mean": "(structured change + random change)/2, phase-mean coefficient units.",
   "bootstrap_log_ci_low": "Saved whole-participant percentile interval lower limit; natural log RT contrast.",
-  "n_participants": "Participant count contributing to a group design summary; singleton duration cells are blank."
+  "n_participants": "Participant count contributing to a group design summary; singleton duration cells are blank.",
+  "n_aligned": "Number of eligible participants in the slice-timing-aligned sensitivity.",
+  "mean_aligned": "Saved group mean for the slice-timing-aligned sensitivity; blank when suppressed.",
+  "mean_shift": "Descriptive aligned-minus-reference mean difference; blank if either side is suppressed."
 }

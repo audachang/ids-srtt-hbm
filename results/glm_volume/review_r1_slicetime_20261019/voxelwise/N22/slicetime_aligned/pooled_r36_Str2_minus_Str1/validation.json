@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "elapsed_seconds": 28.900218592956662,
+  "passed": true,
+  "summary": {
+    "cohort": "N22",
+    "model": "slicetime_aligned",
+    "contrast": "pooled_r36_Str2_minus_Str1",
+    "n_subjects": 22,
+    "alpha": 0.05,
+    "n_perm": 10000,
+    "seed": 20261018,
+    "positive_voxels": 194,
+    "negative_voxels": 0,
+    "n_mask_voxels": 58550,
+    "permutation_seconds": 28.51603906811215
+  },
+  "null_FWE_exact": true,
+  "native_observed_TFCE_checked": true,
+  "independent_t_max_abs_difference": 1.6466757886135497e-06,
+  "all_images_unscaled_float32": true,
+  "output_sha256": {
+    "input_manifest.json": "33fffdaf52fcfe858f79e6e5db9d2686c7af4b24ee769d059007c3496c8432d5",
+    "t.nii.gz": "c98e77720a02425c6773e5ace7cdb5e3be6bf83b8104e280721b255ec9af8795",
+    "signed_tfce_corrected_t.nii.gz": "0e23f2c3975eaab1882949bac70f4ff8bda5f7fdd99b801cbcf803e94e97531a",
+    "standard_error.nii.gz": "5c395df48cbb9e56d611769d92122292a05a6383782151919de94cbdd30b9d3c",
+    "pointwise_ci_high.nii.gz": "4f26b0b5a4d61ec3175654b12422be1a55709292b5d6ba027257e7bb9790190b",
+    "tfce.nii.gz": "c77e2ccf7886413253cdd43bd8b52daa2e518b53194da1dea821cacbebc5381b",
+    "raw_permutation_arrays.npz": "6e4e97bac9434761c0eb73577b4e2fdda066899755c154ad49fbc9366f931ed6",
+    "logp_max_t.nii.gz": "5ef60603d5722b92cebb666f5e0e8c93c5b1626590390ae5f5faff4f32f8a96d",
+    "components.csv": "4b7a213d0e9a38e8d400516c8570dff868f9ad70d22daf9db110ad5d7c6115b9",
+    "design_matrix.csv": "66655a587d56c1e81468a65ce30d824dc6bcafd5b48c98ee48284883dc63c369",
+    "logp_max_tfce.nii.gz": "1a78f741b9c9d1318de4a9e66bb3cf5e1abf5da717e1e06ba767322f864265e7",
+    "REPORT.md": "7aa7bfb28f9361d7661020dbca10f6d5d66720c7da0bbae5fe881fdc92e35f47",
+    "pointwise_ci_low.nii.gz": "40dae631034dcbcd3c7498bfd495590b988732274b5770f587853f3378729ccb",
+    "timing.json": "4f6723badd1dc0ebafc70679c8ad61fbc494ee341a18090ddf9a83cac2bb243f",
+    "mean_effect.nii.gz": "58e3847a57430bcd8eb8b5994705fe609fc6bce67425a88b654d0564d515b602"
+  }
+}
