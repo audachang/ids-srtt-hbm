@@ -3,8 +3,9 @@ IDS-SRTT HBM companion — v1.2.0 (2026-10-19)
 Analysis source code and group summaries only.
 Public repository: https://github.com/audachang/ids-srtt-hbm
 GitHub release: https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.2.0
-Version 1.2.0 prepared on 2026-10-19.
-The version DOI will be linked after archival completes.
+Version 1.2.0 published on 2026-10-19.
+Version DOI: https://doi.org/10.5281/zenodo.23474855
+Frozen commit: fb6bbe2afb92765098268549c8c8aa6316036a72
 Version 1.1.0: doi:10.5281/zenodo.23471923.
 Version 1.0.0: doi:10.5281/zenodo.23438462.
 

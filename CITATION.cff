@@ -17,3 +17,5 @@ repository-code: "https://github.com/audachang/ids-srtt-hbm"
 license:
   - MIT
   - CC-BY-4.0
+doi: "10.5281/zenodo.23474855"
+commit: "fb6bbe2afb92765098268549c8c8aa6316036a72"
