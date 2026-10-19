@@ -3,8 +3,9 @@ IDS-SRTT HBM companion — v1.1.0 (2026-10-19)
 Scope: analysis source code and group summaries only.
 Public repository: https://github.com/audachang/ids-srtt-hbm
 GitHub release: https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.1.0
-Archival version: v1.1.0. Its Zenodo version DOI will be linked from the GitHub
-release page after automatic archival completes.
+Archived version: v1.1.0.
+Version DOI: https://doi.org/10.5281/zenodo.23471923
+Frozen commit: c05796046172e26daa25b5ca35f7ee1b5cd9527d
 Version 1.0.0 remains available at doi:10.5281/zenodo.23438462.
 Licenses: original software under code/ is MIT; group summaries, figures,
 documentation and environment records are CC BY 4.0. See LICENSE.txt and LICENSES/.
