@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "passed": true,
+  "n_rows": 96,
+  "output_sha256": {
+    "matched_contrasts.csv": "fd07ee63c14272f623c35e0c7c8139e29f92972c6b26503ef0a17671a89c081d"
+  }
+}

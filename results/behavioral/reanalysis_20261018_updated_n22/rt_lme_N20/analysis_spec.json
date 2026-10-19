@@ -1,0 +1,14 @@
+{
+  "role": "Updated N20/N22 trial-level LME using recovered block-wise custom cleaning",
+  "outcome": "Natural log of correct cleaned RT in milliseconds",
+  "fixed": "Twenty observed run-condition cells; absent Str2 in runs 1-2 and Str1 in runs 7-8 are not fabricated",
+  "random": "Independent subject intercept and Str1/Str2 slopes; nested subject-run and subject-run-block intercepts",
+  "residual": "AR(1) within original block trial indices; condition-specific residual SD",
+  "estimation": "REML; pointwise t intervals and contrast tests use min(nlme denominator DF, number of independent participants minus one); native package DF also exported. This is an exploratory approximation, not an exact finite-sample calibration.",
+  "inference": "BH over all 24 fixed planned RT contrasts, not over the descriptive cell means",
+  "contrasts": ["12 within-run sequence-minus-random", "Str1 run2-minus-run1", "Str2 run8-minus-run3", "4 Str2-minus-Str1 comparisons in runs3-6", "3 adjusted change phases", "3 direct change-phase pairs"],
+  "multiplicity": "All 24 contrast slots retained; primary 0<RT<1-second cleaning and min100ms sensitivity corrected separately",
+  "cleaning": "Uses source-replayed custom block-wise cleaner, minRT=0; additional min100ms sensitivity",
+  "backtransformation": "Fixed-effect geometric RT at random effects zero; not an arithmetic mean or marginal mean integrating random effects",
+  "fallback": "If AR1/heteroscedastic fit fails, report failure and evaluate a separately labeled homoscedastic independent-residual LME; no silent replacement"
+}

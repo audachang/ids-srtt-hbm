@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "passed": true,
+  "n_cohort_runs": 176,
+  "n_runs_with_logs": 136,
+  "n_valid_responses_checked": 43333,
+  "n_response_matches_within_50ms": 43294,
+  "n_duplicate_nearest_event_assignments": 0,
+  "n_anticipatory_checked": 1203,
+  "n_anticipatory_unique_matches": 1169,
+  "all_trial_assignment_verified": false,
+  "cue_duration_verified": false,
+  "output_sha256": {
+    "run_log_coverage.csv": "316e48ac19bed5d127ace919d7885cc236e050f7fb992035f62ac442d872b29c",
+    "summary.json": "15ce97d72940ab23c57c6dc40ad797f7351fbf3b98688ff8eba6089b81df6226",
+    "responses_requiring_review.csv": "90bdaa1c2f918dd099fbf8d0ee7f4f360c68158bf8de0ae2a38e5202f8622952",
+    "response_event_checks.csv": "40e1d5cd3441c32e2d20b60fdeb7b3dd0d0fa8a77825d02054617ea804b43c9d"
+  }
+}

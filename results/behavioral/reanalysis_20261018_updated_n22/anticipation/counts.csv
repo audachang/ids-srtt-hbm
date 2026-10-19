@@ -1,0 +1,3 @@
+cohort,n_trials,n_anticipatory,n_correct_anticipatory,anticipatory_accuracy
+N20,51200,1895,1837,0.969393139842
+N22,56320,1900,1837,0.966842105263

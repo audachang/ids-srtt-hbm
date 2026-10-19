@@ -1,0 +1,98 @@
+{
+  "status": "complete",
+  "passed": true,
+  "n_subjects": 20,
+  "n_contrasts_per_policy": 24,
+  "statuses": {
+    "primary": {
+      "status": "completed",
+      "policy": "primary",
+      "n_trials": 49069,
+      "n_subjects": 20,
+      "n_observed_cells": 20,
+      "design_rank": 20,
+      "warnings": [],
+      "AR1": 0.2816,
+      "mean_normalized_residual_lag1": -0.0487,
+      "residual_sigma": 0.1625,
+      "condition_SD_ratios": {
+        "Str1": 2.4962,
+        "Str2": 2.835
+      },
+      "log_likelihood": -15846.303,
+      "variance_components": [
+        "              Variance                      StdDev    ",
+        "subject =     pdDiag(1 + is_str1 + is_str2)           ",
+        "(Intercept)   0.006071074                   0.07791710",
+        "is_str1       0.064717240                   0.25439583",
+        "is_str2       0.070593787                   0.26569491",
+        "subject_run = pdDiag(1)                               ",
+        "(Intercept)   0.009852665                   0.09926059",
+        "block_id =    pdDiag(1)                               ",
+        "(Intercept)   0.015578240                   0.12481282",
+        "Residual      0.026396667                   0.16247051"
+      ],
+      "n_contrasts": 24,
+      "n_fdr_significant": 16
+    },
+    "min100": {
+      "status": "completed",
+      "policy": "min100",
+      "n_trials": 47236,
+      "n_subjects": 20,
+      "n_observed_cells": 20,
+      "design_rank": 20,
+      "warnings": [],
+      "AR1": 0.2929,
+      "mean_normalized_residual_lag1": -0.0466,
+      "residual_sigma": 0.1633,
+      "condition_SD_ratios": {
+        "Str1": 1.4822,
+        "Str2": 1.5346
+      },
+      "log_likelihood": 4924.0038,
+      "variance_components": [
+        "              Variance                      StdDev    ",
+        "subject =     pdDiag(1 + is_str1 + is_str2)           ",
+        "(Intercept)   0.007174561                   0.08470278",
+        "is_str1       0.017375986                   0.13181800",
+        "is_str2       0.019328934                   0.13902854",
+        "subject_run = pdDiag(1)                               ",
+        "(Intercept)   0.004818044                   0.06941213",
+        "block_id =    pdDiag(1)                               ",
+        "(Intercept)   0.007705758                   0.08778245",
+        "Residual      0.026650765                   0.16325062"
+      ],
+      "n_contrasts": 24,
+      "n_fdr_significant": 18
+    }
+  },
+  "contrast_algebra_and_BH_checked": true,
+  "output_sha256": {
+    "primary_fixed_coefficients.csv": "2671ec36c20d9eb0f5e87e27df3612b7bfe363a89961e50154f889a7ec53239c",
+    "min100_fixed_coefficients.csv": "0331ffe6b3d23c4c04ca482c8b11c605dba848a1a1c29d8bad6091218dd98d90",
+    "primary_contrast_weights.csv": "6e4ea6c2f18e202e358fc5e54096628af16af3ba035d3f94d77018f4ed15f4be",
+    "primary_status.json": "2b315d1cc5a25cf8f689cbe1aec88b1d50c0eff7fdad1f9dee9de2f02427d62a",
+    "min100_contrast_weights.csv": "6e4ea6c2f18e202e358fc5e54096628af16af3ba035d3f94d77018f4ed15f4be",
+    "primary_cell_estimates.csv": "4978b9dfbb3ef962eedcce7fb94c18aa56b7656f38cc28eb7c687eaa94797032",
+    "min100_residual_lag1.csv": "54a5895765e19b048da47fd44322effe83be1a58affa7e673c1cb79db571d853",
+    "min100_contrasts.csv": "e7c2d5d8d66aeb27b3fdaeea9985b79f201f235c34775ef9d9ccb71d233d6dab",
+    "primary_contrasts.csv": "d00a97772474eb5ce096d2c6e1538a6b49e112a833a4dbe1fc6e1940aac0c331",
+    "primary_model.rds": "1c88d94a55d90358817c25f82fbd59edd2b01d2841f0a032e7ec258524c976ed",
+    "R_session_info.txt": "4b81f5b11004a8f61eb3f152923b74e81c36bc039e568eb45022d0726e47a7e5",
+    "primary_diagnostics.pdf": "600f3c0380390c599b371c6962b559b1075a2192de4f184b74615902824f3460",
+    "min100_run_condition_wald.csv": "495f22dd3ea9f369bf548223a1c2af0fdee9cb20ef0ce24aa982ce9e2d3964ef",
+    "primary_residual_lag1.csv": "f324f428aab7093cfd54401137cc463b3b54b15fd889546c1ecae12167eb30af",
+    "primary_fixed_covariance.csv": "7176052bc79fc53ba7a0b0feb3a5b1e526d2416d9a446f6fd74580427e3ff099",
+    "min100_fixed_covariance.csv": "ffd7859818de0a631982d2651ca8768f5c9176c7cbf64cca9636461b5164f7dc",
+    "primary_run_condition_wald.csv": "8f0027c36cff0eb2e9457e7e11dbe9abe5abf76806665848f785464e567cf098",
+    "min100_summary.txt": "66363adf074707702b017db16cfaec136f2ab203eecfb8ef2129a7300219b3a3",
+    "primary_summary.txt": "b43a9e1002e74c7574feb97bb737e558542a8a391240c0229211d356f207ef67",
+    "min100_cell_estimates.csv": "22a7d8c1f8e7dc68d10939b5603a7105605b5929af809b1d4c17071b5b8a561d",
+    "min100_model.rds": "93c555b2293133316e8637a336e4d9a9315cac54f2a33551893c1437fd0e4dac",
+    "analysis_spec.json": "f61e2c96f4f3a71f95d445d7e96fd4686c648e7d96339e11968951b9a9fcb4e8",
+    "cell_metadata.csv": "b56191866172bc6712a1bb48ee71194ff0aa8e128a032aca9ef0f394a1af9dff",
+    "min100_diagnostics.pdf": "6a2371fb87d0d53eccc34b13c8eb2d0552b24f33cb9d3e1a56c98877bf39f84a",
+    "min100_status.json": "002c329e52f0b7b4bbab0238931609a87fe004284f75c0a293a2800087205515"
+  }
+}

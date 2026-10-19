@@ -1,0 +1,28 @@
+{
+  "n22": {
+    "n": 22,
+    "age_mean": 21.545454545454547,
+    "age_sd_sample_ddof1": 2.539727633077305,
+    "age_min": 18,
+    "age_max": 27,
+    "sex_counts": {
+      "F": 12,
+      "M": 10
+    }
+  },
+  "n20": {
+    "n": 20,
+    "age_mean": 21.6,
+    "age_sd_sample_ddof1": 2.643761275949575,
+    "age_min": 18,
+    "age_max": 27,
+    "sex_counts": {
+      "F": 12,
+      "M": 8
+    }
+  },
+  "n_dicom_samples": 44,
+  "all_samples_match_tsv": true,
+  "status": "PASS",
+  "purpose": "T9 Participants: N=22 primary and N=20 sensitivity demographics"
+}

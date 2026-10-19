@@ -1,62 +1,67 @@
-IDS-SRTT HBM companion — v1.0.0 (2026-10-17)
+IDS-SRTT HBM companion — v1.1.0 (2026-10-19)
 
 Scope: analysis source code and group summaries only.
 Public repository: https://github.com/audachang/ids-srtt-hbm
-Archived version: v1.0.0 (GitHub tag, commit e547a7c).
-Version DOI: https://doi.org/10.5281/zenodo.23438462
-Zenodo record: https://zenodo.org/records/23438462
-Cite this version DOI when reproducing the manuscript results.
-Licenses: original software under code/ is MIT; group summaries, derived tables,
+GitHub release: https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.1.0
+Archival version: v1.1.0. Its Zenodo version DOI will be linked from the GitHub
+release page after automatic archival completes.
+Version 1.0.0 remains available at doi:10.5281/zenodo.23438462.
+Licenses: original software under code/ is MIT; group summaries, figures,
 documentation and environment records are CC BY 4.0. See LICENSE.txt and LICENSES/.
 
-Quick start (from this folder; Python standard library only):
-  python code/reporting/coverage_significant_table.py results/glm_volume/reporting_20261012/reported_roi_results.csv reproduced/observed_significant_rois.tex
-This produces the 49 selected estimates grouped into 31 ROI entries, counts 29/15/5/0.
-It does not require a LaTeX installation to generate the table source and CSV.
+Version 1.1.0 adds imaging and behavioral summaries for 22 participants,
+group figures, source descriptions and verification instructions. The earlier
+20-participant products from version 1.0.0 are retained unchanged.
+The 22-participant analysis with the uncensored reference model and at least
+80% observed regional support is primary. The learner-selected 20-participant
+subsample and motion-censored models are sensitivity analyses. The subsample
+appears only in the article supplement. The samples overlap and are not
+independent groups. The analyses were not preregistered. The reporting model
+was chosen after earlier analyses; see the article Methods.
 
-Aggregate verification (NumPy, pandas, SciPy required; versions in environment/):
-  python code/reporting/verify_public_summaries.py .
-Checks the manifest, imaging t-test arithmetic, CI and BH families, RT contrasts
-from group fixed effects/covariance, and behavioral contrast corrections.
-This verifies supplied aggregate outputs, not the underlying participant models.
+Quick start (NumPy, pandas and SciPy required):
+  python code/reporting/verify_public_summaries_n22.py .
+Checks file checksums and inventory, t statistics, pointwise t intervals,
+RT back-transformations, planned BH correction families and blank suppressed
+cells. Bootstrap percentile intervals are checked for ordering. These checks
+verify supplied aggregate outputs, not the underlying participant models.
+Software-environment records from version 1.0.0 are retained for reference.
 
-Data guide: FILE_DICTIONARY.csv describes file units and scope;
-COLUMN_DICTIONARY.json explains common statistical columns;
-results/glm_volume/reporting_20261012/analysis_spec.json defines estimands/families.
-N<2 estimates are suppressed in release CSVs and profiles, with a record in
-AGGREGATION_NOTES.json. N, missing values, and 48 planned correction slots remain.
-The significant table is unchanged by this suppression. Blank CSV entries are missing,
-not zero. A q value for an untestable slot does not imply that a test was performed.
+FILE_DICTIONARY.csv describes file units and contents. COLUMN_DICTIONARY.json
+explains statistical columns. RELEASE_COVERAGE.csv lists each source file
+behind the article's reported values and whether it is included, included
+with suppression, or withheld. Of 61,572 recorded values, 53,742 can be
+checked against released files. Some values remain unavailable because their
+sources contain individual observations or their text references changed
+when identifying details were removed.
 
-Restricted inputs: raw/preprocessed MRI, participant contrast/condition maps, run
-masks/confounds/censor vectors, subject lists, trial logs, participant summaries,
-random effects, fitted R model objects and bootstrap subject identities are excluded.
-Individual trajectories/coverage heatmaps and their participant labels are excluded.
-No MRI images, raw participant paths, participant input manifests or third-party
-atlases/templates are distributed. Atlas/template resources must be obtained under
-their own terms; AFNI, fMRIPrep, R and Workbench require separate installations.
+Estimates from fewer than two participants are blank; blank means missing,
+not zero. Sample sizes, planned comparison slots and BH-adjusted probabilities
+are retained. AGGREGATION_NOTES.json describes suppression and redaction.
+Original source hashes in saved validation reports describe their source files;
+SHA256_manifest.json gives release hashes for all files except itself.
+FIGURE_REVIEW.json gives source and release hashes for all ten added figures.
+AGGREGATION_NOTES.json records the specifications PDF, whose original page 8
+was omitted because its estimates came from one participant.
 
-Full re-estimation requires approved participant-data access. Requests go to the
-corresponding authors and depend on consent/ethics/institutional requirements;
-approval is not guaranteed. For an approved local copy, recreate the role-based
-data/, resources/, manuscript/data/sensitivity_inputs/afni_v8_censor/, and config
-subject-list inputs, set SRTT_ROOT to that copy, and consult code/common/srtt_paths.py.
-First-level reference: code/glm_volume/90_run_float32_eventrelated.py;
-censor/filter variants: 95_run_motion_filter_sensitivity.py;
-ROI support/inference: code/reporting/augment_roi_reporting.py;
-RT: prepare_fmri_rt.R and fit_fmri_rt_lme.R;
-errors: analyze_block_errors.py and fit_error_mixed_models.R.
-Some provenance validators also need internal archived sources/manifests; they are
-supplied for transparency, not advertised as executable using this public subset.
-Historical script identifiers/docstrings (e.g. primary or prespecified) do not
-establish preregistration. The censored high-pass reporting model was selected
-post hoc based on significant-result counts. Q values and pointwise intervals
-do not account for this selection. Whole-brain summaries use the uncensored
-reference model and are not independent confirmation of censored ROI results.
+Restricted inputs include raw/preprocessed MRI, participant maps, masks,
+confounds and censor vectors, trial logs, individual summaries, random effects,
+fitted models, bootstrap identities and participant input manifests.
+Leave-one-out and influence tables are withheld because individual values
+can be recovered from them. Seven scripts containing individual observations
+are also withheld; RELEASE_EXCLUSIONS.json lists them and explains why.
+Subject labels and filesystem paths in code refer to restricted inputs that
+are not distributed. Subject-list configuration and data paths must be set
+for an approved copy of the inputs. Separate software dependencies and
+atlas/template resources are required under their own terms.
 
-Archival workflow for future versions: publish a new version tag and GitHub
-release through the enabled Zenodo integration, then cite that version DOI. Metadata
-for automatic archival are supplied in .zenodo.json; CITATION.cff supports GitHub
-citation export. The file-level license map in LICENSE.txt governs reuse.
-GitHub integration does not require creating or sharing a personal access token.
-Do not upload the existing private whole project tree or participant-level data.
+The article's table-generation script, make_n22_manuscript_assets.py, is
+included for reference. It requires restricted source records, original inputs
+with matching checksums and individual influence values, so it cannot run
+unchanged using this public subset. Released group estimates can be used to
+format tables. Full model re-estimation requires approved restricted inputs
+and any excluded helper scripts needed by the selected analysis.
+
+Requests for participant data go to the corresponding authors and depend on
+participant consent, ethics approval and institutional requirements; access
+is not guaranteed. No participant-level data access is granted by this release.

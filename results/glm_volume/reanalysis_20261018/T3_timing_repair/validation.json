@@ -1,0 +1,18 @@
+{
+  "status": "prepared_timing_inputs_only",
+  "passed": true,
+  "n_subjects": 22,
+  "n_runs": 176,
+  "n_trials_checked": 56320,
+  "changed_runs": 5,
+  "unchanged_byte_identical_runs": 171,
+  "matching_native_timestamps": 1600,
+  "all_trial_slots_covered": true,
+  "n22_analysis_complete": false,
+  "output_sha256": {
+    "changed_event_segments.csv": "1953bc17ed69bda17bedeeccd402c35317dcdb04ff519a0ac992e13afe678446",
+    "native_clock_checks.csv": "c68ba167ff82efe10836b9c8fe256ef55af970183a8a090669c5da0d391f834e",
+    "within_cycle_gaps.csv": "ff04db89043b4c0599d37beb574ea519d818b6e170faf2d4c606de14cfaf7d26",
+    "event_inventory.csv": "d814d24eadcbf3ded911420da9d9b0e4272b2666feb74b3431cdd0d8b080bdfe"
+  }
+}

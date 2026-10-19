@@ -1,5 +1,5 @@
 {
-  "n": "Actual eligible participant count for this ROI or summary.",
+  "n": "Eligible participant count for ROI inference; in cell_event_counts.csv n is trial opportunities, not participant count. N<2 estimate cells blank.",
   "df": "Degrees of freedom; one-sample imaging tests use N-1.",
   "mean": "Arithmetic group mean, suppressed for N<2; see file dictionary for units.",
   "sd": "Sample SD (N-1 denominator).",
@@ -15,10 +15,14 @@
   "q_three_pairs_144": "BH across three direct stage pairs x 48 planned slots within policy.",
   "q_within_pair_48": "Supplementary BH across 48 slots for one direct pair and policy.",
   "q_bh_24": "BH across the 24 planned behavioral model contrasts within model/policy.",
-  "model": "Model specification identifier; legacy primary/nocensor naming denotes the uncensored reference, not the current ROI reporting model.",
+  "model": "Updated reference means uncensored reference (primary N22); censored and alternative specifications are sensitivities. Historical v1.0.0 labels have earlier post hoc reporting roles.",
   "policy": "Coverage or RT validity policy; consult analysis specification.",
   "roi": "Atlas parcel identifier. SMA legacy names denote the whole BA6 parcel, not an SMA-specific subdivision.",
   "stage": "Initial, early, middle or late contrast; the initial contrast is a within-phase condition difference.",
   "pair": "Direct subtraction of the named phases.",
-  "direction": "Sign of the group estimate."
+  "direction": "Sign of the group estimate.",
+  "log_rt": "Fixed-effect natural log RT in milliseconds; exponentiation gives geometric milliseconds.",
+  "log_difference": "Contrast of log RT; exponentiation gives geometric RT ratio.",
+  "q": "BH 48 planned ROI slots per cohort/model/policy/contrast or stage; missing p treated as 1. See AGGREGATE_CHECK_SPEC.json.",
+  "cohort": "N22 primary; overlapping learner-selected N20 sensitivity, supplement only."
 }

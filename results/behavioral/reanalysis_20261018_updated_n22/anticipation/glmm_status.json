@@ -1,0 +1,9 @@
+{
+  "status": "no_finite_maximum_likelihood_estimate",
+  "valid_for_inference": false,
+  "zero_event_fixed_cells_N22": [
+    "cellr03_Ran"
+  ],
+  "reason": "A separate fixed effect for a zero-event cell has a likelihood supremum at minus infinity; adding participants has not removed separation.",
+  "altered_or_regularized_model_fitted": false
+}

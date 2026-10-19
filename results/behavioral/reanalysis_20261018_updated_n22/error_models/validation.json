@@ -1,0 +1,82 @@
+{
+  "status": "complete",
+  "passed": true,
+  "n_contrast_rows": 96,
+  "bootstrap_replicates": 999,
+  "N20_source_reuse_verified": true,
+  "quadrature_80_160_checked": true,
+  "statuses": {
+    "N20": {
+      "status": "completed",
+      "n_subjects": 20,
+      "n_rows": 1760,
+      "n_trials": 51200,
+      "n_errors": 1425,
+      "n_observed_cells": 20,
+      "n_contrasts": 24,
+      "bootstrap_requested": 999,
+      "bootstrap_binomial_valid": 999,
+      "bootstrap_gaussian_valid": 999,
+      "bootstrap_binomial_retries": 0,
+      "bootstrap_binomial_singular": 174,
+      "bootstrap_gaussian_singular": 276,
+      "primary_singular": false,
+      "gaussian_singular": false,
+      "primary_log_likelihood": -1883.5546,
+      "gaussian_log_likelihood": 2975.9937,
+      "primary_convergence": {
+        "opt": 0,
+        "lme4": []
+      },
+      "gaussian_convergence": {
+        "opt": 0,
+        "lme4": []
+      },
+      "gaussian_block_variance_in_full_model": 0,
+      "optimizer_agreement": {
+        "max_beta_difference": 0.0003,
+        "log_likelihood_difference": 2.6665e-06,
+        "messages": {}
+      }
+    },
+    "N22": {
+      "status": "completed",
+      "n_subjects": 22,
+      "n_rows": 1936,
+      "n_trials": 56320,
+      "n_errors": 1583,
+      "n_observed_cells": 20,
+      "n_contrasts": 24,
+      "bootstrap_requested": 999,
+      "bootstrap_binomial_valid": 999,
+      "bootstrap_gaussian_valid": 999,
+      "bootstrap_binomial_retries": 0,
+      "bootstrap_binomial_singular": 190,
+      "bootstrap_gaussian_singular": 271,
+      "primary_singular": false,
+      "gaussian_singular": false,
+      "primary_log_likelihood": -2091.9847,
+      "gaussian_log_likelihood": 3299.1666,
+      "primary_convergence": {
+        "opt": 0,
+        "lme4": []
+      },
+      "gaussian_convergence": {
+        "opt": 0,
+        "lme4": []
+      },
+      "gaussian_block_variance_in_full_model": 0,
+      "optimizer_agreement": {
+        "max_beta_difference": 0.0001,
+        "log_likelihood_difference": 8.884e-07,
+        "messages": {}
+      }
+    }
+  },
+  "output_sha256": {
+    "matched_contrasts.csv": "189cd36538207201cbddba132a2d002dcc4fc7d000c2ce4f55e2e306860eda28",
+    "marginal_error_probabilities.pdf": "09caed6eda01c55082581ed31d64aa1855df3c98bc63c0c398db6a76d91c722c",
+    "marginal_error_probabilities.png": "2f7de3efe90b29ff2f5b231af4e0f07c7eb2be78c7a3b33a9b4605c9aa0ab5e7",
+    "matched_cell_estimates.csv": "854bc5fe27dbff5085802d139b06395346b61285a16fb234438fbf9d1d99c676"
+  }
+}

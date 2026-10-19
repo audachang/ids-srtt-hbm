@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "passed": true,
+  "n_analyses": 24,
+  "n_permutations_per_analysis": 10000,
+  "n_full_permutation_runs": 24,
+  "output_sha256": {
+    "permutation_summary.csv": "b622f9c7acfa0645cd4e87e424ff4a307f7101d3c7ba0cbd254f1701d4c2fce1",
+    "launcher_before_idle_cleanup.py": "960401d5af01e43b47cd7a04d04d8860a62469819f03d856020161d7f8669363"
+  }
+}

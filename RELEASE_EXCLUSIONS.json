@@ -1,0 +1,67 @@
+[
+  {
+    "path": "code/reanalysis/audit_recovered_events.py",
+    "reason": "Contains observed trial timings linked to individual participants.",
+    "historical": false
+  },
+  {
+    "path": "code/reanalysis/finalize.py",
+    "reason": "Contains inferred learning-test outcomes for individual participants.",
+    "historical": false
+  },
+  {
+    "path": "code/reanalysis/prepare_n22_inputs.py",
+    "reason": "Contains trigger and event timings linked to individual participants.",
+    "historical": false
+  },
+  {
+    "path": "code/reanalysis/report_updated_analysis.py",
+    "reason": "Contains individual censor counts, learning-test outcomes and trial timings.",
+    "historical": false
+  },
+  {
+    "path": "code/reanalysis/run_saved.py",
+    "reason": "Contains individual missing-response rates and inferred learning-test outcomes.",
+    "historical": false
+  },
+  {
+    "path": "code/reanalysis/updated_behavior_results.py",
+    "reason": "Contains individual learning-test outcomes.",
+    "historical": false
+  },
+  {
+    "path": "code/reanalysis/validate_updated_analysis.py",
+    "reason": "Contains individual censor counts used as expected values.",
+    "historical": false
+  },
+  {
+    "path": "results/behavioral/reanalysis_20261018_updated_n22/source_replay/recovered_learner_test.csv",
+    "reason": "Contains individual observations or values from which individual observations can be recovered.",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018/T3_censor_reconstruction/run_censor_counts.csv",
+    "reason": "Contains individual records or restricted input paths in columns: subject",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018/T3_timing_repair/changed_event_segments.csv",
+    "reason": "Contains individual records or restricted input paths in columns: subject",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018/T3_timing_repair/event_inventory.csv",
+    "reason": "Contains individual records or restricted input paths in columns: original, repaired, subject",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018/T3_timing_repair/native_clock_checks.csv",
+    "reason": "Contains individual records or restricted input paths in columns: raw_csv, raw_log, subject",
+    "historical": false
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/all_right_accumbens_influence.csv",
+    "reason": "Contains individual observations or values from which individual observations can be recovered.",
+    "historical": false
+  }
+]

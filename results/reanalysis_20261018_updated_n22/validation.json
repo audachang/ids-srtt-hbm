@@ -1,0 +1,216 @@
+{
+  "passed": true,
+  "status": "passed",
+  "analysis": "corrected timing; matched N20/N22",
+  "n_required_tasks": 45,
+  "tasks": [
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/first_level",
+      "output_hashes": 4
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting",
+      "output_hashes": 22
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise_inputs",
+      "output_hashes": 2
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/design_diagnostics",
+      "output_hashes": 6
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/figures",
+      "output_hashes": 3
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/permutation_backend_validation_direct",
+      "output_hashes": 4
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/motion_quality",
+      "output_hashes": 3
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity",
+      "output_hashes": 8
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise",
+      "output_hashes": 2
+    },
+    {
+      "task": "results/behavioral/reanalysis_20261018_updated_n22/source_replay",
+      "output_hashes": 9
+    },
+    {
+      "task": "results/behavioral/reanalysis_20261018_updated_n22/anticipation",
+      "output_hashes": 7
+    },
+    {
+      "task": "results/behavioral/reanalysis_20261018_updated_n22/response_log_audit",
+      "output_hashes": 4
+    },
+    {
+      "task": "results/behavioral/reanalysis_20261018_updated_n22/rt_lme_N20",
+      "output_hashes": 25
+    },
+    {
+      "task": "results/behavioral/reanalysis_20261018_updated_n22/rt_lme_N22",
+      "output_hashes": 25
+    },
+    {
+      "task": "results/behavioral/reanalysis_20261018_updated_n22/rt_comparison",
+      "output_hashes": 1
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N20/reference/initial",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N20/reference/early",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N20/reference/middle",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N20/reference/late",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N20/censored/initial",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N20/censored/early",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N20/censored/middle",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N20/censored/late",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N20/reference/pooled_r36_Str2_minus_Str1",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N20/censored/pooled_r36_Str2_minus_Str1",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N20/errors_omissions/pooled_r36_Str2_minus_Str1",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N20/rt_shared_modulator/pooled_r36_Str2_minus_Str1",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N22/reference/initial",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N22/reference/early",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N22/reference/middle",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N22/reference/late",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N22/censored/initial",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N22/censored/early",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N22/censored/middle",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N22/censored/late",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N22/reference/pooled_r36_Str2_minus_Str1",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N22/censored/pooled_r36_Str2_minus_Str1",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N22/errors_omissions/pooled_r36_Str2_minus_Str1",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/N22/rt_shared_modulator/pooled_r36_Str2_minus_Str1",
+      "output_hashes": 12
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018/T3_input_recovery",
+      "output_hashes": 5
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018/T3_timing_repair",
+      "output_hashes": 4
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018/T3_censor_reconstruction",
+      "output_hashes": 3
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018/source_discovery",
+      "output_hashes": 9
+    },
+    {
+      "task": "results/glm_volume/reanalysis_20261018_updated_n22/anatomical_display",
+      "output_hashes": 17
+    },
+    {
+      "task": "results/behavioral/reanalysis_20261018_updated_n22/error_models",
+      "output_hashes": 4
+    }
+  ],
+  "n_unique_input_hashes_checked": 7422,
+  "n_cached_file_hashes": 7993,
+  "independent_statistical_rows": {
+    "stages": 3840,
+    "within": 6720,
+    "trends": 1920,
+    "T6_stages": 1152,
+    "direct": 2592,
+    "accumbens_full_LOO": 396,
+    "primary_Cook_style_LOO_rows": 704,
+    "full_TFCE_runs": 24
+  },
+  "all_primary_outputs_unscaled_float32": true,
+  "all_24_native_observed_TFCE_and_raw_null_FWE_checked": true,
+  "n_full_native_backend_replay_null_maxima": 20000,
+  "producer_sources_unchanged": true,
+  "unrelated_source_changes": [],
+  "summary_sha256": "a03f46bc6c0d0cc891f2012d4f483a9feea9040f61a341b56a65100c24866aff",
+  "validator_sha256": "a39d88ba11fa6a6f0f87d2dd1c25c1551a1b43d53cbbcd9521e1e140c2606175",
+  "independent_statistics_helper_sha256": "8f879a51b40618121af368fc01999287e0f7a42c9ac5f38d525a41bc1de36213",
+  "task_scope": "T1-T6 and T8 complete; T7 sensitivities/descriptive analyses complete, anticipation GLMM nonidentifiable and response/cue audit partial; T9 deferred to author review; T10 optional not run",
+  "limitations": [
+    "Anticipation saturated GLMM has no finite MLE",
+    "Response assignment audit covers 136/176 logs and does not certify cue exposure",
+    "Participant df approximations are not exact",
+    "N20/N22 overlap; no independent-group comparison",
+    "Historical learner test recovered but dated exclusion log absent"
+  ]
+}

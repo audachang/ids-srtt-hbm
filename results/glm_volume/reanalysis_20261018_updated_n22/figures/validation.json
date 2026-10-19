@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "passed": true,
+  "n_trajectory_ROIs": 18,
+  "figure_samples": [
+    "N20",
+    "N22"
+  ],
+  "output_sha256": {
+    "sequence_trajectories.pdf": "2ae5d50b5d9436700b1f6abbf70a97258c2e255ae2e3a8c2aaf42662d71f16aa",
+    "condition_did_components.pdf": "44a90a8e8b962b56878ffa3ec89a839eec598ff04adb698a679319fec9c54b9a",
+    "condition_did_components.png": "74a5c24dbbdc709e6dd4306ab3146b0fa68a43671fa3700f41f7ea55f77ccaa9"
+  }
+}

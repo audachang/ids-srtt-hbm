@@ -1,1 +1,6 @@
-Version 1.0.0 published on 2026-10-17. GitHub: https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.0.0 ; frozen commit: e547a7cc99562907232fddf78e497d1306f5efc6 . Zenodo version DOI: https://doi.org/10.5281/zenodo.23438462 . All 97 archived files match the GitHub tag byte-for-byte, and the archive checksum, DOI resolver and DataCite registration were independently verified. MIT applies to original software; CC BY 4.0 applies to group summaries and documentation. No participant-level data are included. Main-branch citation updates do not change the frozen tag or archive.
+Version 1.1.0 prepared on 2026-10-19.
+The Zenodo version DOI will be linked from the GitHub release page after automatic archival completes.
+GitHub release: https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.1.0
+Version 1.0.0 remains available at doi:10.5281/zenodo.23438462.
+Original software: MIT. Group summaries and documentation: CC BY 4.0.
+Participant-level data are not distributed.

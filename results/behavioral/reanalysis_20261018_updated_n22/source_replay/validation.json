@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "passed": true,
+  "n_native_trials_checked": 56320,
+  "custom_stock_block_trial_differences": 0,
+  "n_N20_historical_RT_trials_checked": 49069,
+  "n_N20_historical_error_cells_checked": 1760,
+  "recovered_nonlearners": [],
+  "original_decision_log_recovered": false,
+  "output_sha256": {
+    "raw_trials_N22.csv": "921cd81c8e38636cb72e0173a673afc4a77f2f33c8f6f75d33758fa02da35f1b",
+    "preprocessing_summary.csv": "0224c1c3dcdac2d019e5197e4acc9086df68e430af6ad5b6bcd992663941b398",
+    "custom_cleaned_trials_N22.csv": "9f13d03d64575baf2525bbe21ff66f55aa8a39241a83b4a9baf05bd424b5c44a",
+    "recovered_learner_test.csv": "89b747457406096609ce71dd559cbe9516dead6d42f83598957170316ab72405",
+    "R_session_info.txt": "51cd3617637b4021cd14435a4fac954a73d9e49462616b1fd3c5543e6966759b",
+    "replay_status.json": "8625c6ca0b602ed2b2f0e6ea490c0d460de9e26dbc5ea0ae43dff483634fad62",
+    "custom_vs_stock_block_cleaning.csv": "3648ae63730ea6aa12e29b24d5789f1db11a9803dc785c4b63f431b683a1fb5b",
+    "historical_model_reuse_checks.json": "aeb40858b221c5d833a509421d8fc2f2e924f88d4a171804879892419daf00af",
+    "native_input_files.csv": "0912cd8de98d7ede6352cd4d062401189477b2b5da3811454350fcfc494bdfea"
+  }
+}

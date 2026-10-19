@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite this software and group-summary release using its version-specific Zenodo DOI."
+message: "Please cite the specific Zenodo version DOI linked from the GitHub release when available; otherwise cite the release URL."
 type: software
 title: "Analysis code and group summaries for Neural responses during motor statistical learning and gradual sequence updating"
 authors:
@@ -10,11 +10,10 @@ authors:
     orcid: "https://orcid.org/0000-0002-1813-9663"
   - family-names: Wu
     given-names: Denise Hsien
-version: 1.0.0
-date-released: 2026-10-17
-url: "https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.0.0"
+version: 1.1.0
+date-released: 2026-10-19
+url: "https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.1.0"
 repository-code: "https://github.com/audachang/ids-srtt-hbm"
 license:
   - MIT
   - CC-BY-4.0
-doi: "10.5281/zenodo.23438462"

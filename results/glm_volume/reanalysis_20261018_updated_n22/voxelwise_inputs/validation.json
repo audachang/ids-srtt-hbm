@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "passed": true,
+  "n_maps": 264,
+  "n_common_voxels": 58550,
+  "n_historical_mask_voxels": 58611,
+  "shared_mask_for_both_samples": true,
+  "output_sha256": {
+    "common_N22_mask.nii.gz": "cc3913e22c0d792209641e486d3f3e1b887173ddf70e174cfbf9a55fa6a72d23",
+    "subject_map_manifest.csv": "d7a4bf6389bbaa7741ed00dbc4d0f2402a963af3795d95a001c1c7c2b24cb192"
+  }
+}

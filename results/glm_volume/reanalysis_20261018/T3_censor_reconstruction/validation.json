@@ -1,0 +1,16 @@
+{
+  "status": "validated_rule_reconstruction_only",
+  "passed": true,
+  "n_subjects": 22,
+  "reconstructed_entries": 35200,
+  "exact_accepted_mask_entries": 32000,
+  "n_fresh_bold_control_runs": 16,
+  "n_new_subject_outcount_runs": 16,
+  "mask_rule_reproduced": true,
+  "n22_analysis_complete": false,
+  "output_sha256": {
+    "afni_version.txt": "30431e732f8035f95c5da443e2ecdac7a77406db8dec8cbd8fddde5dcd353b69",
+    "fresh_bold_controls.csv": "75a75191cfeb7e1efc05f77c96337451e16570d97df4c62cf63ae552e1d72c0a",
+    "run_censor_counts.csv": "c85b459268c205a77541ca03f8b4f5a3431778481299cf8d505da97d97944569"
+  }
+}

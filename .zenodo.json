@@ -1,8 +1,8 @@
 {
   "title": "Analysis code and group summaries for Neural responses during motor statistical learning and gradual sequence updating",
   "upload_type": "software",
-  "version": "1.0.0",
-  "publication_date": "2026-10-17",
+  "version": "1.1.0",
+  "publication_date": "2026-10-19",
   "access_right": "open",
   "license": "other-open",
   "creators": [
@@ -20,13 +20,13 @@
       "affiliation": "Institute of Cognitive Neuroscience, National Central University, Taiwan"
     }
   ],
-  "description": "<p>Analysis and reporting source code, software-environment records, and group-level imaging and behavioral summaries for an interleaved dual-structure serial reaction time fMRI study of motor sequence learning and gradual sequence updating.</p><p>The coverage-aware ROI reporting model is exploratory and was selected post hoc. The significant-effects table contains 49 ROI-stage estimates grouped into 31 ROI/laterality entries; stage counts are 29, 15, 5 and 0. The release includes complete group summaries, data dictionaries, checksums, and instructions for aggregate verification and table reproduction.</p><p>Participant-level MRI, behavioral trial logs, individual summaries and fitted model objects are excluded. Estimates based on fewer than two participants, and corresponding untestable-parcel stability summaries, are suppressed. Full model re-estimation requires approved access to restricted inputs and separately obtained third-party resources.</p><p><strong>Mixed open licenses:</strong> original software and configuration under <code>code/</code> are licensed under the MIT License. Group summaries, derived tables/figures, documentation, environment records and descriptive metadata are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). See <code>LICENSE.txt</code> for scope and <code>LICENSES/</code> for full license texts. The record-level Other (Open) label denotes this file-specific combination, not a new license.</p>",
+  "description": "<p>Analysis and reporting source code, software-environment records, and group-level imaging and behavioral summaries for an interleaved dual-structure serial reaction time fMRI study of motor statistical learning and gradual sequence updating.</p><p>Version 1.1.0 adds results for 22 participants. The uncensored reference model with at least 80% observed regional support is primary. The learner-selected 20-participant subsample and motion-censored models are sensitivity analyses; the subsample appears only in the supplement. The samples overlap. The analyses were not preregistered, and the reporting model was chosen after earlier analyses; see the article Methods. Earlier 20-participant products from version 1.0.0 are retained unchanged.</p><p>The release includes group summaries, figures, source-file coverage, dictionaries, checksums and aggregate-verification instructions. Participant-level inputs, fitted models and values recoverable by leave-one-out arithmetic are withheld. Seven scripts containing individual observations are also withheld. Estimates from fewer than two participants are blank. Subject labels and filesystem paths in code refer to restricted inputs. The article table-generation script is included for reference and requires restricted inputs. Full model re-estimation requires approved data access and separate software and atlas resources.</p><p>Original software and configuration under code/ are licensed under MIT. Group summaries, figures, documentation, environment records and descriptive metadata are licensed under CC BY 4.0. See LICENSE.txt and LICENSES/ for the file-specific license terms. Third-party resources retain their own terms.</p>",
   "notes": "Software: MIT (https://opensource.org/license/mit). Group summaries and documentation: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Third-party resources retain their own terms. Source repository: https://github.com/audachang/ids-srtt-hbm .",
   "keywords": [
     "motor sequence learning",
     "statistical learning",
     "fMRI",
-    "coverage-aware ROI",
+    "region-of-interest analysis",
     "IDS-SRTT"
   ],
   "language": "eng"

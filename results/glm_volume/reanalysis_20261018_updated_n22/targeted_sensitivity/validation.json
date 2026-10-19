@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "passed": true,
+  "n_refitted_runs": 22,
+  "n_models_per_run": 3,
+  "n_stage_slots": 1152,
+  "n_all_stage_slots": 3456,
+  "n_direct_slots": 2592,
+  "n_all_models": 9,
+  "n_control_runs": 2,
+  "max_control_or_reference_reproduction_difference": 1.2859946068033423e-06,
+  "output_sha256": {
+    "precision_pair_support.csv": "30ee74b9f5cf04e990f91b802a1f49816dcb1c383b3f1a4d5c7d711f631aa25b",
+    "all_N22_specifications.pdf": "c13147e716124dcadff35fab6f0837fc356059038cbcc5c892fc5e6382870972",
+    "all_stage_results.csv": "02ae30cff5d59d2f0667c3f9d3f5d2fd6c2549684960b3ccb770cb1dc224b007",
+    "all_direct_phase_results.csv": "33851527d28b3a561734cc39790777aa4d5d9df7be68154ac477643259518abe",
+    "stage_results.csv": "b400ab929b8966ab47ece9924e8f3f5d00d828d435b6386b2c858ddc561eb2e3",
+    "participant_stage_values.csv": "b41f5d944530f4de560ac79064a4cdd11bf53ab7db7be57dafc2ec5bd92c524e",
+    "all_participant_stage_values.csv": "6fa0deef082f6618c913f90f7a269d6a6337431f43481b9fbdb35dad3a52d372",
+    "all_right_accumbens_influence.csv": "96455356a56460f86025dc62eaba1ce639b9ff7d53a9712a850bf391afc20202"
+  }
+}

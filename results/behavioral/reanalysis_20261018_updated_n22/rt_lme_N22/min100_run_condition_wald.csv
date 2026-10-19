@@ -1,0 +1,2 @@
+"test","numerator_df","denominator_df","F","p","method"
+"Run-by-condition departures from additive fixed cell means",10,21,25.0973977266176,1.83222186690014e-09,"Joint Wald F with approximate participant DF cap"

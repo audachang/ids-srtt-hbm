@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "passed": true,
+  "n_cohorts": 2,
+  "bootstrap_replicates": 20000,
+  "n_contrast_rows": 48,
+  "glmm_identifiable": false,
+  "N22_zero_event_cells": [
+    "cellr03_Ran"
+  ],
+  "output_sha256": {
+    "cell_event_counts.csv": "886b72a6be6b7236dd25eafaa57977bbfd6f6c49c815822a7be0a4cdb17dfdc2",
+    "position_rates.csv": "cf729298cbfb39c82802902c3c1a91b6617d22e040e131d265ba703af537e3cc",
+    "position_profile_N22.pdf": "1646c9b9a91c5220ad9a3adfb1e93a2771c67f1ad9048fdf6f5fcd6edaab3733",
+    "counts.csv": "b1412b41e110efc4dc98be50ebdc0cf60a4332550ff2745e081f576fb0f8e884",
+    "glmm_status.json": "ce5f4dfc459f560913edbf02a1759c0500cee7baa2b6f7d096de177caafed594",
+    "position_profile_N22.png": "792bdd4e66f3c756fcf427f4cec80a35a0700dfdad2350c71d58c150e6fa3908",
+    "descriptive_probability_contrasts.csv": "5493a1c5f250c817da84a594effb6be5cec3b0a027f45a0c81003219f48b9b68"
+  }
+}

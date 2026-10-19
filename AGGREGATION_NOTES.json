@@ -33,5 +33,400 @@
     "rows": 8,
     "cells_suppressed": 16,
     "reason": "Suppress estimate ranges and direction for parcels untestable in every model, including singleton-based summaries."
+  },
+  {
+    "path": "docs/t9/demographics_n22.json",
+    "source_sha256": "d802ba3eba78b9510cf28da849645c47fe542d524802ac3744f3e447028021a6",
+    "operation": "redaction",
+    "removed_keys": [
+      "added_in_n22",
+      "checked_at_utc",
+      "limitations",
+      "method",
+      "n20_matches_2026_09_20_audit",
+      "samples",
+      "sources"
+    ],
+    "reason": "Keep existing cohort summaries only; remove individual demographics, identifiers, source paths and header samples."
+  },
+  {
+    "path": "results/behavioral/reanalysis_20261018_updated_n22/anticipation/glmm_status.json",
+    "source_sha256": "ce5f4dfc459f560913edbf02a1759c0500cee7baa2b6f7d096de177caafed594",
+    "operation": "redaction",
+    "removed_json_pointers": [
+      "/original_N20_attempts"
+    ],
+    "reason": "Remove participant identifiers/private paths; original task hashes remain provenance only."
+  },
+  {
+    "path": "results/behavioral/reanalysis_20261018_updated_n22/response_log_audit/REPORT.md",
+    "source_sha256": "d90047065b8759fe25c6a38f9e1d9539fc68abcb65f8e3d4006d16b7b85b9001",
+    "operation": "redaction",
+    "line_numbers": [
+      15
+    ],
+    "reason": "Entire lines with identifiers, host names or private absolute paths withheld."
+  },
+  {
+    "path": "results/behavioral/reanalysis_20261018_updated_n22/source_replay/REPORT.md",
+    "source_sha256": "c6fdf469be82a24e7b59cfc1cafd4f6968bfd5e73aa4cb4eff61fb95df07a117",
+    "operation": "redaction",
+    "line_numbers": [
+      5
+    ],
+    "reason": "Entire lines with identifiers, host names or private absolute paths withheld."
+  },
+  {
+    "path": "results/behavioral/reanalysis_20261018_updated_n22/source_replay/validation.json",
+    "source_sha256": "d76ed6728d09fbedd08711507853dbf848eebec95f1e809c14d32c8c9dc7739b",
+    "operation": "redaction",
+    "removed_json_pointers": [
+      "/recovered_nonlearners/0",
+      "/recovered_nonlearners/1"
+    ],
+    "reason": "Remove participant identifiers/private paths; original task hashes remain provenance only."
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018/T3_censor_reconstruction/REPORT.md",
+    "source_sha256": "5f8831df68749e37a8e6c91bfbb5da87bfb15a5338b3c16ccd58fc0a05801bff",
+    "operation": "redaction",
+    "line_numbers": [
+      3,
+      7,
+      9
+    ],
+    "reason": "Entire lines with identifiers, host names or private absolute paths withheld."
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018/T3_timing_repair/REPORT.md",
+    "source_sha256": "f903b12d5ccf8c8525aa2f8ce62ef52575da87f44185ac30cb9abd50f3c51c95",
+    "operation": "redaction",
+    "line_numbers": [
+      5,
+      9,
+      11
+    ],
+    "reason": "Entire lines with identifiers, host names or private absolute paths withheld."
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/motion_quality/REPORT.md",
+    "source_sha256": "20205cf530a626912d49dab2d65ab1376d190826deebce7ea5f06ea47a83b46b",
+    "operation": "redaction",
+    "line_numbers": [
+      3
+    ],
+    "reason": "Entire lines with identifiers, host names or private absolute paths withheld."
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/direct_phase_results.csv",
+    "source_sha256": "85fe4f20a72128707af7af29455adb1106e530b01c6fed1c01440b55e52a77d8",
+    "operation": "suppression",
+    "rows": 312,
+    "cells_suppressed": 396,
+    "columns": [
+      "mean",
+      "sd",
+      "se",
+      "ci_low",
+      "ci_high",
+      "cohen_dz",
+      "t",
+      "df",
+      "p"
+    ],
+    "reason": "N<2; retain N, planned slots, BH q; blanks mean missing."
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/phase_component_changes.csv",
+    "source_sha256": "095d40a0c3b5b2c7ddd676358d9535728be62c558f4e0996cd695e075ad1e3b5",
+    "operation": "suppression",
+    "rows": 936,
+    "cells_suppressed": 1188,
+    "columns": [
+      "mean",
+      "sd",
+      "se",
+      "ci_low",
+      "ci_high",
+      "cohen_dz",
+      "t",
+      "df",
+      "p"
+    ],
+    "reason": "N<2; retain N, planned slots, BH q; blanks mean missing."
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/phase_component_results.csv",
+    "source_sha256": "40a3875cc9fc3322d659c5bc2b10636ed9d7790b737e88f06ec64111fe54fe55",
+    "operation": "suppression",
+    "rows": 1248,
+    "cells_suppressed": 1584,
+    "columns": [
+      "mean",
+      "sd",
+      "se",
+      "ci_low",
+      "ci_high",
+      "cohen_dz",
+      "t",
+      "df",
+      "p"
+    ],
+    "reason": "N<2; retain N, planned slots, BH q; blanks mean missing."
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/stage_results.csv",
+    "source_sha256": "d6bba7cf1d34db8f6f63c979e683fb602e6a20f278e7ec644401deddde183841",
+    "operation": "suppression",
+    "rows": 416,
+    "cells_suppressed": 528,
+    "columns": [
+      "mean",
+      "sd",
+      "se",
+      "ci_low",
+      "ci_high",
+      "cohen_dz",
+      "t",
+      "df",
+      "p"
+    ],
+    "reason": "N<2; retain N, planned slots, BH q; blanks mean missing."
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/trend_results.csv",
+    "source_sha256": "dafd5a0b61b40a40985c2b2554021190a59b0b4472da6554451660144140a9a8",
+    "operation": "suppression",
+    "rows": 208,
+    "cells_suppressed": 264,
+    "columns": [
+      "mean",
+      "sd",
+      "se",
+      "ci_low",
+      "ci_high",
+      "cohen_dz",
+      "t",
+      "df",
+      "p"
+    ],
+    "reason": "N<2; retain N, planned slots, BH q; blanks mean missing."
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/within_run_results.csv",
+    "source_sha256": "92e5a08e9c87aacf1c65d538b1ea5e2522e634fd52b392945d6af71e3348c2d1",
+    "operation": "suppression",
+    "rows": 728,
+    "cells_suppressed": 924,
+    "columns": [
+      "mean",
+      "sd",
+      "se",
+      "ci_low",
+      "ci_high",
+      "cohen_dz",
+      "t",
+      "df",
+      "p"
+    ],
+    "reason": "N<2; retain N, planned slots, BH q; blanks mean missing."
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/all_N22_specifications.pdf",
+    "source_sha256": "c13147e716124dcadff35fab6f0837fc356059038cbcc5c892fc5e6382870972",
+    "release_sha256": "306709d430e70841fb1632b18c8c89a080f5cbc66f1a7d4f24e9ac33a9a4bb8e",
+    "operation": "page suppression and generated metadata normalization",
+    "removed_original_pages": [
+      8
+    ],
+    "source_pages": 48,
+    "release_pages": 47,
+    "removed_metadata_fields": [
+      "generated XMP DocumentID runtime/machine UUID",
+      "generated Info dates and trailer ID omitted"
+    ],
+    "reason": "Original page 8 displays N=1 LeftFrontalPole estimates; remove all singleton points without refitting. Normalize generated metadata for privacy and byte reproducibility."
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/all_direct_phase_results.csv",
+    "source_sha256": "33851527d28b3a561734cc39790777aa4d5d9df7be68154ac477643259518abe",
+    "operation": "suppression",
+    "rows": 108,
+    "cells_suppressed": 162,
+    "columns": [
+      "mean",
+      "sd",
+      "se",
+      "ci_low",
+      "ci_high",
+      "cohen_dz",
+      "t",
+      "df",
+      "p"
+    ],
+    "reason": "N<2; retain N, planned slots, BH q; blanks mean missing."
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/all_stage_results.csv",
+    "source_sha256": "02ae30cff5d59d2f0667c3f9d3f5d2fd6c2549684960b3ccb770cb1dc224b007",
+    "operation": "suppression",
+    "rows": 144,
+    "cells_suppressed": 216,
+    "columns": [
+      "mean",
+      "sd",
+      "se",
+      "ci_low",
+      "ci_high",
+      "cohen_dz",
+      "t",
+      "df",
+      "p"
+    ],
+    "reason": "N<2; retain N, planned slots, BH q; blanks mean missing."
+  },
+  {
+    "path": "results/glm_volume/reanalysis_20261018_updated_n22/voxelwise/REPORT.md",
+    "source_sha256": "f8195fddf31dd47da78372e2eed175a087be9739806b72bcad6a050812a9c174",
+    "operation": "redaction",
+    "line_numbers": [
+      3
+    ],
+    "reason": "Entire lines with identifiers, host names or private absolute paths withheld."
+  },
+  {
+    "path": "results/reanalysis_20261018_updated_n22/REPRODUCE.md",
+    "source_sha256": "b01279545e1d6263a9854d570bb99b38002451ffe00db4af4a7dd1331fbea90d",
+    "operation": "redaction",
+    "line_numbers": [
+      3,
+      8,
+      12,
+      13
+    ],
+    "reason": "Entire lines with identifiers, host names or private absolute paths withheld."
+  },
+  {
+    "path": "results/reanalysis_20261018_updated_n22/SUMMARY.md",
+    "source_sha256": "a03f46bc6c0d0cc891f2012d4f483a9feea9040f61a341b56a65100c24866aff",
+    "operation": "redaction",
+    "line_numbers": [
+      3,
+      53,
+      59,
+      90,
+      92,
+      111,
+      124,
+      133,
+      135,
+      139,
+      140,
+      142,
+      144,
+      146,
+      148,
+      150,
+      163,
+      165,
+      186
+    ],
+    "reason": "Entire lines with identifiers, host names or private absolute paths withheld."
+  },
+  {
+    "path": "results/reanalysis_20261018_updated_n22/validation.json",
+    "source_sha256": "7b8ca160289b312f559bf7e7188e6867f4fc3fbff2e7d5f0ba334068f474b123",
+    "operation": "redaction",
+    "removed_json_pointers": [
+      "/unrelated_source_changes/0",
+      "/unrelated_source_changes/1",
+      "/unrelated_source_changes/2",
+      "/unrelated_source_changes/3",
+      "/unrelated_source_changes/4",
+      "/unrelated_source_changes/5",
+      "/unrelated_source_changes/6",
+      "/unrelated_source_changes/7",
+      "/unrelated_source_changes/8",
+      "/unrelated_source_changes/9",
+      "/unrelated_source_changes/10",
+      "/unrelated_source_changes/11",
+      "/unrelated_source_changes/12",
+      "/unrelated_source_changes/13",
+      "/unrelated_source_changes/14",
+      "/unrelated_source_changes/15",
+      "/unrelated_source_changes/16",
+      "/unrelated_source_changes/17",
+      "/unrelated_source_changes/18",
+      "/unrelated_source_changes/19",
+      "/unrelated_source_changes/20",
+      "/unrelated_source_changes/21",
+      "/unrelated_source_changes/22",
+      "/unrelated_source_changes/23",
+      "/unrelated_source_changes/24",
+      "/unrelated_source_changes/25",
+      "/unrelated_source_changes/26",
+      "/unrelated_source_changes/27",
+      "/unrelated_source_changes/28",
+      "/unrelated_source_changes/29",
+      "/unrelated_source_changes/30",
+      "/unrelated_source_changes/31",
+      "/unrelated_source_changes/32",
+      "/unrelated_source_changes/33",
+      "/unrelated_source_changes/34",
+      "/unrelated_source_changes/35",
+      "/unrelated_source_changes/36",
+      "/unrelated_source_changes/37",
+      "/unrelated_source_changes/38",
+      "/unrelated_source_changes/39",
+      "/unrelated_source_changes/40",
+      "/unrelated_source_changes/41",
+      "/unrelated_source_changes/42",
+      "/unrelated_source_changes/43",
+      "/unrelated_source_changes/44",
+      "/unrelated_source_changes/45",
+      "/unrelated_source_changes/46",
+      "/unrelated_source_changes/47",
+      "/unrelated_source_changes/48",
+      "/unrelated_source_changes/49",
+      "/unrelated_source_changes/50",
+      "/unrelated_source_changes/51",
+      "/unrelated_source_changes/52",
+      "/unrelated_source_changes/53",
+      "/unrelated_source_changes/54",
+      "/unrelated_source_changes/55",
+      "/unrelated_source_changes/56",
+      "/unrelated_source_changes/57",
+      "/unrelated_source_changes/58",
+      "/unrelated_source_changes/59",
+      "/unrelated_source_changes/60",
+      "/unrelated_source_changes/61",
+      "/unrelated_source_changes/62",
+      "/unrelated_source_changes/63",
+      "/unrelated_source_changes/64",
+      "/unrelated_source_changes/65",
+      "/unrelated_source_changes/66",
+      "/unrelated_source_changes/67",
+      "/unrelated_source_changes/68",
+      "/unrelated_source_changes/69",
+      "/unrelated_source_changes/70",
+      "/unrelated_source_changes/71",
+      "/unrelated_source_changes/72",
+      "/unrelated_source_changes/73",
+      "/unrelated_source_changes/74",
+      "/unrelated_source_changes/75",
+      "/unrelated_source_changes/76",
+      "/unrelated_source_changes/77",
+      "/unrelated_source_changes/78",
+      "/unrelated_source_changes/79",
+      "/unrelated_source_changes/80",
+      "/unrelated_source_changes/81",
+      "/unrelated_source_changes/82",
+      "/unrelated_source_changes/83",
+      "/unrelated_source_changes/84",
+      "/unrelated_source_changes/85",
+      "/unrelated_source_changes/86",
+      "/unrelated_source_changes/87"
+    ],
+    "reason": "Remove participant identifiers/private paths; original task hashes remain provenance only."
   }
 ]

@@ -21,3 +21,5 @@ resources, atlases and templates retain their own licenses; no third-party binar
 or image resources are redistributed. The licenses apply only to this public
 snapshot and grant no access to excluded participant-level data. There is no public
 participant-level data release. The statistical limitations in README.txt apply.
+
+Version 1.1.0: original software under code/ is licensed under MIT. Group summaries, figures, source descriptions, verification specifications, dictionaries and documentation are licensed under CC BY 4.0. Attribution should identify the authors and version 1.1.0 release at https://github.com/audachang/ids-srtt-hbm/releases/tag/v1.1.0.

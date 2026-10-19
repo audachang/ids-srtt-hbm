@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "passed": true,
+  "n_runs": 176,
+  "n_comparison_rows": 1152,
+  "summaries": [
+    {
+      "cohort": "N20",
+      "n_runs": 160,
+      "median_run_mean_fd": 0.07095646976407033,
+      "max_run_mean_fd": 0.9832824956783919,
+      "n_run_mean_fd_gt02": 7,
+      "n_run_mean_fd_gt05": 4,
+      "n_runs_gt20pct_fd_gt05": 1,
+      "n_censored": 759,
+      "n_total_frames": 32000,
+      "max_run_censored_fraction": 0.24
+    },
+    {
+      "cohort": "N22",
+      "n_runs": 176,
+      "median_run_mean_fd": 0.07043705805829142,
+      "max_run_mean_fd": 0.9832824956783919,
+      "n_run_mean_fd_gt02": 7,
+      "n_run_mean_fd_gt05": 4,
+      "n_runs_gt20pct_fd_gt05": 1,
+      "n_censored": 785,
+      "n_total_frames": 35200,
+      "max_run_censored_fraction": 0.24
+    }
+  ],
+  "output_sha256": {
+    "reference_vs_censored.csv": "e19bf824da3044220b5e8a4b08991800c08bce4328beb6020d4d78255f07594f",
+    "run_motion_quality.csv": "c9d55e8ad52fbe14e6ad684ff979fe7aeb7257963e1139458ce26fc86f728a1b",
+    "cohort_motion_summary.csv": "25e6f51ed87e1eeb0e0e725995faeffb35147f81cb16980212684e2e1609c0e1"
+  }
+}

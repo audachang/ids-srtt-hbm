@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "policy": "primary",
+  "n_trials": 53959,
+  "n_subjects": 22,
+  "n_observed_cells": 20,
+  "design_rank": 20,
+  "warnings": [],
+  "AR1": 0.2816,
+  "mean_normalized_residual_lag1": -0.0507,
+  "residual_sigma": 0.1623,
+  "condition_SD_ratios": {
+    "Str1": 2.4065,
+    "Str2": 2.7261
+  },
+  "log_likelihood": -15808.9314,
+  "variance_components": ["              Variance                      StdDev    ", "subject =     pdDiag(1 + is_str1 + is_str2)           ", "(Intercept)   0.006653918                   0.08157155", "is_str1       0.063171754                   0.25133992", "is_str2       0.069001409                   0.26268119", "subject_run = pdDiag(1)                               ", "(Intercept)   0.009632847                   0.09814707", "block_id =    pdDiag(1)                               ", "(Intercept)   0.014711479                   0.12129089", "Residual      0.026336107                   0.16228403"],
+  "n_contrasts": 24,
+  "n_fdr_significant": 16
+}

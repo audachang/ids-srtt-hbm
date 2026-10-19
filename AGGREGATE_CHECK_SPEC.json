@@ -1,0 +1,399 @@
+{
+  "description": "Checks only supplied aggregates, no participant model fitting. ROI BH 48 per contrast and 144 direct slots; see saved REPORT/validation records. Missing p becomes 1 for planned BH slots.",
+  "contracts": [
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/direct_phase_results.csv",
+      "estimate": "mean",
+      "se": "se",
+      "t": "t",
+      "df": "df",
+      "low": "ci_low",
+      "high": "ci_high",
+      "families": [
+        {
+          "q": "q_three_pairs_144",
+          "p": "p",
+          "group": [
+            "cohort",
+            "model",
+            "policy"
+          ],
+          "slots": 144
+        },
+        {
+          "q": "q_within_pair_48",
+          "p": "p",
+          "group": [
+            "cohort",
+            "model",
+            "policy",
+            "pair"
+          ],
+          "slots": 48
+        }
+      ],
+      "suppression_n": "n"
+    },
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/phase_component_changes.csv",
+      "estimate": "mean",
+      "se": "se",
+      "t": "t",
+      "df": "df",
+      "low": "ci_low",
+      "high": "ci_high",
+      "families": [],
+      "suppression_n": "n"
+    },
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/phase_component_results.csv",
+      "estimate": "mean",
+      "se": "se",
+      "t": "t",
+      "df": "df",
+      "low": "ci_low",
+      "high": "ci_high",
+      "families": [],
+      "suppression_n": "n"
+    },
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/stage_results.csv",
+      "estimate": "mean",
+      "se": "se",
+      "t": "t",
+      "df": "df",
+      "low": "ci_low",
+      "high": "ci_high",
+      "families": [
+        {
+          "q": "q",
+          "p": "p",
+          "group": [
+            "cohort",
+            "model",
+            "policy",
+            "stage"
+          ],
+          "slots": 48
+        }
+      ],
+      "suppression_n": "n"
+    },
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/trend_results.csv",
+      "estimate": "mean",
+      "se": "se",
+      "t": "t",
+      "df": "df",
+      "low": "ci_low",
+      "high": "ci_high",
+      "families": [
+        {
+          "q": "q",
+          "p": "p",
+          "group": [
+            "cohort",
+            "model",
+            "policy",
+            "contrast"
+          ],
+          "slots": 48
+        }
+      ],
+      "suppression_n": "n"
+    },
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/roi_reporting/within_run_results.csv",
+      "estimate": "mean",
+      "se": "se",
+      "t": "t",
+      "df": "df",
+      "low": "ci_low",
+      "high": "ci_high",
+      "families": [
+        {
+          "q": "q",
+          "p": "p",
+          "group": [
+            "cohort",
+            "model",
+            "policy",
+            "contrast"
+          ],
+          "slots": 48
+        }
+      ],
+      "suppression_n": "n"
+    },
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/all_direct_phase_results.csv",
+      "estimate": "mean",
+      "se": "se",
+      "t": "t",
+      "df": "df",
+      "low": "ci_low",
+      "high": "ci_high",
+      "families": [
+        {
+          "q": "q_three_pairs_144",
+          "p": "p",
+          "group": [
+            "cohort",
+            "model",
+            "policy"
+          ],
+          "slots": 144
+        },
+        {
+          "q": "q_within_pair_48",
+          "p": "p",
+          "group": [
+            "cohort",
+            "model",
+            "policy",
+            "pair"
+          ],
+          "slots": 48
+        }
+      ],
+      "suppression_n": "n"
+    },
+    {
+      "path": "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/all_stage_results.csv",
+      "estimate": "mean",
+      "se": "se",
+      "t": "t",
+      "df": "df",
+      "low": "ci_low",
+      "high": "ci_high",
+      "families": [
+        {
+          "q": "q",
+          "p": "p",
+          "group": [
+            "cohort",
+            "model",
+            "policy",
+            "stage"
+          ],
+          "slots": 48
+        }
+      ],
+      "suppression_n": "n"
+    },
+    {
+      "path": "results/behavioral/reanalysis_20261018_updated_n22/error_models/matched_contrasts.csv",
+      "estimate": "estimate",
+      "se": "se_bootstrap",
+      "t": "t",
+      "df": "df",
+      "low": "ci_low",
+      "high": "ci_high",
+      "families": [
+        {
+          "q": "q_bh_24",
+          "p": "p_two_sided",
+          "group": [
+            "cohort",
+            "model"
+          ],
+          "slots": 24
+        }
+      ],
+      "ci_method": "percentile bootstrap; not derived from SE"
+    },
+    {
+      "path": "results/behavioral/reanalysis_20261018_updated_n22/rt_comparison/matched_contrasts.csv",
+      "estimate": "log_difference",
+      "se": "se",
+      "t": "t",
+      "df": "df",
+      "low": "log_ci_low",
+      "high": "log_ci_high",
+      "families": [
+        {
+          "q": "q_bh_24",
+          "p": "p_two_sided",
+          "group": [
+            "cohort",
+            "policy"
+          ],
+          "slots": 24
+        }
+      ],
+      "ci_method": "t"
+    },
+    {
+      "path": "results/behavioral/reanalysis_20261018_updated_n22/rt_lme_N20/min100_contrasts.csv",
+      "estimate": "log_difference",
+      "se": "se",
+      "t": "t",
+      "df": "df",
+      "low": "log_ci_low",
+      "high": "log_ci_high",
+      "families": [
+        {
+          "q": "q_bh_24",
+          "p": "p_two_sided",
+          "group": [
+            "policy"
+          ],
+          "slots": 24
+        }
+      ],
+      "ci_method": "t"
+    },
+    {
+      "path": "results/behavioral/reanalysis_20261018_updated_n22/rt_lme_N20/primary_contrasts.csv",
+      "estimate": "log_difference",
+      "se": "se",
+      "t": "t",
+      "df": "df",
+      "low": "log_ci_low",
+      "high": "log_ci_high",
+      "families": [
+        {
+          "q": "q_bh_24",
+          "p": "p_two_sided",
+          "group": [
+            "policy"
+          ],
+          "slots": 24
+        }
+      ],
+      "ci_method": "t"
+    },
+    {
+      "path": "results/behavioral/reanalysis_20261018_updated_n22/rt_lme_N22/min100_contrasts.csv",
+      "estimate": "log_difference",
+      "se": "se",
+      "t": "t",
+      "df": "df",
+      "low": "log_ci_low",
+      "high": "log_ci_high",
+      "families": [
+        {
+          "q": "q_bh_24",
+          "p": "p_two_sided",
+          "group": [
+            "policy"
+          ],
+          "slots": 24
+        }
+      ],
+      "ci_method": "t"
+    },
+    {
+      "path": "results/behavioral/reanalysis_20261018_updated_n22/rt_lme_N22/primary_contrasts.csv",
+      "estimate": "log_difference",
+      "se": "se",
+      "t": "t",
+      "df": "df",
+      "low": "log_ci_low",
+      "high": "log_ci_high",
+      "families": [
+        {
+          "q": "q_bh_24",
+          "p": "p_two_sided",
+          "group": [
+            "policy"
+          ],
+          "slots": 24
+        }
+      ],
+      "ci_method": "t"
+    },
+    {
+      "path": "results/behavioral/reanalysis_20261018_updated_n22/rt_lme_N20/min100_cell_estimates.csv",
+      "estimate": "log_rt",
+      "se": "se",
+      "df": "df",
+      "low": "log_ci_low",
+      "high": "log_ci_high",
+      "families": [],
+      "transforms": [
+        {
+          "source": "log_rt",
+          "target": "geometric_rt_ms"
+        },
+        {
+          "source": "log_ci_low",
+          "target": "geometric_ci_low_ms"
+        },
+        {
+          "source": "log_ci_high",
+          "target": "geometric_ci_high_ms"
+        }
+      ]
+    },
+    {
+      "path": "results/behavioral/reanalysis_20261018_updated_n22/rt_lme_N20/primary_cell_estimates.csv",
+      "estimate": "log_rt",
+      "se": "se",
+      "df": "df",
+      "low": "log_ci_low",
+      "high": "log_ci_high",
+      "families": [],
+      "transforms": [
+        {
+          "source": "log_rt",
+          "target": "geometric_rt_ms"
+        },
+        {
+          "source": "log_ci_low",
+          "target": "geometric_ci_low_ms"
+        },
+        {
+          "source": "log_ci_high",
+          "target": "geometric_ci_high_ms"
+        }
+      ]
+    },
+    {
+      "path": "results/behavioral/reanalysis_20261018_updated_n22/rt_lme_N22/min100_cell_estimates.csv",
+      "estimate": "log_rt",
+      "se": "se",
+      "df": "df",
+      "low": "log_ci_low",
+      "high": "log_ci_high",
+      "families": [],
+      "transforms": [
+        {
+          "source": "log_rt",
+          "target": "geometric_rt_ms"
+        },
+        {
+          "source": "log_ci_low",
+          "target": "geometric_ci_low_ms"
+        },
+        {
+          "source": "log_ci_high",
+          "target": "geometric_ci_high_ms"
+        }
+      ]
+    },
+    {
+      "path": "results/behavioral/reanalysis_20261018_updated_n22/rt_lme_N22/primary_cell_estimates.csv",
+      "estimate": "log_rt",
+      "se": "se",
+      "df": "df",
+      "low": "log_ci_low",
+      "high": "log_ci_high",
+      "families": [],
+      "transforms": [
+        {
+          "source": "log_rt",
+          "target": "geometric_rt_ms"
+        },
+        {
+          "source": "log_ci_low",
+          "target": "geometric_ci_low_ms"
+        },
+        {
+          "source": "log_ci_high",
+          "target": "geometric_ci_high_ms"
+        }
+      ]
+    }
+  ]
+}

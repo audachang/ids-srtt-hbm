@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "passed": true,
+  "n_designs": 352,
+  "n_regenerated_AR_runs": 22,
+  "n_exact_AR_control_runs": 2,
+  "all_designs_full_rank": true,
+  "output_sha256": {
+    "contrast_variance_by_run.pdf": "4bd725b343cacaa79c90542a32d043b7d845330b22744373dc74b37f794e5462",
+    "reference_ar1_histogram.csv": "c2c997c5ac2269036e106aa8f47ca2c718c67145504ef52c43a065ce48e1dd96",
+    "design_diagnostics.csv": "55cbfd9d67da338f33bbd2afad2f0c32b1f462a2a9089d7015038f4c1b35a653",
+    "median_diagnostics_by_run.csv": "84bf96b96247b81e2c2de9bb0ee9bedab45b54a16f6fef4155841cf9777f3593",
+    "did_unit_variance.csv": "14615b70be4264bdbf2a86b5821c22eb6e31757a195df926471cee97e9946fd2",
+    "contrast_variance_by_run.png": "1afa3f77464f1a42218cf00a7ad33759e6faf6bf7d706fc9f839a046dbc0c3d1"
+  }
+}

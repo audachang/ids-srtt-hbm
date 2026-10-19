@@ -1,0 +1,82 @@
+{
+  "results/glm_volume/reanalysis_20261018_updated_n22/anatomical_display/N20_reference_axial_page1.png": {
+    "source_sha256": "8579cccf08af3292551bf2c71081834c0192ab1cc17f48a4a64e773952522566",
+    "original_pages": 1,
+    "visual_review": "All pages inspected: group summaries only; no individual traces/labels.",
+    "source_metadata": "Matplotlib software/version and creation date or PNG dpi only; no private paths/user/host names.",
+    "release_sha256": "8579cccf08af3292551bf2c71081834c0192ab1cc17f48a4a64e773952522566",
+    "release_pages": 1
+  },
+  "results/glm_volume/reanalysis_20261018_updated_n22/anatomical_display/N20_reference_axial_page2.png": {
+    "source_sha256": "2761479bf30d56707618930a56216df6042fc0fa118ed5f08c368e5cab4095db",
+    "original_pages": 1,
+    "visual_review": "All pages inspected: group summaries only; no individual traces/labels.",
+    "source_metadata": "Matplotlib software/version and creation date or PNG dpi only; no private paths/user/host names.",
+    "release_sha256": "2761479bf30d56707618930a56216df6042fc0fa118ed5f08c368e5cab4095db",
+    "release_pages": 1
+  },
+  "results/glm_volume/reanalysis_20261018_updated_n22/anatomical_display/N22_censored_axial_page1.png": {
+    "source_sha256": "0cda630b1c96185201c2c415f1ceaddeacaa1a8b293db8b232a1c852d5e1f060",
+    "original_pages": 1,
+    "visual_review": "All pages inspected: group summaries only; no individual traces/labels.",
+    "source_metadata": "Matplotlib software/version and creation date or PNG dpi only; no private paths/user/host names.",
+    "release_sha256": "0cda630b1c96185201c2c415f1ceaddeacaa1a8b293db8b232a1c852d5e1f060",
+    "release_pages": 1
+  },
+  "results/glm_volume/reanalysis_20261018_updated_n22/anatomical_display/N22_censored_axial_page2.png": {
+    "source_sha256": "72ddba406128c26ac872b58a0c238993a4956e0122f78aacbe54e6e969623ad9",
+    "original_pages": 1,
+    "visual_review": "All pages inspected: group summaries only; no individual traces/labels.",
+    "source_metadata": "Matplotlib software/version and creation date or PNG dpi only; no private paths/user/host names.",
+    "release_sha256": "72ddba406128c26ac872b58a0c238993a4956e0122f78aacbe54e6e969623ad9",
+    "release_pages": 1
+  },
+  "results/glm_volume/reanalysis_20261018_updated_n22/anatomical_display/N22_reference_axial_page1.png": {
+    "source_sha256": "55dfb5cb2322a546e1811006678c25af21eb427f1e91bbb642a1d1b6f968cde2",
+    "original_pages": 1,
+    "visual_review": "All pages inspected: group summaries only; no individual traces/labels.",
+    "source_metadata": "Matplotlib software/version and creation date or PNG dpi only; no private paths/user/host names.",
+    "release_sha256": "55dfb5cb2322a546e1811006678c25af21eb427f1e91bbb642a1d1b6f968cde2",
+    "release_pages": 1
+  },
+  "results/glm_volume/reanalysis_20261018_updated_n22/anatomical_display/N22_reference_axial_page2.png": {
+    "source_sha256": "b6226338bc26647ba043004b117fe8652b0201d8a402bfc98f6a80fac308ff4f",
+    "original_pages": 1,
+    "visual_review": "All pages inspected: group summaries only; no individual traces/labels.",
+    "source_metadata": "Matplotlib software/version and creation date or PNG dpi only; no private paths/user/host names.",
+    "release_sha256": "b6226338bc26647ba043004b117fe8652b0201d8a402bfc98f6a80fac308ff4f",
+    "release_pages": 1
+  },
+  "results/glm_volume/reanalysis_20261018_updated_n22/figures/condition_did_components.pdf": {
+    "source_sha256": "44a90a8e8b962b56878ffa3ec89a839eec598ff04adb698a679319fec9c54b9a",
+    "original_pages": 1,
+    "visual_review": "All pages inspected: group summaries only; no individual traces/labels.",
+    "source_metadata": "Matplotlib software/version and creation date or PNG dpi only; no private paths/user/host names.",
+    "release_sha256": "44a90a8e8b962b56878ffa3ec89a839eec598ff04adb698a679319fec9c54b9a",
+    "release_pages": 1
+  },
+  "results/glm_volume/reanalysis_20261018_updated_n22/figures/condition_did_components.png": {
+    "source_sha256": "74a5c24dbbdc709e6dd4306ab3146b0fa68a43671fa3700f41f7ea55f77ccaa9",
+    "original_pages": 1,
+    "visual_review": "All pages inspected: group summaries only; no individual traces/labels.",
+    "source_metadata": "Matplotlib software/version and creation date or PNG dpi only; no private paths/user/host names.",
+    "release_sha256": "74a5c24dbbdc709e6dd4306ab3146b0fa68a43671fa3700f41f7ea55f77ccaa9",
+    "release_pages": 1
+  },
+  "results/glm_volume/reanalysis_20261018_updated_n22/figures/sequence_trajectories.pdf": {
+    "source_sha256": "2ae5d50b5d9436700b1f6abbf70a97258c2e255ae2e3a8c2aaf42662d71f16aa",
+    "original_pages": 18,
+    "visual_review": "All pages inspected: group summaries only; no individual traces/labels.",
+    "source_metadata": "Matplotlib software/version and creation date or PNG dpi only; no private paths/user/host names.",
+    "release_sha256": "2ae5d50b5d9436700b1f6abbf70a97258c2e255ae2e3a8c2aaf42662d71f16aa",
+    "release_pages": 18
+  },
+  "results/glm_volume/reanalysis_20261018_updated_n22/targeted_sensitivity/all_N22_specifications.pdf": {
+    "source_sha256": "c13147e716124dcadff35fab6f0837fc356059038cbcc5c892fc5e6382870972",
+    "original_pages": 48,
+    "visual_review": "Group summaries only, excluding original page 8 (singleton estimates).",
+    "source_metadata": "Matplotlib software/version and creation date or PNG dpi only; no private paths/user/host names.",
+    "release_sha256": "306709d430e70841fb1632b18c8c89a080f5cbc66f1a7d4f24e9ac33a9a4bb8e",
+    "release_pages": 47
+  }
+}
